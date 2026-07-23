@@ -1,0 +1,830 @@
+[
+  {
+    "domain": "acadia-info.com",
+    "country": "France",
+    "reachable": true,
+    "finalUrl": "https://www.acadia-info.com/",
+    "hasIphone": false,
+    "screenWords": [
+      "ecran"
+    ],
+    "models": [],
+    "oldOnly": [],
+    "samplePrices": [],
+    "searchWorks": false,
+    "verdict": "no-iphone-screens",
+    "notes": []
+  },
+  {
+    "domain": "atelierduportable.com",
+    "country": "France",
+    "reachable": true,
+    "finalUrl": "https://www.atelierduportable.com/",
+    "hasIphone": false,
+    "screenWords": [
+      "écran"
+    ],
+    "models": [],
+    "oldOnly": [],
+    "samplePrices": [
+      "79€",
+      "79€",
+      "79€",
+      "79€",
+      "79€",
+      "139€",
+      "36€",
+      "79€"
+    ],
+    "searchWorks": false,
+    "verdict": "no-iphone-screens",
+    "notes": []
+  },
+  {
+    "domain": "boutique-pieces-detachees.fr",
+    "country": "France",
+    "reachable": true,
+    "finalUrl": "https://www.boutique-pieces-detachees.fr/",
+    "hasIphone": false,
+    "screenWords": [
+      "lcd"
+    ],
+    "models": [],
+    "oldOnly": [],
+    "samplePrices": [],
+    "searchWorks": false,
+    "verdict": "no-iphone-screens",
+    "notes": []
+  },
+  {
+    "domain": "24hshop.fr",
+    "country": "France",
+    "reachable": true,
+    "finalUrl": "https://24hshop.fr/",
+    "hasIphone": true,
+    "screenWords": [
+      "display",
+      "lcd",
+      "ecran",
+      "écran"
+    ],
+    "models": [],
+    "oldOnly": [],
+    "samplePrices": [
+      "20,98 €",
+      "16,98 €",
+      "795,00 €",
+      "895,00 €",
+      "6€",
+      "5,38 €",
+      "8€",
+      "7,38 €"
+    ],
+    "searchWorks": true,
+    "verdict": "screens-model-unclear",
+    "notes": []
+  },
+  {
+    "domain": "bestinmac.com",
+    "country": "France",
+    "reachable": true,
+    "finalUrl": "https://www.bestinmac.com/",
+    "hasIphone": true,
+    "screenWords": [
+      "lcd",
+      "écran",
+      "screen",
+      "ecran"
+    ],
+    "models": [
+      " x "
+    ],
+    "oldOnly": [
+      "iphone 8",
+      "iphone 7"
+    ],
+    "samplePrices": [
+      "10,89€",
+      "19,99€",
+      "9,99€",
+      "19,99€",
+      "15,90€",
+      "19,99€",
+      "15,90€",
+      "29,99€"
+    ],
+    "searchWorks": true,
+    "verdict": "GOOD",
+    "notes": []
+  },
+  {
+    "domain": "brico-phone.com",
+    "country": "France",
+    "reachable": true,
+    "finalUrl": "https://www.brico-phone.com/",
+    "hasIphone": true,
+    "screenWords": [
+      "lcd",
+      "oled",
+      "écran"
+    ],
+    "models": [
+      "12"
+    ],
+    "oldOnly": [],
+    "samplePrices": [
+      "14.90€",
+      "19.90€",
+      "3.90€",
+      "12.90€",
+      "3.90€",
+      "5.90€",
+      "26.90€",
+      "24.90€"
+    ],
+    "searchWorks": true,
+    "verdict": "GOOD",
+    "notes": []
+  },
+  {
+    "domain": "4repair.pl",
+    "country": "Poland",
+    "reachable": true,
+    "finalUrl": "https://4repair.pl/",
+    "hasIphone": true,
+    "screenWords": [
+      "lcd"
+    ],
+    "models": [
+      "16 pro max",
+      "16 pro",
+      "16",
+      "15 pro",
+      "15",
+      "14 pro",
+      "14",
+      "13"
+    ],
+    "oldOnly": [
+      "iphone se"
+    ],
+    "samplePrices": [
+      "99 zł",
+      "146,99 zł",
+      "119,50 zł",
+      "157,49 zł",
+      "128,04 zł",
+      "146,99 zł",
+      "119,50 zł",
+      "346,49 zł"
+    ],
+    "searchWorks": true,
+    "verdict": "GOOD",
+    "notes": []
+  },
+  {
+    "domain": "a-parts.com.pl",
+    "country": "Poland",
+    "reachable": true,
+    "finalUrl": "https://www.a-parts.com.pl/",
+    "hasIphone": true,
+    "screenWords": [
+      "lcd",
+      "oled",
+      "ekran"
+    ],
+    "models": [
+      "16e",
+      "16",
+      "13 pro max",
+      "13 pro",
+      "13",
+      "12 mini",
+      "12",
+      "11 pro",
+      "11",
+      " x "
+    ],
+    "oldOnly": [],
+    "samplePrices": [
+      "0 zł",
+      "383,72 zł",
+      "422,82 zł",
+      "65,18 zł",
+      "413,18 zł",
+      "297,33 zł",
+      "70,37 zł",
+      "337,97 zł"
+    ],
+    "searchWorks": true,
+    "verdict": "GOOD",
+    "notes": []
+  },
+  {
+    "domain": "armands.pl",
+    "country": "Poland",
+    "reachable": true,
+    "finalUrl": "https://armands.pl/",
+    "hasIphone": true,
+    "screenWords": [
+      "ekran"
+    ],
+    "models": [],
+    "oldOnly": [],
+    "samplePrices": [
+      "0 zł"
+    ],
+    "searchWorks": true,
+    "verdict": "screens-model-unclear",
+    "notes": []
+  },
+  {
+    "domain": "applemobile.pl",
+    "country": "Poland",
+    "reachable": true,
+    "finalUrl": "https://applemobile.pl/",
+    "hasIphone": true,
+    "screenWords": [
+      "oled",
+      "ekran"
+    ],
+    "models": [
+      "15"
+    ],
+    "oldOnly": [],
+    "samplePrices": [],
+    "searchWorks": false,
+    "verdict": "relevant-no-price",
+    "notes": []
+  },
+  {
+    "domain": "allegrolokalnie.pl",
+    "country": "Poland",
+    "reachable": true,
+    "finalUrl": "https://allegrolokalnie.pl/",
+    "hasIphone": false,
+    "screenWords": [],
+    "models": [],
+    "oldOnly": [],
+    "samplePrices": [
+      "0 zł",
+      "0 zł"
+    ],
+    "searchWorks": false,
+    "verdict": "no-iphone-screens",
+    "notes": []
+  },
+  {
+    "domain": "casehomeparts.pl",
+    "country": "Poland",
+    "reachable": true,
+    "finalUrl": "https://casehomeparts.pl/",
+    "hasIphone": true,
+    "screenWords": [
+      "oled",
+      "ekran"
+    ],
+    "models": [
+      "16"
+    ],
+    "oldOnly": [],
+    "samplePrices": [
+      "0,00 zł"
+    ],
+    "searchWorks": true,
+    "verdict": "GOOD",
+    "notes": []
+  },
+  {
+    "domain": "4phones.eu",
+    "country": "Germany",
+    "reachable": true,
+    "finalUrl": "https://4phones.eu/",
+    "hasIphone": true,
+    "screenWords": [
+      "screen",
+      "display"
+    ],
+    "models": [
+      "16 pro max",
+      "16 pro",
+      "16e",
+      "16",
+      "15 pro max",
+      "15 pro",
+      "15 plus",
+      "15",
+      "11 pro",
+      "11"
+    ],
+    "oldOnly": [],
+    "samplePrices": [],
+    "searchWorks": false,
+    "verdict": "relevant-no-price",
+    "notes": []
+  },
+  {
+    "domain": "amdetech.de",
+    "country": "Germany",
+    "reachable": true,
+    "finalUrl": "https://www.amdetech.de/",
+    "hasIphone": true,
+    "screenWords": [
+      "screen",
+      "display",
+      "lcd"
+    ],
+    "models": [
+      "14",
+      "13 pro max",
+      "13 pro",
+      "13",
+      "11 pro max",
+      "11 pro",
+      "11"
+    ],
+    "oldOnly": [],
+    "samplePrices": [
+      "€4.98",
+      "€4.98",
+      "€4.98",
+      "€4.98",
+      "€4.98",
+      "€4.98",
+      "€4.98",
+      "€39.97"
+    ],
+    "searchWorks": true,
+    "verdict": "GOOD",
+    "notes": []
+  },
+  {
+    "domain": "comsmile.de",
+    "country": "Germany",
+    "reachable": true,
+    "finalUrl": "https://www.comsmile.de/",
+    "hasIphone": false,
+    "screenWords": [],
+    "models": [],
+    "oldOnly": [],
+    "samplePrices": [],
+    "searchWorks": false,
+    "verdict": "no-iphone-screens",
+    "notes": []
+  },
+  {
+    "domain": "derhandyretter.de",
+    "country": "Germany",
+    "reachable": true,
+    "finalUrl": "https://derhandyretter.de/",
+    "hasIphone": true,
+    "screenWords": [
+      "display",
+      "screen",
+      "lcd"
+    ],
+    "models": [
+      "16 pro max",
+      "16 pro",
+      "16",
+      "15 pro",
+      "15 plus",
+      "15",
+      "14 pro max",
+      "14 pro",
+      "14 plus",
+      "14",
+      "12 pro max",
+      "12 pro",
+      "12",
+      "xs max",
+      "xs",
+      " x "
+    ],
+    "oldOnly": [
+      "iphone 8",
+      "iphone 7",
+      "iphone 6",
+      "iphone se",
+      "iphone 5"
+    ],
+    "samplePrices": [
+      "179,00 €",
+      "70,00 €",
+      "89,00 €",
+      "159,00 €",
+      "59,00 €",
+      "179,00 €",
+      "159,00 €",
+      "159,00 €"
+    ],
+    "searchWorks": true,
+    "verdict": "GOOD",
+    "notes": []
+  },
+  {
+    "domain": "extradigital.eu",
+    "country": "Germany",
+    "reachable": true,
+    "finalUrl": "https://www.extradigital.eu/",
+    "hasIphone": false,
+    "screenWords": [],
+    "models": [],
+    "oldOnly": [],
+    "samplePrices": [
+      "0.00€",
+      "51.92€",
+      "27.79€",
+      "51.41€",
+      "51.92€",
+      "20.27€",
+      "38.87€",
+      "72.62€"
+    ],
+    "searchWorks": false,
+    "verdict": "no-iphone-screens",
+    "notes": []
+  },
+  {
+    "domain": "edv-repair.de",
+    "country": "Germany",
+    "reachable": true,
+    "finalUrl": "https://edv-repair.de/",
+    "hasIphone": true,
+    "screenWords": [
+      "display",
+      "screen",
+      "lcd"
+    ],
+    "models": [
+      "16",
+      "15",
+      "14",
+      "15 plus",
+      "14 plus"
+    ],
+    "oldOnly": [],
+    "samplePrices": [
+      "129€"
+    ],
+    "searchWorks": true,
+    "verdict": "GOOD",
+    "notes": []
+  },
+  {
+    "domain": "directscherm.nl",
+    "country": "Netherlands",
+    "reachable": true,
+    "finalUrl": "https://askchico.com/?from=directscherm",
+    "hasIphone": false,
+    "screenWords": [
+      "scherm"
+    ],
+    "models": [],
+    "oldOnly": [],
+    "samplePrices": [
+      "100 Eur"
+    ],
+    "searchWorks": false,
+    "verdict": "no-iphone-screens",
+    "notes": []
+  },
+  {
+    "domain": "appleparts.nl",
+    "country": "Netherlands",
+    "reachable": true,
+    "finalUrl": "https://appleparts.nl/",
+    "hasIphone": true,
+    "screenWords": [
+      "scherm"
+    ],
+    "models": [
+      "11"
+    ],
+    "oldOnly": [],
+    "samplePrices": [],
+    "searchWorks": false,
+    "verdict": "relevant-no-price",
+    "notes": []
+  },
+  {
+    "domain": "blue-phone.nl",
+    "country": "Netherlands",
+    "reachable": true,
+    "finalUrl": "https://www.blue-phone.nl/",
+    "hasIphone": true,
+    "screenWords": [
+      "screen"
+    ],
+    "models": [],
+    "oldOnly": [],
+    "samplePrices": [],
+    "searchWorks": false,
+    "verdict": "screens-model-unclear",
+    "notes": []
+  },
+  {
+    "domain": "dutchrepair.nl",
+    "country": "Netherlands",
+    "reachable": true,
+    "finalUrl": "https://www.dutchrepair.nl/",
+    "hasIphone": true,
+    "screenWords": [
+      "screen",
+      "display",
+      "lcd",
+      "oled",
+      "scherm"
+    ],
+    "models": [
+      "11 pro max",
+      "11 pro",
+      "11",
+      " x ",
+      "15",
+      "14 pro max",
+      "14 pro",
+      "14",
+      "13 pro max",
+      "13 pro",
+      "13 mini",
+      "13",
+      "12 pro max",
+      "12 pro",
+      "12 mini",
+      "12",
+      "xs max",
+      "xs",
+      "xr"
+    ],
+    "oldOnly": [],
+    "samplePrices": [
+      "€50",
+      "€30,00",
+      "€69,99",
+      "€46,90",
+      "€49,99",
+      "€29,00",
+      "€129,99",
+      "€149,95"
+    ],
+    "searchWorks": true,
+    "verdict": "GOOD",
+    "notes": []
+  },
+  {
+    "domain": "eurosmartparts.nl",
+    "country": "Netherlands",
+    "reachable": true,
+    "finalUrl": "https://eurosmartparts.nl/",
+    "hasIphone": true,
+    "screenWords": [],
+    "models": [],
+    "oldOnly": [],
+    "samplePrices": [
+      "2025 Eur"
+    ],
+    "searchWorks": false,
+    "verdict": "no-iphone-screens",
+    "notes": []
+  },
+  {
+    "domain": "dutchspares.com",
+    "country": "Netherlands",
+    "reachable": true,
+    "finalUrl": "https://www.dutchspares.com/en/",
+    "hasIphone": true,
+    "screenWords": [
+      "screen",
+      "display",
+      "lcd"
+    ],
+    "models": [
+      "13 pro max",
+      "13 pro",
+      "13 mini",
+      "13"
+    ],
+    "oldOnly": [
+      "iphone 8",
+      "iphone 7"
+    ],
+    "samplePrices": [
+      "€ 99"
+    ],
+    "searchWorks": true,
+    "verdict": "GOOD",
+    "notes": []
+  },
+  {
+    "domain": "brotech.it",
+    "country": "Italy",
+    "reachable": true,
+    "finalUrl": "https://brotech.it/",
+    "hasIphone": true,
+    "screenWords": [
+      "display"
+    ],
+    "models": [
+      "11"
+    ],
+    "oldOnly": [],
+    "samplePrices": [
+      "€299",
+      "5,81 €",
+      "5,39 €",
+      "13,66 €",
+      "54,08 €",
+      "88,79 €",
+      "171,70 €",
+      "48,60 €"
+    ],
+    "searchWorks": true,
+    "verdict": "GOOD",
+    "notes": []
+  },
+  {
+    "domain": "clinica-iphone-shop.it",
+    "country": "Italy",
+    "reachable": true,
+    "finalUrl": "https://clinica-iphone-shop.it/",
+    "hasIphone": true,
+    "screenWords": [
+      "display",
+      "screen",
+      "lcd",
+      "oled",
+      "scherm",
+      "schermo"
+    ],
+    "models": [
+      "16 plus",
+      "16",
+      "15 pro max",
+      "15 pro",
+      "15 plus",
+      "15",
+      "14 pro max",
+      "14 pro",
+      "14",
+      "13 pro max",
+      "13 pro",
+      "13",
+      "11 pro",
+      "11"
+    ],
+    "oldOnly": [
+      "iphone 7"
+    ],
+    "samplePrices": [
+      "€8900",
+      "€89,00",
+      "14\n€",
+      "6814\n€",
+      "€4290",
+      "0\n€",
+      "€2090",
+      "0\n€"
+    ],
+    "searchWorks": true,
+    "verdict": "GOOD",
+    "notes": []
+  },
+  {
+    "domain": "componentidigitali.com",
+    "country": "Italy",
+    "reachable": true,
+    "finalUrl": "https://www.componentidigitali.com/",
+    "hasIphone": true,
+    "screenWords": [
+      "screen",
+      "display",
+      "lcd",
+      "oled"
+    ],
+    "models": [],
+    "oldOnly": [],
+    "samplePrices": [],
+    "searchWorks": false,
+    "verdict": "screens-model-unclear",
+    "notes": []
+  },
+  {
+    "domain": "disotechlab.it",
+    "country": "Italy",
+    "reachable": true,
+    "finalUrl": "https://disotechlab.it/",
+    "hasIphone": false,
+    "screenWords": [],
+    "models": [],
+    "oldOnly": [],
+    "samplePrices": [],
+    "searchWorks": false,
+    "verdict": "no-iphone-screens",
+    "notes": []
+  },
+  {
+    "domain": "digitalteck.it",
+    "country": "Italy",
+    "reachable": true,
+    "finalUrl": "https://www.digitalteck.it/",
+    "hasIphone": true,
+    "screenWords": [
+      "display",
+      "lcd",
+      "oled",
+      "scherm",
+      "schermo"
+    ],
+    "models": [
+      "16 pro",
+      "16e",
+      "16",
+      "14 pro",
+      "14",
+      "11 pro",
+      "11",
+      " x "
+    ],
+    "oldOnly": [
+      "iphone 7",
+      "iphone 6"
+    ],
+    "samplePrices": [
+      "0,00 €",
+      "15,00 €",
+      "25,00 €",
+      "15,00 €",
+      "25,00 €",
+      "15,00 €",
+      "5,00 €",
+      "17,00 €"
+    ],
+    "searchWorks": true,
+    "verdict": "GOOD",
+    "notes": []
+  },
+  {
+    "domain": "doctor-smartphone.com",
+    "country": "Italy",
+    "reachable": true,
+    "finalUrl": "https://www.doctor-smartphone.com/",
+    "hasIphone": true,
+    "screenWords": [
+      "display",
+      "lcd",
+      "oled",
+      "scherm",
+      "schermo"
+    ],
+    "models": [
+      "16 pro max",
+      "16 pro",
+      "16 plus",
+      "16",
+      "15 pro max",
+      "15 pro",
+      "15 plus",
+      "15",
+      "14 pro max",
+      "14 pro",
+      "14 plus",
+      "14",
+      "13 pro max",
+      "13 pro",
+      "13 mini",
+      "13",
+      "12 pro max",
+      "12 pro",
+      "12 mini",
+      "12",
+      "11 pro max",
+      "11 pro",
+      "11",
+      "xs max",
+      "xs",
+      "xr",
+      " x "
+    ],
+    "oldOnly": [
+      "iphone 8",
+      "iphone 7",
+      "iphone 6",
+      "iphone se",
+      "iphone 5"
+    ],
+    "samplePrices": [
+      "5000€",
+      "69,00 €",
+      "19,00 €",
+      "69,00 €",
+      "69,00 €",
+      "79,00 €",
+      "79,00 €",
+      "79,00 €"
+    ],
+    "searchWorks": true,
+    "verdict": "GOOD",
+    "notes": []
+  }
+]
