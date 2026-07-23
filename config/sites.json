@@ -1,0 +1,22 @@
+{
+  "_comment": "One entry per website. Add sites here as we build scrapers for them. 'type' is 'shop' (selling parts) or 'buyback' (buying screens). 'needsAuth' true means we must save a login session first (see src/auth/save-auth.js).",
+  "sites": [
+    {
+      "id": "example-shop",
+      "type": "shop",
+      "name": "Example Phone Parts Shop",
+      "baseUrl": "https://example.com",
+      "needsAuth": false,
+      "currency": "EUR",
+      "country": "FI",
+      "products": [
+        {
+          "sku": "iphone-13-screen-oem",
+          "label": "iPhone 13 OEM Screen",
+          "url": "https://example.com/products/iphone-13-screen",
+          "priceSelector": ".price, [itemprop=price], .product-price"
+        }
+      ]
+    }
+  ]
+}

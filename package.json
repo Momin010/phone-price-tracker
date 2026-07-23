@@ -1,0 +1,20 @@
+{
+  "name": "phone-price-tracker",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Daily phone-screen price + buyback scraper with a Vercel API for Art's dashboard",
+  "scripts": {
+    "auth": "node src/auth/save-auth.js",
+    "scrape": "node src/scrape/run.js",
+    "scrape:one": "node src/scrape/run.js --site",
+    "db:init": "node src/db/init.js",
+    "dev:api": "vercel dev"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "^2.110.8",
+    "dotenv": "^16.4.5",
+    "pg": "^8.13.0",
+    "playwright": "^1.48.0"
+  }
+}

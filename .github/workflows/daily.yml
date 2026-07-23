@@ -1,0 +1,31 @@
+name: Daily price scrape
+
+# Runs every day at 05:00 UTC. Change the cron or trigger manually from the Actions tab.
+on:
+  schedule:
+    - cron: '0 5 * * *'
+  workflow_dispatch:
+
+jobs:
+  scrape:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - run: npm ci || npm install
+      - run: npx playwright install --with-deps chromium
+      - name: Restore saved login sessions
+        # Sessions are secret. Store the whole auth/ folder as a base64 GitHub secret
+        # (AUTH_BUNDLE) and unpack it here. See README "Running on GitHub Actions".
+        run: |
+          mkdir -p auth
+          if [ -n "${{ secrets.AUTH_BUNDLE }}" ]; then
+            echo "${{ secrets.AUTH_BUNDLE }}" | base64 -d | tar -xz -C .
+          fi
+      - name: Scrape
+        env:
+          SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
+          SUPABASE_SECRET_KEY: ${{ secrets.SUPABASE_SECRET_KEY }}
+        run: npm run scrape
