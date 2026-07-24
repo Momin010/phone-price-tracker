@@ -13,7 +13,6 @@ export const meta = {
 // we re-join authoritative price/url from the same file after the run.
 const A = typeof args === 'string' ? JSON.parse(args) : (args || {})
 const FILE = A.file || '/tmp/prepass30.json'
-const domains = A.domains || []
 
 // ---- what Art actually wants (shared context for every agent) ----
 const SPEC = `
@@ -117,6 +116,32 @@ ROWS TO VERIFY (JSON):
 ${JSON.stringify(rows, null, 1)}`
 }
 
+// ---- derive the site list from the pre-pass file (unless passed explicitly) ----
+const BOOTSTRAP_SCHEMA = {
+  type: 'object', additionalProperties: false, required: ['domains'],
+  properties: {
+    domains: {
+      type: 'array',
+      items: {
+        type: 'object', additionalProperties: false, required: ['domain', 'country'],
+        properties: { domain: { type: 'string' }, country: { type: ['string', 'null'] } },
+      },
+    },
+  },
+}
+let domains = A.domains
+if (!domains) {
+  log(`bootstrapping site list from ${FILE}`)
+  const b = await agent(
+    `Use the Read tool on the file "${FILE}". It is a JSON array of site objects, each with "domain",
+"country", and a "products" array. Return {"domains": [...]} listing every site that has AT LEAST ONE
+product with a non-null "price". Skip sites with no priced products. Return domain + country only.`,
+    { label: 'bootstrap:site-list', phase: 'Classify', schema: BOOTSTRAP_SCHEMA, agentType: 'general-purpose' }
+  )
+  domains = b.domains || []
+  log(`${domains.length} sites have priced products`)
+}
+
 // ---- pipeline: classify -> verify, per site, no barrier ----
 const perSite = await pipeline(
   domains,
@@ -126,15 +151,16 @@ const perSite = await pipeline(
       agentType: 'general-purpose',
     }).then((c) => ({ classified: c, domain: d.domain, country: d.country })),
   (prev, d) => {
-    const keep = (prev.classified?.rows || []).filter((r) => r.keep && r.price != null)
-    const preDropped = (prev.classified?.rows || []).filter((r) => !r.keep).map((r) => ({ name: r.name, reason: r.reason || 'not kept' }))
+    const keep = (prev?.classified?.rows || []).filter((r) => r.keep && r.price != null)
+    const preDropped = (prev?.classified?.rows || []).filter((r) => !r.keep).map((r) => ({ name: r.name, reason: r.reason || 'not kept' }))
     if (!keep.length) return { domain: d.domain, country: d.country, verified: [], dropped: preDropped }
     return agent(verifyPrompt(d.domain, keep), {
       label: `verify:${d.domain}`, phase: 'Verify', schema: VERIFY_SCHEMA,
     }).then((v) => ({
       domain: d.domain, country: d.country,
-      verified: v.verified || [],
-      dropped: [...preDropped, ...(v.dropped || [])],
+      verified: v?.verified || [],
+      dropped: [...preDropped, ...(v?.dropped || [])],
+      verify_failed: !v,
     }))
   }
 )
