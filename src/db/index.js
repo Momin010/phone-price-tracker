@@ -59,24 +59,31 @@ export async function saveResults(rows) {
   return { store: 'supabase', count: rows.length };
 }
 
-// Latest price per (site, sku) — what the API serves to the dashboard.
+// Latest price per distinct product (site, model, url) — one row per real listing,
+// so multiple grades/variants of the same model all show. Buyback rows share a
+// listing url but differ by model, so this still keeps one row per buyback model.
 export async function latestPrices() {
   if (!hasSupabase) {
     if (!fs.existsSync(JSON_FILE)) return [];
     const all = JSON.parse(fs.readFileSync(JSON_FILE, 'utf8'));
-    return dedupeLatest(all, (r) => r.scrapedAt);
+    return dedupeLatest(all, (r) => r.scrapedAt, (r) => `${r.siteId}::${r.sku}::${r.url}`);
   }
-  // Pull recent rows ordered newest-first, then keep the first per (site, sku).
-  const { data, error } = await db()
-    .from('prices')
-    .select('*')
-    .order('scraped_at', { ascending: false })
-    .limit(5000);
-  if (error) throw new Error(`Supabase read failed: ${error.message}`);
-  return dedupeLatest(data, (r) => r.scraped_at, (r) => `${r.site_id}::${r.sku}`);
+  // Page through ALL rows (Supabase caps a single request at 1000).
+  const all = [];
+  for (let from = 0; from < 100000; from += 1000) {
+    const { data, error } = await db()
+      .from('prices')
+      .select('*')
+      .order('scraped_at', { ascending: false })
+      .range(from, from + 999);
+    if (error) throw new Error(`Supabase read failed: ${error.message}`);
+    all.push(...data);
+    if (data.length < 1000) break;
+  }
+  return dedupeLatest(all, (r) => r.scraped_at, (r) => `${r.site_id}::${r.sku}::${r.url}`);
 }
 
-function dedupeLatest(rows, tsOf, keyOf = (r) => `${r.siteId}::${r.sku}`) {
+function dedupeLatest(rows, tsOf, keyOf = (r) => `${r.siteId}::${r.sku}::${r.url}`) {
   const byKey = new Map();
   for (const r of rows) {
     const k = keyOf(r);
