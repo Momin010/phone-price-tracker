@@ -1,6 +1,11 @@
 node_modules/
 .env
+.env.local
+engine/.env.local
 auth/
 data/
 .vercel
 *.log
+new_sites.json
+new_prepass.json
+new_verified.json
