@@ -50,22 +50,35 @@ def sale_text_pairs(text):
         pairs.append({"name": " ".join(window.split())[-70:], "price": price, "model": model})
     return pairs
 
+# any iPhone model (incl. old) — used only as span boundaries so old-model prices
+# don't bleed into the iPhone X/XR spans
+_ANY_MODEL_RE = re.compile(r"iphone\s*(16 pro max|16 pro|16 plus|16e|16|15 pro max|15 pro|15 plus|15|"
+    r"14 pro max|14 pro|14 plus|14|13 pro max|13 pro|13 mini|13|12 pro max|12 pro|12 mini|12|"
+    r"11 pro max|11 pro|11|xs max|xs|xr|x|8 plus|8|7 plus|7|6s plus|6s|6 plus|6|se|5s|5c|5|4s|4)(?![0-9a-z])", re.I)
+_GRADES = ["A", "B", "C", "D"]
+
 def buyback_pairs(text):
-    """BUYBACK: scan model tokens in order; each model's price = the highest
-    price appearing before the next model token (handles 'iPhone X $9 $5 iPhone XR $3')."""
-    models = [(m.start(), "iphone " + m.group(1).lower()) for m in _MODEL_RE.finditer(text)]
+    """BUYBACK: each iPhone X+ model quotes several grade prices (A/B/C/D, high→low).
+    Capture up to 4 distinct prices per model as separate grade rows. Old-model
+    tokens act as span boundaries so their prices don't leak into X/XR spans."""
+    bounds = [(m.start(), m.end(), m.group(1).lower()) for m in _ANY_MODEL_RE.finditer(text)]
     prices = [(m.start(), parse_price(m.group(0))) for m in PRICE_RE.finditer(text)]
+    xplus = set(x.strip() for x in ["16 pro max","16 pro","16 plus","16e","16","15 pro max","15 pro","15 plus","15",
+        "14 pro max","14 pro","14 plus","14","13 pro max","13 pro","13 mini","13","12 pro max","12 pro","12 mini",
+        "12","11 pro max","11 pro","11","xs max","xs","xr","x"])
     out, seen = [], set()
-    for i, (pos, model) in enumerate(models):
-        nxt = models[i + 1][0] if i + 1 < len(models) else len(text)
-        span = [pv for ppos, pv in prices if pos < ppos < nxt and pv and pv > 0]
-        if not span:
+    for i, (start, end, m) in enumerate(bounds):
+        if m not in xplus:
             continue
-        model = re.sub(r"\s+", " ", model).strip()
-        if model in seen:
+        nxt = bounds[i + 1][0] if i + 1 < len(bounds) else len(text)
+        span = sorted({pv for ppos, pv in prices if end <= ppos < nxt and pv and 0 < pv < 500}, reverse=True)[:4]
+        model = "iphone " + m
+        if model in seen:  # same model appears twice on page — keep first (main table)
             continue
         seen.add(model)
-        out.append({"name": f"iPhone {model.replace('iphone ','')} (buyback)", "price": max(span), "model": model})
+        for gi, pv in enumerate(span):
+            g = _GRADES[gi] if gi < 4 else "D"
+            out.append({"name": f"iPhone {m.title()} buyback (Grade {g})", "price": pv, "model": model, "grade": g})
     return out
 
 def scrape_row(row):
@@ -107,15 +120,18 @@ def scrape_row(row):
         continue
       else:
         for c in cands:
-            key = (c["model"], round(c["price"], 2))
+            g = c.get("grade")
+            key = (c["model"], g, round(c["price"], 2))
             if key in seen:
                 continue
             seen.add(key)
+            sku = c["model"].lower().replace(" ", "-") + (f"-grade-{g.lower()}" if g else "")
+            grade_val = f"grade-{g}" if g else quality_hint(c.get("name") or "")
             out.append({
-                "site_id": site, "type": typ, "sku": c["model"].lower().replace(" ", "-"),
+                "site_id": site, "type": typ, "sku": sku,
                 "label": (c.get("name") or c["model"])[:300], "price": c["price"],
                 "currency": c.get("currency"), "country": country, "url": c.get("url") or url,
-                "raw_price": json.dumps({"grade": quality_hint(c.get("name") or ""), "model": c["model"], "source": "curated-list"}),
+                "raw_price": json.dumps({"grade": grade_val, "model": c["model"], "source": "curated-list"}),
                 "ok": True, "error": None,
             })
     return {"site": site, "type": typ, "rows": out}
