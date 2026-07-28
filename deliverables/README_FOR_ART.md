@@ -1,44 +1,51 @@
 # iPhone Screen Pricing — Delivery
 
-**System is live and working for BOTH webshops and buyback.**
+System is live for **both webshops and buyback**. Everything below is in
+`Art_phone_screen_prices.xlsx` (one sheet per list) and as raw CSVs.
 
 ## The numbers
-- **1,216 iPhone X+ screen prices** live in the API (878 webshop + 338 buyback)
-- **126 sites**, **29 countries**
-- Updates daily on your own machine, free (no AI cost) — see "Daily refresh" below.
+- **1,216 iPhone X+ screen prices** in the API (878 webshop + 338 buyback)
+- **126 sites, 29 countries**. Daily refresh runs free on your machine (no AI cost).
 
-## API (your dashboard reads this)
+## API
 ```
 GET https://phone-price-tracker-sigma.vercel.app/api/prices
 Header: x-api-key: art_RfIaropliZDoi_Lr0FwfsbZZ7Ls4WYsH
-Filters: ?type=shop  |  ?type=buyback  |  ?country=Germany  |  ?sku=iphone-14-pro
+Filters: ?type=shop | ?type=buyback | ?country=Germany | ?sku=iphone-14-pro
 ```
-Returns `{ count, updatedAt, prices:[...] }`.
 
-## The lists you asked for (in `Art_phone_screen_prices.xlsx`)
-- **A — Glass+Pulled+Refurb** — original-panel screens, the *cheapest* option per shop×model (glass-changed / pulled / refurbished — whichever is cheaper).
-- **B — Flex+Fog** — flex-replaced screens and fog/defective screens.
-- **Aftermarket** — soft/hard OLED, in-cell, TFT copies (the bulk of the market, for reference).
-- **All Sites** — every site, its country, type (shop/buyback), and login flag.
-- **Login-Gated Shops** — see below.
+## Lists you asked for
+- **A — Glass+Pulled+Refurb** — original-panel screens, *cheapest* option per shop×model.
+- **B — Flex+Fog** — flex-replaced and fog/defective screens.
+- **Aftermarket** — soft/hard OLED, in-cell, TFT copies (bulk of the market).
+- **All Sites** / **Login-Gated Shops** — see below.
 
-## Prices excl. VAT
-Every price row has both the **raw price** and an **ExclVAT** estimate.
-- Non-EU shops (USA/China/Canada/etc.): shown as-is (already ex-VAT).
-- EU/UK shops: public prices are normally VAT-*inclusive*, so ExclVAT = price ÷ (1 + national VAT rate).
-- **Login-gated B2B shops already show ex-VAT once logged in** — those true prices need your account (below).
+## VAT — handled honestly (this got fixed)
+Phone-part shops are split: some show **ex-VAT** prices (B2B), some **inc-VAT** (consumer).
+I detected each site's basis from its own page text (in its language), so:
+- **`ExclVAT` + `VATBasis` columns** on every row.
+- Confirmed inc-VAT → VAT stripped at the national rate.
+- Confirmed ex-VAT → kept as-is (`already ex-VAT`).
+- Couldn't confirm on the page → shown as listed and flagged **`VAT basis UNKNOWN`** (I did NOT invent a number).
+Detected across the shops: **44 ex-VAT, 24 inc-VAT, 50 unknown.**
 
-## Webshops with prices behind login (24 found)
-See the **Login-Gated Shops** sheet — each has the *evidence* (either a "log in to see price" message, or a page that lists products with no visible prices). Examples: ipfix.dk, mobilefix.cz, fixstore.hu, nordviks.se, ioutlet.ee, mobishop.ee, fonix.at, gsmteam.gr…
+## Webshops with prices behind login (24, with evidence)
+**Login-Gated Shops** sheet. Each row has the proof — either a "log in to see price"
+message in the shop's language, or a page listing products with no visible prices.
+e.g. ipfix.dk, mobilefix.cz, fixstore.hu, nordviks.se, ioutlet.ee, mobishop.ee,
+fonix.at, gsmteam.gr, iswap.cz, modchip.gr, phonepartsbg.com …
 
-**To unlock their real (usually lower, ex-VAT) B2B prices**, the tooling logs in with YOUR business account and fetches — no passwords stored:
-1. `node engine/save_login.js <site-host>` → a browser opens, you log in once, the session is saved.
-2. `python engine/scrape_authed.py <site-host>` → pulls the logged-in prices into the same feed.
-This is where the "higher public / lower behind-login" difference gets captured per site.
+## ⚠️ "Higher public vs. lower behind-login price" — NOT done yet, needs your accounts
+I can't compare public vs. logged-in prices for those 24 shops because **I don't have
+logged-in prices** — most of them show *no* public price at all, so there's nothing to
+diff until we're inside. The login tooling is built and tested:
+1. `node engine/save_login.js <site-host>` → browser opens, you log in once (no passwords stored).
+2. `python engine/scrape_authed.py <site-host>` → pulls the logged-in prices in.
+Once you've logged into a few, I generate the public-vs-login comparison automatically.
+**This is the one remaining piece and it's blocked on your business accounts, not on the code.**
 
-## Daily refresh (free, on your computer)
-`python engine/daily_refresh.py` re-scrapes all known URLs and updates the API. Deterministic — **no AI cost**. Schedule it with `/setup` (Claude Code) or cron.
-
-## Honest notes
-- A few buyback sites resist scraping (login/PDF/JS): smartgrade, injuredgadgets, recycletroop — recoverable with the login flow above.
-- Buyback grade prices (A/B/C/D) are a solid first pass; spot-check a couple before pricing off exact figures.
+## Other honest notes
+- 364 shop products couldn't be auto-classified into a repair type (odd/mangled titles); they sit in the Aftermarket/uncategorized bucket, not lost.
+- A few buyback sites resist scraping (login/PDF/JS): smartgrade, injuredgadgets, recycletroop.
+- Buyback A/B/C/D grade prices are a solid first pass — spot-check a couple before pricing off exact figures.
+- A couple of country tags are off in edge shops (abraa, nordviks) — cosmetic.

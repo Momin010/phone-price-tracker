@@ -65,10 +65,17 @@ def classify(label):
     if "lcd" in t: return "aftermarket-lcd"
     return "unknown"
 
-def exvat(price, country):
-    r = VAT.get(country, 0)
-    if not price or r == 0: return round(price or 0, 2)
-    return round(price / (1 + r), 2)
+def exvat(price, country, basis):
+    """Only strip VAT when the shop's page confirms prices INCLUDE it.
+    Returns (ex_vat_price, note)."""
+    if not price: return 0, ""
+    if basis == "excl":
+        return round(price, 2), "already ex-VAT"
+    if basis == "incl":
+        r = VAT.get(country, 0)
+        if r == 0: return round(price, 2), "no VAT (non-EU)"
+        return round(price / (1 + r), 2), f"stripped {int(r*100)}% VAT"
+    return round(price, 2), "VAT basis UNKNOWN — shown as listed"
 
 def main():
     shop = fetch_all("shop"); buyback = fetch_all("buyback")
@@ -88,10 +95,17 @@ def main():
         for row in csv.DictReader(open(detected)):
             login_sites[row["Site"]] = True
             gate_reason[row["Site"]] = row.get("Evidence") or ""
+    # per-site VAT basis (engine/detect_vat.py output): incl | excl | unknown
+    vat_basis = {}
+    vpath = os.path.join(OUT, "vat_basis.csv")
+    if os.path.exists(vpath):
+        for row in csv.DictReader(open(vpath)):
+            vat_basis[row["Site"]] = row["Basis"]
 
     for s in shop:
         s["cat"] = classify(s.get("label"))
-        s["excl_vat"] = exvat(s.get("price"), s.get("country"))
+        s["vat_basis"] = vat_basis.get(s["site_id"], "unknown")
+        s["excl_vat"], s["vat_note"] = exvat(s.get("price"), s.get("country"), s["vat_basis"])
         s["login"] = login_sites.get(s["site_id"], False)
         s["model"] = (json.loads(s.get("raw_price") or "{}").get("model")) or s.get("sku")
 
@@ -125,28 +139,28 @@ def main():
         key = (s["site_id"], s["model"])
         if key not in best or s["excl_vat"] < best[key]["excl_vat"]:
             best[key] = s
+    HDR = ["Site", "Country", "Model", "RepairType", "Price", "Currency", "ExclVAT", "VATBasis", "Login", "URL"]
+    def emit(s):
+        return [s["site_id"], s["country"], s["model"], s["cat"], s["price"], s["currency"],
+                s["excl_vat"], s["vat_note"], "YES" if s["login"] else "no", s["url"]]
     with open(f"{OUT}/list_A_original.csv", "w", newline="") as f:
-        w = csv.writer(f); w.writerow(["Site", "Country", "Model", "RepairType", "Price", "Currency", "ExclVAT", "Login", "URL"])
+        w = csv.writer(f); w.writerow(HDR)
         for s in sorted(best.values(), key=lambda x: (x["site_id"], x["model"])):
-            w.writerow([s["site_id"], s["country"], s["model"], s["cat"], s["price"],
-                        s["currency"], s["excl_vat"], "YES" if s["login"] else "no", s["url"]])
+            w.writerow(emit(s))
 
     # ---- List B: flex-replaced + fog ----
     with open(f"{OUT}/list_B_flex_fog.csv", "w", newline="") as f:
-        w = csv.writer(f); w.writerow(["Site", "Country", "Model", "RepairType", "Price", "Currency", "ExclVAT", "Login", "URL"])
-        n = 0
+        w = csv.writer(f); w.writerow(HDR)
         for s in sorted(shop, key=lambda x: (x["site_id"], x.get("model") or "")):
             if s["cat"] in ("flex-replaced", "fog"):
-                w.writerow([s["site_id"], s["country"], s["model"], s["cat"], s["price"],
-                            s["currency"], s["excl_vat"], "YES" if s["login"] else "no", s["url"]]); n += 1
+                w.writerow(emit(s))
 
     # ---- aftermarket reference list ----
     with open(f"{OUT}/list_aftermarket.csv", "w", newline="") as f:
-        w = csv.writer(f); w.writerow(["Site", "Country", "Model", "Type", "Price", "Currency", "ExclVAT", "Login", "URL"])
+        w = csv.writer(f); w.writerow(HDR)
         for s in sorted(shop, key=lambda x: (x["site_id"], x.get("model") or "")):
             if s["cat"].startswith("aftermarket"):
-                w.writerow([s["site_id"], s["country"], s["model"], s["cat"], s["price"],
-                            s["currency"], s["excl_vat"], "YES" if s["login"] else "no", s["url"]])
+                w.writerow(emit(s))
 
     cats = collections.Counter(s["cat"] for s in shop)
     print("Category breakdown:")
