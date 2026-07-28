@@ -45,23 +45,52 @@ def fetch_all(typ):
         off += 1000
     return rows
 
-# ---- repair-type classifier (Art's vocabulary) ----
+# ---- repair-type classifier (Art's vocabulary, multi-language) ----
+# genuine "pulled from a device" screens
+PULLED = ["pulled", "pull ", " pull", "skinut", "skinuti", "getrokken", "demontado",
+    "desmontado", "démonté", "demonte", "smontato", "pobrane", "pobrané", "stažen",
+    "begagnad original", "käytetty alkuper", "originál pull", "original pull", "orig pull",
+    "genuine pulled", "used original", "take off", "take-off", "takeoff"]
+# refurbished original panels
+REFURB = ["refurb", "reacondicion", "ricondizion", "reconditionn", "gerenoveerd",
+    "generalüberholt", "aufbereitet", "repariran", "obnovljen", "renoveret", "renovert",
+    "renoverad", "regenerowan", "repasovan", "kunnostettu", "recondition"]
+# glass-only replacement (outer glass changed on a genuine panel)
+GLASS = ["glass chang", "changed glass", "glass replac", "glass replaced", "new glass",
+    "glass only", "vidrio cambiad", "verre chang", "vetro cambiat", "glas gewissel",
+    "staklo", "wymiana szk", "szkło", "výměna skla", "klaasi vahet", "lasin vaiht",
+    "cam değiş", "vitre chang", "reglass", "re-glass", "glass swap"]
+# genuine / service-pack original panels
+ORIGINAL = ["service pack", "genuine", "original oem", "oem original", "apple original",
+    "gnisio", "γνήσ", "origineel", "originál", "oryginał", "originale", "alkuperäinen",
+    "оригинал"]
+FLEX = ["flex chang", "flex replac", "flex swap", "replaced flex", "hörerflex", "hoererflex",
+    "earpiece flex", "flex transferred", "with flex", "new flex", "flexkabel getauscht"]
+FOG = ["fog", "foggy", "beschlagen", "hazy", "cloudy screen"]
+
+def _has(t, words):
+    return any(w in t for w in words)
+
 def classify(label):
     t = (label or "").lower()
-    if "fog" in t: return "fog"
-    if "pulled" in t or re.search(r"\bpull\b", t): return "pulled"
-    if "refurb" in t: return "refurb"
-    if "glass" in t and any(w in t for w in ("chang", "replac", "new")): return "glass-changed"
-    if "glass" in t: return "glass-changed"
-    if "flex" in t: return "flex-replaced"
-    if any(w in t for w in ("service pack", "genuine", "original oem")): return "original"
+    if _has(t, FOG): return "fog"
+    if _has(t, PULLED) or re.search(r"\bpull\b", t): return "pulled"
+    if _has(t, REFURB): return "refurb"
+    if _has(t, GLASS): return "glass-changed"
+    if _has(t, FLEX): return "flex-replaced"
+    # explicit aftermarket compounds win over a bare "original"/"oled"
     if "soft oled" in t: return "aftermarket-soft-oled"
     if "hard oled" in t: return "aftermarket-hard-oled"
     if "incell" in t or "in-cell" in t or "in cell" in t: return "aftermarket-incell"
     if "tft" in t: return "aftermarket-tft"
     if re.search(r"\bgx\b", t): return "aftermarket-gx"
+    # genuine original BEFORE the plain oled/lcd fallbacks (fixes "Original OLED")
+    if _has(t, ORIGINAL): return "original"
+    # bare "original" is a genuine-panel signal (aftermarket compounds already handled above),
+    # but ignore aftermarket marketing like "original size/quality/color"
+    if re.search(r"\boriginal\b", t) and not re.search(r"original (size|quality|colou?r|tone)", t):
+        return "original"
     if "oled" in t: return "aftermarket-oled"
-    if "original" in t: return "original"
     if "lcd" in t: return "aftermarket-lcd"
     return "unknown"
 
@@ -116,6 +145,16 @@ def main():
         d = sites.setdefault(sid, {"site": sid, "country": s.get("country") or "",
             "type": set(), "login": login_sites.get(sid, False), "n": 0})
         d["type"].add(s["type"]); d["n"] += 1
+    # gated shops have NO public prices, so they may have 0 DB rows — add them anyway
+    cand_country = {}
+    cpath = os.path.join(HERE, "candidates.json")
+    if os.path.exists(cpath):
+        for e in json.load(open(cpath)):
+            cand_country[e["site"]] = e.get("country") or ""
+    for sitename in login_sites:
+        if login_sites[sitename] and sitename not in sites:
+            sites[sitename] = {"site": sitename, "country": cand_country.get(sitename, ""),
+                "type": {"shop"}, "login": True, "n": 0}
     with open(f"{OUT}/master_sites.csv", "w", newline="") as f:
         w = csv.writer(f); w.writerow(["Site", "Country", "Type", "LoginRequired", "ProductsScraped"])
         for d in sorted(sites.values(), key=lambda x: (x["country"], x["site"])):

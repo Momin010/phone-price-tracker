@@ -1,20 +1,10 @@
 Site,Country,Model,RepairType,Price,Currency,ExclVAT,VATBasis,Login,URL
 24hshop.fr,France,iPhone 11,aftermarket-incell,29.5,EUR,24.58,stripped 20% VAT,no,https://24hshop.fr/verre-multi-touch-incell-iphone-11-a2111-apple-lcd-premium-smartphone-touch-remplacement-ecran-cristaux-liquides-itrucolor-2416.html
-24hshop.fr,France,iPhone 11 Pro,aftermarket-oled,75.98,EUR,63.32,stripped 20% VAT,no,https://24hshop.fr/ecran-sur-chassis-iphone-11-pro-a2160-soft-oled-apple-original-super-retina-58-pouces-vitre-smartphone-true-tone-complet-2774.html
-24hshop.fr,France,iPhone 11 Pro,aftermarket-oled,75.98,EUR,63.32,stripped 20% VAT,no,https://24hshop.fr/vitre-tactile-multi-touch-soft-oled-iphone-11-pro-apple-a2215-original-touch-remplacement-ecran-verre-sur-chassis-complet-assemb-2785.html
-24hshop.fr,France,iPhone 11 Pro Max,aftermarket-oled,75.98,EUR,63.32,stripped 20% VAT,no,https://24hshop.fr/ecran-verre-multi-touch-soft-oled-apple-iphone-11-pro-max-a2218-original-smartphone-3d-touch-remplacement-kit-assemble-chassis-2840.html
 24hshop.fr,France,iPhone XR,aftermarket-incell,68.98,EUR,57.48,stripped 20% VAT,no,https://24hshop.fr/ecran-lcd-sur-chassis-iphone-xr-incell-apple-premium-super-retina-61-in-vitre-smartphone-affichage-true-tone-cristaux-liquides-2454.html
 24hshop.fr,France,iPhone XR,aftermarket-incell,68.98,EUR,57.48,stripped 20% VAT,no,https://24hshop.fr/lcd-iphone-xr-a1984-ecran-incell-apple-premium-super-retina-61-pouces-vitre-smartphone-affichage-true-tone-cristaux-liquides-2381.html
-24hshop.fr,France,iPhone XS,aftermarket-oled,55.98,EUR,46.65,stripped 20% VAT,no,https://24hshop.fr/verre-tactile-iphone-xs-soft-oled-qualite-ecran-a2097-original-reparation-smartphone-affichage-true-tone-hd-super-retina-58-in-2688.html
-24hshop.fr,France,iPhone XS,aftermarket-oled,55.98,EUR,46.65,stripped 20% VAT,no,https://24hshop.fr/iphone-xs-a2099-ecran-soft-oled-apple-original-super-retina-58-pouces-vitre-smartphone-assemblee-affichage-complet-true-tone-2728.html
-24hshop.fr,France,iPhone XS,aftermarket-oled,55.98,EUR,46.65,stripped 20% VAT,no,https://24hshop.fr/ecran-tactile-iphone-xs-verre-multi-touch-soft-oled-apple-original-3d-touch-remplacement-hdr-qualite-vitre-oleophobe-sur-chassis-2666.html
-24hshop.fr,France,iPhone XS,aftermarket-oled,55.98,EUR,46.65,stripped 20% VAT,no,https://24hshop.fr/vitre-tactile-ecran-sur-chassis-complet-assemble-iphone-xs-verre-multi-touch-soft-oled-apple-original-3d-touch-kit-remplacement-2669.html
 24hshop.fr,France,iPhone XS,aftermarket-oled,55.98,EUR,46.65,stripped 20% VAT,no,https://24hshop.fr/super-retina-58-pouces-apple-a2098-iphone-xs-soft-oled-vitre-original-smartphone-affichage-true-tone-changer-ecran-lg-oleophobe-2707.html
 24hshop.fr,France,iPhone XS,aftermarket-incell,29.5,EUR,24.58,stripped 20% VAT,no,https://24hshop.fr/ecran-lcd-sur-chassis-verre-multi-touch-incell-apple-iphone-xs-premium-smartphone-3d-touch-remplacement-cristaux-liquides-hdr-2474.html
-24hshop.fr,France,iPhone XS,aftermarket-oled,55.98,EUR,46.65,stripped 20% VAT,no,https://24hshop.fr/vitre-tactile-multi-touch-soft-oled-iphone-xs-apple-a2098-original-touch-remplacement-ecran-verre-sur-chassis-complet-assemble-2710.html
 24hshop.fr,France,iPhone XS Max,aftermarket-incell,39.5,EUR,32.92,stripped 20% VAT,no,https://24hshop.fr/super-retina-65-pouces-apple-iphone-xs-max-in-cell-vitre-premium-smartphone-affichage-true-tone-changer-ecran-lcd-lg-hdr-oleoph-2510.html
-24hshop.fr,France,iPhone XS Max,aftermarket-oled,65.98,EUR,54.98,stripped 20% VAT,no,https://24hshop.fr/ecran-soft-oled-verre-multi-touch-apple-iphone-xs-max-a2104-original-smartphone-3d-touch-remplacement-hdr-oleophobe-2961.html
-24hshop.fr,France,iPhone XS Max,aftermarket-oled,65.98,EUR,54.98,stripped 20% VAT,no,https://24hshop.fr/vitre-tactile-ecran-soft-oled-iphone-xs-max-a2103-apple-original-super-retina-65-pouces-smartphone-affichage-true-tone-2956.html
 4repair.pl,Poland,iPhone 14 Plus,aftermarket-soft-oled,449.4,PLN,365.37,stripped 23% VAT,no,https://4repair.pl/zamiennik-jcid-wyswietlacz-soft-oled-apple-iphone-14-plus-programowalny-true-tone-bez-komunikatu-p-1797.html
 4repair.pl,Poland,iPhone 14 Plus,aftermarket-soft-oled,490.35,PLN,398.66,stripped 23% VAT,no,https://4repair.pl/zamiennik-ncc-wyswietlacz-soft-oled-apple-iphone-14-plus-p-1790.html
 4repair.pl,Poland,iPhone 14 Pro,aftermarket-soft-oled,640.49,PLN,520.72,stripped 23% VAT,no,https://4repair.pl/zamiennik-apl-wyswietlacz-soft-oled-apple-iphone-14-pro-run-diagnostic-original-size-bez-komunikatu-p-2972.html
@@ -54,12 +44,6 @@ alphamobile.eu,Bulgaria,iPhone 16 Pro,aftermarket-gx,79,EUR,79,VAT basis UNKNOWN
 alphamobile.eu,Bulgaria,iPhone 16 Pro,aftermarket-incell,43,EUR,43,VAT basis UNKNOWN — shown as listed,no,http://www.alphamobile.eu/iphone-16-pro-incell-display-jh-hdplus
 alphamobile.eu,Bulgaria,iPhone 16 Pro Max,aftermarket-gx,89,EUR,89,VAT basis UNKNOWN — shown as listed,no,http://www.alphamobile.eu/iphone-16-pro-max-oled-display-gx
 alphamobile.eu,Bulgaria,iPhone 16 Pro Max,aftermarket-incell,44,EUR,44,VAT basis UNKNOWN — shown as listed,no,http://www.alphamobile.eu/iphone-16-pro-max-incell-display-jh-hdplus
-amdetech.gr,Greece,iPhone 11 Pro Max,aftermarket-oled,89.97,EUR,89.97,VAT basis UNKNOWN — shown as listed,no,https://www.amdetech.gr/apple-antallaktika/pulled-gnisio-antallaktiko-gia-iphone-11-pro-max-oled-display-and-touch-screen-digitizer-assembly-replacement-apple-grade-a/
-amdetech.gr,Greece,iPhone 12 Pro Max,aftermarket-oled,159.97,EUR,159.97,VAT basis UNKNOWN — shown as listed,no,https://www.amdetech.gr/apple-antallaktika/iphone-antallaktika-el/pulled-gnisio-antallaktiko-gia-iphone-12-pro-max-oled-display-and-touch-screen-digitizer-assembly-replacement-apple-grade-a/
-amdetech.gr,Greece,iPhone 13 Pro Max,aftermarket-oled,189.97,EUR,189.97,VAT basis UNKNOWN — shown as listed,no,https://www.amdetech.gr/apple-antallaktika/iphone-antallaktika-el/pulled-gnisio-antallaktiko-gia-iphone-13-pro-max-oled-display-and-touch-screen-digitizer-assembly-replacement-apple-grade-a/
-amdetech.gr,Greece,iPhone 14 Pro Max,aftermarket-oled,259.97,EUR,259.97,VAT basis UNKNOWN — shown as listed,no,https://www.amdetech.gr/apple-antallaktika/pulled-genuine-gnisia-iphone-14-pro-max-oled-othoni-lcd-and-afis-touch-screen-digitizer-antallaktiko-grade-a/
-amdetech.gr,Greece,iPhone 15,aftermarket-oled,189.97,EUR,189.97,VAT basis UNKNOWN — shown as listed,no,https://www.amdetech.gr/apple-antallaktika/iphone-antallaktika-el/pulled-genuine-gnisia-iphone-15-oled-othoni-and-afis-touch-screen-digitizer-antallaktiko-a-grade-el/
-amdetech.gr,Greece,iPhone 16 Plus,aftermarket-oled,164.49,EUR,164.49,VAT basis UNKNOWN — shown as listed,no,https://www.amdetech.gr/apple-antallaktika/iphone-antallaktika-el/pulled-genuine-gnisia-iphone-16-plus-oled-othoni-and-afis-touch-screen-digitizer-antallaktiko-d-grade/
 appleparts.nl,Netherlands,iPhone 14 Pro Max,aftermarket-soft-oled,89,EUR,89,VAT basis UNKNOWN — shown as listed,no,https://appleparts.nl/products/premium-soft-oled-scherm-voor-iphone-14-pro-max?_pos=1&_sid=433506182&_ss=r
 appleparts.nl,Netherlands,iPhone 14 Pro Max,aftermarket-soft-oled,89,EUR,89,VAT basis UNKNOWN — shown as listed,no,https://appleparts.nl/products/premium-soft-oled-scherm-voor-iphone-14-pro-max?_pos=1&_sid=433506182&_ss=r
 appleparts.nl,Netherlands,iPhone 16 Pro Max,aftermarket-soft-oled,99.95,EUR,99.95,VAT basis UNKNOWN — shown as listed,no,https://appleparts.nl/products/premium-soft-oled-120hz-scherm-voor-iphone-16-pro-max?_pos=10&_sid=433506182&_ss=r
@@ -75,6 +59,47 @@ borcaden.nl,Netherlands,iPhone 11,aftermarket-lcd,125.95,EUR,125.95,already ex-V
 borcaden.nl,Netherlands,iPhone X,aftermarket-lcd,94.95,EUR,94.95,already ex-VAT,YES,https://www.borcaden.nl/product/relacement-lcd-assembly-with-touch-screen-voor-apple-iphone-x-5-8i-black-gsm-apple-beeldscherm-digitizer/
 brotech.it,Italy,iPhone 11,aftermarket-incell,13.66,EUR,13.66,VAT basis UNKNOWN — shown as listed,no,https://brotech.it/2367-display-iphone-11-incell-zy.html
 brotech.it,Italy,iPhone 11,aftermarket-incell,13.66,EUR,13.66,VAT basis UNKNOWN — shown as listed,no,https://brotech.it/2367-display-iphone-11-incell-zy.html
+bukuwireless.com,USA,iphone 11,aftermarket-incell,13.9,USD,13.9,already ex-VAT,no,https://www.bukuwireless.com/iphone-11-lcd-incell
+bukuwireless.com,USA,iphone 11,aftermarket-incell,17.9,USD,17.9,already ex-VAT,no,https://www.bukuwireless.com/iphone-11-lcd-screen-premium-incell
+bukuwireless.com,USA,iphone 11,aftermarket-lcd,26.9,USD,26.9,already ex-VAT,no,https://www.bukuwireless.com/iphone-11-lcd-screen-oem
+bukuwireless.com,USA,iphone 11 pro,aftermarket-oled,29.9,USD,29.9,already ex-VAT,no,https://www.bukuwireless.com/iphone-11-pro-screen-oled
+bukuwireless.com,USA,iphone 11 pro,aftermarket-incell,16.9,USD,16.9,already ex-VAT,no,https://www.bukuwireless.com/iphone-11-pro-lcd-screen-incell
+bukuwireless.com,USA,iphone 11 pro max,aftermarket-incell,17.9,USD,17.9,already ex-VAT,no,https://www.bukuwireless.com/iphone-11-pro-max-lcd-screen-incell
+bukuwireless.com,USA,iphone 11 pro max,aftermarket-oled,34.9,USD,34.9,already ex-VAT,no,https://www.bukuwireless.com/iphone-11-pro-max-screen-oled
+bukuwireless.com,USA,iphone 12 mini,aftermarket-oled,48.9,USD,48.9,already ex-VAT,no,https://www.bukuwireless.com/iphone-12-mini-screen-oled
+bukuwireless.com,USA,iphone 12 mini,aftermarket-incell,27.9,USD,27.9,already ex-VAT,no,https://www.bukuwireless.com/iphone-12-mini-lcd-incell
+bukuwireless.com,USA,iphone 12 pro,aftermarket-incell,14.9,USD,14.9,already ex-VAT,no,https://www.bukuwireless.com/iphone-12-pro-12-lcd-assembly-incell
+bukuwireless.com,USA,iphone 12 pro,aftermarket-incell,19.9,USD,19.9,already ex-VAT,no,https://www.bukuwireless.com/iphone-12-12pro-lcd-premium-incell
+bukuwireless.com,USA,iphone 12 pro,aftermarket-oled,38.9,USD,38.9,already ex-VAT,no,https://www.bukuwireless.com/iphone-12-12pro-screen-oled
+bukuwireless.com,USA,iphone 12 pro max,aftermarket-oled,49.9,USD,49.9,already ex-VAT,no,https://www.bukuwireless.com/iphone-12-pro-max-screen-oled
+bukuwireless.com,USA,iphone 12 pro max,aftermarket-incell,25.9,USD,25.9,already ex-VAT,no,https://www.bukuwireless.com/iphone-12-pro-max-lcd-premium-incell
+bukuwireless.com,USA,iphone 12 pro max,aftermarket-incell,19.9,USD,19.9,already ex-VAT,no,https://www.bukuwireless.com/iphone-12-pro-max-lcd-assembly-incell
+bukuwireless.com,USA,iphone 13,aftermarket-oled,42.9,USD,42.9,already ex-VAT,no,https://www.bukuwireless.com/iphone-13-screen-oled
+bukuwireless.com,USA,iphone 13,aftermarket-incell,23.9,USD,23.9,already ex-VAT,no,https://www.bukuwireless.com/iphone-13-lcd-screen-incell
+bukuwireless.com,USA,iphone 13 mini,aftermarket-oled,59.9,USD,59.9,already ex-VAT,no,https://www.bukuwireless.com/iphone-13-mini-screen-oled
+bukuwireless.com,USA,iphone 13 mini,aftermarket-incell,27.9,USD,27.9,already ex-VAT,no,https://www.bukuwireless.com/iphone-13-mini-lcd-incell
+bukuwireless.com,USA,iphone 13 pro,aftermarket-oled,84.9,USD,84.9,already ex-VAT,no,https://www.bukuwireless.com/iphone-13-pro-screen-oled
+bukuwireless.com,USA,iphone 13 pro,aftermarket-incell,29.9,USD,29.9,already ex-VAT,no,https://www.bukuwireless.com/iphone-13-pro-screen-premium-incell
+bukuwireless.com,USA,iphone 13 pro max,aftermarket-oled,69.9,USD,69.9,already ex-VAT,no,https://www.bukuwireless.com/iphone-13-pro-max-screen-oled
+bukuwireless.com,USA,iphone 13 pro max,aftermarket-incell,43.9,USD,43.9,already ex-VAT,no,https://www.bukuwireless.com/iphone-13-pro-max-screen-premium-incell
+bukuwireless.com,USA,iphone 14,aftermarket-incell,24.9,USD,24.9,already ex-VAT,no,https://www.bukuwireless.com/iphone-14-lcd-incell
+bukuwireless.com,USA,iphone 14,aftermarket-oled,44.9,USD,44.9,already ex-VAT,no,https://www.bukuwireless.com/iphone-14-screen-oled
+bukuwireless.com,USA,iphone 14 plus,aftermarket-oled,68.9,USD,68.9,already ex-VAT,no,https://www.bukuwireless.com/iphone-14-plus-screen-oled
+bukuwireless.com,USA,iphone 14 plus,aftermarket-incell,25.9,USD,25.9,already ex-VAT,no,https://www.bukuwireless.com/iphone-14-plus-lcd-incell
+bukuwireless.com,USA,iphone 14 pro,aftermarket-oled,119.9,USD,119.9,already ex-VAT,no,https://www.bukuwireless.com/iphone-14-pro-screen-oled
+bukuwireless.com,USA,iphone 14 pro,aftermarket-incell,42.9,USD,42.9,already ex-VAT,no,https://www.bukuwireless.com/iphone-14-pro-screen-premium-incell
+bukuwireless.com,USA,iphone 14 pro max,aftermarket-oled,139.9,USD,139.9,already ex-VAT,no,https://www.bukuwireless.com/iphone-14-pro-max-screen-oled
+bukuwireless.com,USA,iphone 14 pro max,aftermarket-incell,50.9,USD,50.9,already ex-VAT,no,https://www.bukuwireless.com/iphone-14-pro-max-screen-premium-incell
+bukuwireless.com,USA,iphone 15,aftermarket-incell,29.9,USD,29.9,already ex-VAT,no,https://www.bukuwireless.com/iphone-15-screen-premium-incell
+bukuwireless.com,USA,iphone 15 plus,aftermarket-oled,134.9,USD,134.9,already ex-VAT,no,https://www.bukuwireless.com/iphone-15-plus-screen-oled
+bukuwireless.com,USA,iphone 15 plus,aftermarket-incell,33.9,USD,33.9,already ex-VAT,no,https://www.bukuwireless.com/iphone-15-plus-screen-premium-incell
+bukuwireless.com,USA,iphone 15 pro,aftermarket-oled,119.9,USD,119.9,already ex-VAT,no,https://www.bukuwireless.com/iphone-15-pro-screen-oled
+bukuwireless.com,USA,iphone 15 pro,aftermarket-incell,45.9,USD,45.9,already ex-VAT,no,https://www.bukuwireless.com/iphone-15-pro-screen-premium-incell
+bukuwireless.com,USA,iphone 15 pro max,aftermarket-incell,59.9,USD,59.9,already ex-VAT,no,https://www.bukuwireless.com/iphone-15-pro-max-screen-premium-incell
+bukuwireless.com,USA,iphone 15 pro max,aftermarket-oled,169.9,USD,169.9,already ex-VAT,no,https://www.bukuwireless.com/iphone-15-pro-max-screen-oled
+bukuwireless.com,USA,iphone x,aftermarket-oled,24.9,USD,24.9,already ex-VAT,no,https://www.bukuwireless.com/iphone-x-screen-oled
+bukuwireless.com,USA,iphone xr,aftermarket-incell,15.9,USD,15.9,already ex-VAT,no,https://www.bukuwireless.com/iphone-xr-lcd-screen-premium-incell
+bukuwireless.com,USA,iphone xs max,aftermarket-incell,15.9,USD,15.9,already ex-VAT,no,https://www.bukuwireless.com/iphone-xs-max-lcd-incell
 cellparts.cz,Czechia,iPhone 11,aftermarket-lcd,449,CZK,449,already ex-VAT,YES,https://www.cellparts.cz/iphone-11-lcd-displej-s-dotykovou-vrstvou/
 cellparts.cz,Czechia,iPhone 13,aftermarket-tft,749,CZK,749,already ex-VAT,YES,https://www.cellparts.cz/apple-iphone-13-lcd-displej-dotyk-tft/
 cellphonepartscanada.com,Bulgaria,iPhone 17,aftermarket-incell,109.99,CAD,109.99,VAT basis UNKNOWN — shown as listed,no,/products/iphone-17-high-quality-incell-screen-120hz?variant=44049049190443
@@ -314,7 +339,6 @@ gsmok.com,Poland,iphone 13,aftermarket-incell,27.49,PLN,27.49,already ex-VAT,no,
 gsmok.com,Poland,iphone 13,aftermarket-incell,33.81,PLN,33.81,already ex-VAT,no,https://gsmok.com/en/lcd-iphone-c095
 gsmok.com,Poland,iphone 13,aftermarket-oled,70.16,PLN,70.16,already ex-VAT,no,https://gsmok.com/en/lcd-iphone-c095
 gsmok.com,Poland,iphone 13,aftermarket-oled,86.3,PLN,86.3,already ex-VAT,no,https://gsmok.com/en/lcd-iphone-c095
-gsmok.com,Poland,iphone 13,aftermarket-oled,51.05,PLN,51.05,already ex-VAT,no,https://gsmok.com/en/lcd-iphone-c095
 gsmok.com,Poland,iphone 13 pro,aftermarket-incell,36.39,PLN,36.39,already ex-VAT,no,https://gsmok.com/en/lcd-iphone-c095
 gsmok.com,Poland,iphone 13 pro,aftermarket-incell,44.76,PLN,44.76,already ex-VAT,no,https://gsmok.com/en/lcd-iphone-c095
 gsmok.com,Poland,iphone 13 pro,aftermarket-incell,25.53,PLN,25.53,already ex-VAT,no,https://gsmok.com/en/lcd-iphone-c095
@@ -446,6 +470,7 @@ horepa.fr,France,iPhone 15,aftermarket-soft-oled,69.900001,EUR,58.25,stripped 20
 horepa.fr,France,iPhone 15,aftermarket-incell,32.904001,EUR,27.42,stripped 20% VAT,no,https://horepa.fr/fr/ecran-iphone-15-incell.html
 icell4less.com,Norway,iPhone 11,aftermarket-lcd,79,USD,79,already ex-VAT,no,https://icell4less.com/collections/lcd/products/apple-iphone-11-lcd-touch-screen-digitizer-replacement-assembly-kit-6-1-inch-i11-lcd
 icell4less.com,Norway,iPhone 11 Pro,aftermarket-incell,130,USD,130,already ex-VAT,no,https://icell4less.com/collections/lcd/products/apple-iphone-11-pro-lcd-3d-touch-screen-digitizer-replacement-assembly-kit
+icell4less.com,Norway,iPhone X,aftermarket-tft,54,USD,54,already ex-VAT,no,https://icell4less.com/products/apple-iphone-x-lcd-replacement-tft-glass-display-screen-replacement-kit-tools?_pos=1&_sid=285167960&_ss=r
 icell4less.com,Norway,iPhone X,aftermarket-hard-oled,69,USD,69,already ex-VAT,no,https://icell4less.com/collections/lcd/products/apple-iphone-x-oled-touch-screen-digitizer-replacement-assembly-kit
 icell4less.com,Norway,iPhone XR,aftermarket-lcd,59,USD,59,already ex-VAT,no,https://icell4less.com/collections/lcd/products/apple-iphone-xr-lcd-touch-screen-digitizer-replacement-assembly-kit
 icell4less.com,Norway,iPhone XS,aftermarket-tft,59,USD,59,already ex-VAT,no,https://icell4less.com/collections/lcd/products/apple-iphone-xs-5-8-inch-tft-lcd-touch-screen-replacements-with-assembly-tools-included
@@ -470,12 +495,15 @@ ioutlet.ee,Estonia,iphone xs,aftermarket-oled,99.0,EUR,99.0,already ex-VAT,YES,h
 ioutlet.ee,Estonia,iphone xs,aftermarket-oled,6.03,EUR,6.03,already ex-VAT,YES,https://ioutlet.ee/shop/
 ioutlet.ee,Estonia,iphone xs max,aftermarket-oled,109.0,EUR,109.0,already ex-VAT,YES,https://ioutlet.ee/shop/
 ioutlet.ee,Estonia,iphone xs max,aftermarket-oled,6.64,EUR,6.64,already ex-VAT,YES,https://ioutlet.ee/shop/
-ipfix.dk,Denmark,iPhone 15 Plus,aftermarket-oled,1999,DKK,1599.2,stripped 25% VAT,YES,https://ipfix.dk/product/iphone-15_plus-skaerm-glas-oled-original-oled/
-ipfix.dk,Denmark,iPhone 15 Pro,aftermarket-oled,1999,DKK,1599.2,stripped 25% VAT,YES,https://ipfix.dk/product/iphone-15skaerm-glas-oled-original-oled/
-ipfix.dk,Denmark,iPhone 16 Pro,aftermarket-oled,2799,DKK,2239.2,stripped 25% VAT,YES,https://ipfix.dk/product/iphone-16-pro-skaerm-glas-oled-original-oled/
-ipfix.dk,Denmark,iPhone 16e,aftermarket-oled,999,DKK,799.2,stripped 25% VAT,YES,https://ipfix.dk/product/iphone-16e-skaerm-glaoled-original-oled/
-ipfix.dk,Denmark,iPhone 17,aftermarket-oled,2700,DKK,2160.0,stripped 25% VAT,YES,https://ipfix.dk/product/iphone-17-skaerm-glas-oled-original-oled/
+iparts-4u.co.uk,UK,iphone 11 pro,aftermarket-soft-oled,41.99,GBP,41.99,already ex-VAT,YES,https://www.iparts-4u.co.uk/iphone-11-pro-soft-oled-screen-assembly-clearance-30-day-warranty
+iparts-4u.co.uk,UK,iphone xs,aftermarket-soft-oled,35.99,GBP,35.99,already ex-VAT,YES,https://www.iparts-4u.co.uk/iphone-xs-soft-oled-screen-assembly-clearance-30-day-warranty
+iparts-4u.co.uk,UK,iphone xs max,aftermarket-soft-oled,35.99,GBP,35.99,already ex-VAT,YES,https://www.iparts-4u.co.uk/iphone-xs-max-soft-oled-screen-assembly-clearance-30-day-warranty
+iparts-4u.eu,Ireland,iphone 16e,aftermarket-soft-oled,49.99,EUR,49.99,already ex-VAT,no,https://www.iparts-4u.eu/for-iphone-16e-screen-assembly-soft-oled-ip9
 iphoneersatzteileshop.de,Germany,iPhone 16 Pro Max,aftermarket-oled,139.9,EUR,117.56,stripped 19% VAT,no,https://www.iphoneersatzteileshop.de/iPhone-16-Pro-Max-OLED-Display-Reparaturset
+iphonescreenwholesale.com,China,iphone 11 pro max,aftermarket-oled,24.01,USD,24.01,VAT basis UNKNOWN — shown as listed,no,https://iphonescreenwholesale.com/product/iphone-11-pro-max-oled-screen/
+iphonescreenwholesale.com,China,iphone xr,aftermarket-lcd,11.9,USD,11.9,VAT basis UNKNOWN — shown as listed,no,https://iphonescreenwholesale.com/product/iphone-xr-lcd-screen/
+iphonescreenwholesale.com,China,iphone xs,aftermarket-oled,11.21,USD,11.21,VAT basis UNKNOWN — shown as listed,no,https://iphonescreenwholesale.com/product/iphone-xs-oled-screen/
+iphonescreenwholesale.com,China,iphone xs max,aftermarket-oled,22.2,USD,22.2,VAT basis UNKNOWN — shown as listed,no,https://iphonescreenwholesale.com/product/iphone-xs-max-oled-screen/
 irepart.com,China,iphone 11 pro,aftermarket-incell,7.3,USD,7.3,already ex-VAT,no,https://irepart.com/collections/screen
 irepart.com,China,iphone 12 pro,aftermarket-incell,8.0,USD,8.0,already ex-VAT,no,https://irepart.com/collections/screen
 irepart.com,China,iphone 12 pro max,aftermarket-incell,9.0,USD,9.0,already ex-VAT,no,https://irepart.com/collections/screen
@@ -504,6 +532,14 @@ irepart.com,China,iphone 16 pro,aftermarket-incell,31.66,USD,31.66,already ex-VA
 irepart.com,China,iphone 16 pro max,aftermarket-incell,32.0,USD,32.0,already ex-VAT,no,https://irepart.com/collections/oled-screen
 irepart.com,China,iphone 16 pro max,aftermarket-incell,32.0,USD,32.0,already ex-VAT,no,https://irepart.com/collections/screen
 irepart.com,China,iphone 16 pro max,aftermarket-hard-oled,34.2,USD,34.2,already ex-VAT,no,https://irepart.com/collections/screen
+ishine-trade.com,UK,iphone 11,aftermarket-incell,11.52,GBP,11.52,already ex-VAT,no,https://ishine-trade.com/product/jk-incell-apple-iphone-11-lcd-module-display-and-touch-screen-digitizer-assembly/
+ishine-trade.com,UK,iphone 11 pro,aftermarket-incell,12.67,GBP,12.67,already ex-VAT,no,https://ishine-trade.com/product/jk-incell-apple-iphone-11-pro-lcd-module-display-and-touch-screen-digitizer-assembly/
+ishine-trade.com,UK,iphone 13,aftermarket-incell,16.13,GBP,16.13,already ex-VAT,no,https://ishine-trade.com/product/jk-fhd-incell-iphone-13-lcd-module-display-and-touch-screen-digitizer-assembly/
+ishine-trade.com,UK,iphone 13 mini,aftermarket-incell,23.05,GBP,23.05,already ex-VAT,no,https://ishine-trade.com/product/jk-fhd-incell-iphone-13-mini-lcd-module-display-and-touch-screen-digitizer-assembly/
+ishine-trade.com,UK,iphone 13 pro,aftermarket-incell,17.28,GBP,17.28,already ex-VAT,no,https://ishine-trade.com/product/jk-fhd-incell-iphone-13-pro-lcd-module-display-and-touch-screen-digitizer-assembly/
+ishine-trade.com,UK,iphone 16 pro max,aftermarket-soft-oled,57.64,GBP,57.64,already ex-VAT,no,https://ishine-trade.com/product/soft-oled-iphone-16-pro-max-display-and-touch-screen-digitizer-assembly/
+ishine-trade.com,UK,iphone 16 pro max,aftermarket-hard-oled,138.37,GBP,138.37,already ex-VAT,no,https://ishine-trade.com/product/hard-oled-iphone-16-pro-max-display-and-touch-screen-digitizer-assembly/
+ishine-trade.com,UK,iphone 16 pro max,aftermarket-incell,34.58,GBP,34.58,already ex-VAT,no,https://ishine-trade.com/product/jk-incell-apple-iphone-16-pro-max-lcd-module-display-and-touch-screen-digitizer-assembly/
 ishine.ie,Ireland,iPhone 14 Pro,aftermarket-soft-oled,55,EUR,55,already ex-VAT,no,https://techwave.ie/product/soft-oled-iphone-14-pro-display-and-touch-screen-digitizer-assembly-2/
 ishine.ie,Ireland,iPhone 15,aftermarket-soft-oled,49,EUR,49,already ex-VAT,no,https://techwave.ie/product/soft-oled-iphone-15-display-and-touch-screen-digitizer-assembly-2/
 ishine.ie,Ireland,iPhone 15 Pro Max,aftermarket-soft-oled,65,EUR,65,already ex-VAT,no,https://techwave.ie/product/soft-oled-iphone-15-pro-max-display-and-touch-screen-digitizer-assembly/
@@ -512,6 +548,13 @@ ishine.ie,Ireland,iPhone 16 Pro,aftermarket-soft-oled,70,EUR,70,already ex-VAT,n
 ishine.ie,Ireland,iPhone 16 Pro Max,aftermarket-soft-oled,75,EUR,75,already ex-VAT,no,https://techwave.ie/product/soft-oled-screen-for-iphone-16-pro-max-display-and-touch-screen-digitizer-assembly/
 ishine.ie,Ireland,iPhone 16e,aftermarket-soft-oled,49,EUR,49,already ex-VAT,no,https://techwave.ie/product/soft-oled-iphone-16e-display-and-touch-screen-digitizer-assembly-2/
 ishine.ie,Ireland,iPhone 16e,aftermarket-soft-oled,49,EUR,49,already ex-VAT,no,https://techwave.ie/product/soft-oled-iphone-16e-display-and-touch-screen-digitizer-assembly/
+ishine.ie,Ireland,iphone 14 pro,aftermarket-soft-oled,55.0,EUR,55.0,already ex-VAT,no,https://techwave.ie/product/soft-oled-iphone-14-pro-display-and-touch-screen-digitizer-assembly-2/
+ishine.ie,Ireland,iphone 15,aftermarket-soft-oled,49.0,EUR,49.0,already ex-VAT,no,https://techwave.ie/product/soft-oled-iphone-15-display-and-touch-screen-digitizer-assembly-2/
+ishine.ie,Ireland,iphone 15 pro max,aftermarket-soft-oled,65.0,EUR,65.0,already ex-VAT,no,https://techwave.ie/product/soft-oled-iphone-15-pro-max-display-and-touch-screen-digitizer-assembly/
+ishine.ie,Ireland,iphone 16,aftermarket-soft-oled,49.0,EUR,49.0,already ex-VAT,no,https://techwave.ie/product/soft-oled-iphone-16-display-and-touch-screen-digitizer-assembly-2/
+ishine.ie,Ireland,iphone 16 pro,aftermarket-soft-oled,70.0,EUR,70.0,already ex-VAT,no,https://techwave.ie/product/soft-oled-screen-for-iphone-16-pro-display-and-touch-screen-digitizer-assembly/
+ishine.ie,Ireland,iphone 16 pro max,aftermarket-soft-oled,75.0,EUR,75.0,already ex-VAT,no,https://techwave.ie/product/soft-oled-screen-for-iphone-16-pro-max-display-and-touch-screen-digitizer-assembly/
+ishine.ie,Ireland,iphone 16e,aftermarket-soft-oled,49.0,EUR,49.0,already ex-VAT,no,https://techwave.ie/product/soft-oled-iphone-16e-display-and-touch-screen-digitizer-assembly-2/
 isn-parts.com,Bulgaria,iPhone 11,aftermarket-lcd,19.99,EUR,19.99,VAT basis UNKNOWN — shown as listed,no,https://isn-parts.com/produkt/iphone-11-displei-lcd
 isn-parts.com,Bulgaria,iPhone 11 Pro,aftermarket-lcd,21.99,EUR,21.99,VAT basis UNKNOWN — shown as listed,no,https://isn-parts.com/produkt/iphone-11-pro-displei-lcd
 isn-parts.com,Bulgaria,iPhone 12,aftermarket-lcd,24.99,EUR,24.99,VAT basis UNKNOWN — shown as listed,no,https://isn-parts.com/produkt/iphone-12-lcd-displei
@@ -520,7 +563,6 @@ isn-parts.com,Bulgaria,iPhone 13 Pro,aftermarket-oled,65,EUR,65,VAT basis UNKNOW
 isn-parts.com,Bulgaria,iPhone 13 Pro Max,aftermarket-oled,70,EUR,70,VAT basis UNKNOWN — shown as listed,no,https://isn-parts.com/produkt/iphone-13-pro-max-oled-displei
 isn-parts.com,Bulgaria,iPhone 14,aftermarket-lcd,29.99,EUR,29.99,VAT basis UNKNOWN — shown as listed,no,https://isn-parts.com/produkt/iphone-14-lcd-displei
 iswap.cz,Czechia,iPhone 12 Pro Max,aftermarket-oled,1790,CZK,1790,already ex-VAT,YES,https://www.iswap.cz/iphone-12-pro-max/oled-displej-premium-iphone-12-pro-max/
-iswap.cz,Czechia,iPhone 13 mini,aftermarket-oled,3790,CZK,3790,already ex-VAT,YES,https://www.iswap.cz/iphone-13-mini/originalni-oled-displej-iphone-13-mini/
 iswap.cz,Czechia,iPhone 17 Pro,aftermarket-lcd,1890,CZK,1890,already ex-VAT,YES,https://www.iswap.cz/iphone-17pro/lcd-displej-basic-iphone-17-pro/
 italiatech.it,Italy,iPhone 12 Pro Max,aftermarket-incell,20.6,EUR,16.89,stripped 22% VAT,no,https://www.italiatech.it/display-lcd-zy-fhd-incell-cof-per-apple-iphone-12-pro-max-touch-screen-vetro-schermo-frame-nero-ic-intercambiabile-.1.1.957.gp.94217.uw
 italiatech.it,Italy,iPhone 12 mini,aftermarket-incell,31.05,EUR,25.45,stripped 22% VAT,no,https://www.italiatech.it/display-lcd-zy-fhd-incell-per-apple-iphone-12-mini-touch-screen-schermo-frame-nero.1.1.957.gp.96313.uw
@@ -540,6 +582,26 @@ lcd-phone.com,France,iPhone 12 / 12 Pro,aftermarket-incell,12,EUR,12,VAT basis U
 lemes.cz,Czechia,iPhone 16 Pro,aftermarket-tft,1459,CZK,1459,already ex-VAT,YES,https://www.lemes.cz/apple-iphone-16-pro-displej-dotykova-plocha-cerna-tft/
 lemes.cz,Czechia,iPhone XR,aftermarket-tft,599,CZK,599,already ex-VAT,YES,https://www.lemes.cz/apple-iphone-xr-displej-dotykova-plocha-cerna-tft/
 lemes.hu,Hungary,iPhone 15,aftermarket-hard-oled,31890,HUF,31890,already ex-VAT,YES,https://www.lemes.hu/apple-iphone-15-kijelzo-erinto-fekete-hard-oled/
+lltrader.com,China,iphone 11,aftermarket-lcd,14.99,USD,14.99,VAT basis UNKNOWN — shown as listed,no,https://www.lltrader.com/products/iphone-11-screen-replacement-lcd-display-assembly?_pos=1&_sid=4a3084294&_ss=r
+lltrader.com,China,iphone 11 pro,aftermarket-lcd,14.99,USD,14.99,VAT basis UNKNOWN — shown as listed,no,https://www.lltrader.com/products/iphone-11-pro-screen-replacement-oled-display-assembly?_pos=10&_sid=4a3084294&_ss=r
+lltrader.com,China,iphone 11 pro max,aftermarket-lcd,17.99,USD,17.99,VAT basis UNKNOWN — shown as listed,no,https://www.lltrader.com/products/iphone-11-pro-max-screen-replacement-oled-display-assembly?_pos=15&_sid=4a3084294&_ss=r
+lltrader.com,China,iphone 12 mini,aftermarket-lcd,21.99,USD,21.99,VAT basis UNKNOWN — shown as listed,no,https://www.lltrader.com/collections/for-iphone-lcd-screen-replacement/products/for-iphone-12-mini-screen-replacement-lcd-display-touch-digitizer-assembly
+lltrader.com,China,iphone 12 pro,aftermarket-lcd,15.99,USD,15.99,VAT basis UNKNOWN — shown as listed,no,https://www.lltrader.com/products/iphone-12-12-pro-screen-replacement-lcd-display-touch-digitizer-assembly?_pos=7&_sid=4a3084294&_ss=r
+lltrader.com,China,iphone 12 pro max,aftermarket-lcd,19.99,USD,19.99,VAT basis UNKNOWN — shown as listed,no,https://www.lltrader.com/products/iphone-12-pro-max-screen-replacement-lcd-display-touch-digitizer-assembly?_pos=12&_sid=4a3084294&_ss=r
+lltrader.com,China,iphone 13,aftermarket-lcd,19.99,USD,19.99,VAT basis UNKNOWN — shown as listed,no,https://www.lltrader.com/products/iphone-13-screen-replacement-lcd-display-touch-digitizer-assembly?_pos=2&_sid=4a3084294&_ss=r
+lltrader.com,China,iphone 13 pro,aftermarket-lcd,23.99,USD,23.99,VAT basis UNKNOWN — shown as listed,no,https://www.lltrader.com/products/iphone-13-pro-lcd-screen-replacement?_pos=14&_sid=4a3084294&_ss=r
+lltrader.com,China,iphone 13 pro max,aftermarket-lcd,29.99,USD,29.99,VAT basis UNKNOWN — shown as listed,no,https://www.lltrader.com/products/iphone-13-pro-max-lcd-screen-replacement?_pos=13&_sid=4a3084294&_ss=r
+lltrader.com,China,iphone 14,aftermarket-lcd,19.99,USD,19.99,VAT basis UNKNOWN — shown as listed,no,https://www.lltrader.com/products/iphone-14-screen-replacement-lcd-display-touch-digitizer-assembly?_pos=6&_sid=4a3084294&_ss=r
+lltrader.com,China,iphone 14 plus,aftermarket-lcd,22.99,USD,22.99,VAT basis UNKNOWN — shown as listed,no,https://www.lltrader.com/products/iphone-14-plus-screen-replacement-lcd-display-touch-digitizer-assembly?_pos=16&_sid=4a3084294&_ss=r
+lltrader.com,China,iphone 14 pro,aftermarket-lcd,24.99,USD,24.99,VAT basis UNKNOWN — shown as listed,no,https://www.lltrader.com/products/iphone-14-pro-screen-replacement-lcd-display-touch-digitizer-assembly?_pos=5&_sid=4a3084294&_ss=r
+lltrader.com,China,iphone 14 pro max,aftermarket-lcd,29.99,USD,29.99,VAT basis UNKNOWN — shown as listed,no,https://www.lltrader.com/products/iphone-14-pro-max-screen-replacement-lcd-display-touch-digitizer-assembly?_pos=11&_sid=4a3084294&_ss=r
+lltrader.com,China,iphone 16 plus,aftermarket-lcd,34.99,USD,34.99,VAT basis UNKNOWN — shown as listed,no,https://www.lltrader.com/collections/best-sell-iphone-screen-1/products/iphone-16-plus-screen-replacement-lcd-display-touch-digitizer-assembly
+lltrader.com,China,iphone 16 pro,aftermarket-lcd,54.99,USD,54.99,VAT basis UNKNOWN — shown as listed,no,https://www.lltrader.com/collections/best-sell-iphone-screen-1/products/iphone-16-pro-screen-replacement-lcd-display-touch-digitizer-assembly
+lltrader.com,China,iphone 16 pro max,aftermarket-lcd,64.99,USD,64.99,VAT basis UNKNOWN — shown as listed,no,https://www.lltrader.com/collections/best-sell-iphone-screen-1/products/iphone-16-pro-max-screen-replacement-lcd-display-touch-digitizer-assembly
+lltrader.com,China,iphone x,aftermarket-lcd,13.99,USD,13.99,VAT basis UNKNOWN — shown as listed,no,https://www.lltrader.com/products/iphone-x-screen-replacement-display-assembly?_pos=4&_sid=4a3084294&_ss=r
+lltrader.com,China,iphone xr,aftermarket-lcd,14.99,USD,14.99,VAT basis UNKNOWN — shown as listed,no,https://www.lltrader.com/products/iphone-xr-screen-replacement-lcd-display-assembly?_pos=3&_sid=4a3084294&_ss=r
+lltrader.com,China,iphone xs,aftermarket-lcd,13.99,USD,13.99,VAT basis UNKNOWN — shown as listed,no,https://www.lltrader.com/products/iphone-xs-screen-replacement-display-assembly?_pos=8&_sid=4a3084294&_ss=r
+lltrader.com,China,iphone xs max,aftermarket-lcd,15.99,USD,15.99,VAT basis UNKNOWN — shown as listed,no,https://www.lltrader.com/products/iphone-xs-max-screen-replacement-display-assembly?_pos=9&_sid=4a3084294&_ss=r
 marsietis.lt,Lithuania,iphone 14 pro,aftermarket-oled,50.66,EUR,50.66,VAT basis UNKNOWN — shown as listed,no,https://marsietis.lt/ekranai-touch/ekranas-skirtas-iphone-14-pro-su-lietimui-jautriu-stikliuku-oled-removable-ic-1269167
 marsietis.lt,Lithuania,iphone 14 pro,aftermarket-oled,66.0,EUR,66.0,VAT basis UNKNOWN — shown as listed,no,https://marsietis.lt/719-ekranai-touch/
 marsietis.lt,Lithuania,iphone 14 pro max,aftermarket-oled,58.25,EUR,58.25,VAT basis UNKNOWN — shown as listed,no,https://marsietis.lt/ekranai-touch/ekranas-skirtas-iphone-14-pro-max-su-lietimui-jautriu-stikliuku-oled-removable-ic-1269166
@@ -812,12 +874,6 @@ onstoreitalia.it,Italy,iPhone 15 Pro Max,aftermarket-lcd,78.91,EUR,78.91,already
 onstoreitalia.it,Italy,iPhone XS,aftermarket-lcd,22.95,EUR,22.95,already ex-VAT,no,https://onstoreitalia.it/products/display-iphone-xs-compatibile?_pos=5&_sid=39a43ba90&_ss=r
 onstoreitalia.it,Italy,iPhone XS,aftermarket-lcd,27,EUR,27,already ex-VAT,no,https://onstoreitalia.it/products/display-iphone-xs-oem?_pos=8&_sid=39a43ba90&_ss=r
 onstoreitalia.it,Italy,iPhone XS Max,aftermarket-lcd,24.16,EUR,24.16,already ex-VAT,no,https://onstoreitalia.it/products/display-iphone-xs-max-compatibile?_pos=4&_sid=39a43ba90&_ss=r
-outletaccessori.it,Italy,iPhone 11,aftermarket-oled,60,EUR,60,already ex-VAT,no,https://www.outletaccessori.it/display-sharp/4239-display-originale-sharp-apple-iphone-11-nero-8596311249105.html
-outletaccessori.it,Italy,iPhone 11 Pro,aftermarket-oled,70,EUR,70,already ex-VAT,no,https://www.outletaccessori.it/display-sharp/4316-display-originale-sharp-apple-iphone-11-PRO-8596311235443.html
-outletaccessori.it,Italy,iPhone 11 Pro Max,aftermarket-oled,70,EUR,70,already ex-VAT,no,https://www.outletaccessori.it/display-sharp/4317-display-originale-sharp-apple-iphone-11-PRO-MAX-8596311187940.html
-outletaccessori.it,Italy,iPhone X,aftermarket-oled,60,EUR,60,already ex-VAT,no,https://www.outletaccessori.it/display-sharp/3941-display-originale-sharp-apple-iphone-x-nero-8596311188183.html
-outletaccessori.it,Italy,iPhone XR,aftermarket-oled,60,EUR,60,already ex-VAT,no,https://www.outletaccessori.it/display-sharp/3995-display-originale-sharp-apple-iphone-xr-nero-7443539071067.html
-outletaccessori.it,Italy,iPhone XS,aftermarket-oled,60,EUR,60,already ex-VAT,no,https://www.outletaccessori.it/display-sharp/3994-display-originale-sharp-apple-iphone-xs-nero-8596311188176.html
 outletaccessori.it,Italy,iPhone XS Max,aftermarket-oled,60,EUR,60,already ex-VAT,no,https://www.outletaccessori.it/display-sharp/4234-display-originale-sharp-apple-iphone-xs-max-nero-8596311212468.html
 partexpert.nl,Netherlands,iPhone 11,aftermarket-lcd,54.95,EUR,54.95,already ex-VAT,no,https://www.partexpert.nl/en/iphone-11-display-and-lcd6.html
 partexpert.nl,Netherlands,iPhone 11,aftermarket-lcd,29.95,EUR,29.95,already ex-VAT,no,https://www.partexpert.nl/en/iphone-11-oem-display-and-lcd.html
@@ -842,6 +898,22 @@ phonefix.fi,Finland,iPhone 15,aftermarket-incell,44.9,EUR,44.9,already ex-VAT,no
 phonefix.fi,Finland,iPhone 15 Plus,aftermarket-soft-oled,69.9,EUR,69.9,already ex-VAT,no,https://phonefix.fi/product/1703/iphone-15-plus-naytto-soft-oled
 phonefix.fi,Finland,iPhone 16e,aftermarket-soft-oled,69.9,EUR,69.9,already ex-VAT,no,https://phonefix.fi/product/1608/iphone-16e-naytto-soft-oled
 phonefix.fi,Finland,iPhone 16e,aftermarket-incell,44.9,EUR,44.9,already ex-VAT,no,https://phonefix.fi/product/1607/iphone-16e-naytto-in-cell-lcd
+phonelcdparts.com,USA,iphone 11,aftermarket-incell,14.0,USD,14.0,already ex-VAT,no,https://www.phonelcdparts.com/iphone-11-lcd-assembly-with-plate-incell-qv7
+phonelcdparts.com,USA,iphone 11,aftermarket-incell,17.75,USD,17.75,already ex-VAT,no,https://www.phonelcdparts.com/iphone-11-lcd-assembly-with-steel-plate-incell-qv7-exclusive-lcd-breakage-warranty-ip11-qv7-v2
+phonelcdparts.com,USA,iphone 12 pro,aftermarket-incell,16.0,USD,16.0,already ex-VAT,no,https://www.phonelcdparts.com/iphone-12-12-pro-lcd-assembly-incell-qv7-12p-qv7-inc
+phonelcdparts.com,USA,iphone 12 pro max,aftermarket-incell,25.0,USD,25.0,already ex-VAT,no,https://www.phonelcdparts.com/iphone-12-pro-max-lcd-assembly-incell-qv7-12mx-qv7-inc
+phonelcdparts.com,USA,iphone 13,aftermarket-incell,18.0,USD,18.0,already ex-VAT,no,https://www.phonelcdparts.com/iphone-13-lcd-assembly-incell-qv7-13-qv7-inc
+phonelcdparts.com,USA,iphone 13 pro max,aftermarket-incell,26.0,USD,26.0,already ex-VAT,no,https://www.phonelcdparts.com/iphone-13-pro-max-lcd-assembly-incell-qv7-13pm-qv7-inc
+phonelcdparts.com,USA,iphone 13 pro max,aftermarket-oled,44.5,USD,44.5,already ex-VAT,no,https://www.phonelcdparts.com/oled-assembly-for-iphone-13-pro-max-aftermarket-qv8-soft-version-2-120hz-ic-transfer-eligible-13pm-qv8-v2soft
+phonelcdparts.com,USA,iphone 14,aftermarket-incell,19.0,USD,19.0,already ex-VAT,no,https://www.phonelcdparts.com/iphone-14-lcd-assembly-incell-qv7-14-qv7-inc
+phonelcdparts.com,USA,iphone 14 pro max,aftermarket-incell,36.0,USD,36.0,already ex-VAT,no,https://www.phonelcdparts.com/iphone-14-pro-max-lcd-assembly-incell-qv7-14pm-qv7-inc
+phonelcdparts.com,USA,iphone 14 pro max,aftermarket-oled,50.5,USD,50.5,already ex-VAT,no,https://www.phonelcdparts.com/oled-assembly-for-iphone-14-pro-max-aftermarket-qv8-soft-version-2-120hz-ic-transfer-eligib-14pm-qv8-v2soft
+phonelcdparts.com,USA,iphone 15,aftermarket-incell,22.0,USD,22.0,already ex-VAT,no,https://www.phonelcdparts.com/iphone-15-lcd-assembly-incell-qv7-15-qv7-inc
+phonelcdparts.com,USA,iphone 15 plus,aftermarket-incell,23.0,USD,23.0,already ex-VAT,no,https://www.phonelcdparts.com/iphone-15-plus-lcd-assembly-incell-qv7-15pl-qv7-inc
+phonelcdparts.com,USA,iphone 15 pro max,aftermarket-oled,49.0,USD,49.0,already ex-VAT,no,https://www.phonelcdparts.com/oled-assembly-for-iphone-15-pro-max-aftermarket-qv8-soft-version-2-120hz-ic-transfer-eligible-15pm-qv8-v2soft
+phonelcdparts.com,USA,iphone 15 pro max,aftermarket-incell,38.0,USD,38.0,already ex-VAT,no,https://www.phonelcdparts.com/lcd-assembly-for-iphone-15-pro-max-aftermarket-incell-qv7-90hz-ic-transfer-eligible-15pm-qv7-inc
+phonelcdparts.com,USA,iphone xr,aftermarket-incell,14.5,USD,14.5,already ex-VAT,no,https://www.phonelcdparts.com/iphone-xr-lcd-assembly-with-plate-incell-qv7
+phonelcdparts.com,USA,iphone xr,aftermarket-incell,16.75,USD,16.75,already ex-VAT,no,https://www.phonelcdparts.com/iphone-xr-lcd-assembly-with-steel-plate-incell-qv7-exclusive-lcd-breakage-warranty-xr-qv7-v2
 phonepartsbg.com,Bulgaria,iPhone 11,aftermarket-lcd,30,BGN,30,already ex-VAT,YES,https://www.phonepartsbg.com/index.php?route=product/product&product_id=1542
 phonepartsbg.com,Bulgaria,iPhone 11,aftermarket-lcd,38,BGN,38,already ex-VAT,YES,https://www.phonepartsbg.com/index.php?route=product/product&product_id=1490
 phonepartsbg.com,Bulgaria,iPhone 11 Pro,aftermarket-lcd,45,BGN,45,already ex-VAT,YES,https://www.phonepartsbg.com/index.php?route=product/product&product_id=1491
@@ -861,12 +933,83 @@ piecegsm.com,France,iPhone 13 Pro,aftermarket-soft-oled,60,EUR,60,VAT basis UNKN
 preciosadictos.com,Spain,iphone 11,aftermarket-incell,21.770000000000003,EUR,17.99,stripped 21% VAT,no,https://www.preciosadictos.com/pantalla-para-iphone-11-incell-p-23365.html
 ptmobil.cz,Czechia,iPhone 11,aftermarket-lcd,519,CZK,519,VAT basis UNKNOWN — shown as listed,YES,https://www.ptmobil.cz/17956-lcd-displej-apple-iphone-11-vcetne-dotykoveho-skla-cerny-tactical-true-color.html
 reflexmagasin.com,France,iPhone 17 Pro,aftermarket-incell,75,EUR,62.5,stripped 20% VAT,no,https://reflexmagasin.com/products/ecran-iphone-17-pro-lcd-incell-120hz?variant=55227746713934
+repairpartsusa.com,Austria,iPhone 11,aftermarket-incell,17.59,USD,17.59,VAT basis UNKNOWN — shown as listed,no,https://repairpartsusa.com/products/iphone-11-premium-screen
+repairpartsusa.com,Austria,iPhone 11,aftermarket-incell,15.19,USD,15.19,VAT basis UNKNOWN — shown as listed,no,https://repairpartsusa.com/products/iphone-11-grade-a-incell-lcd-and-digitizer-glass-screen-replacement-with-back-plate
+repairpartsusa.com,Austria,iPhone 11 Pro,aftermarket-soft-oled,46.39,USD,46.39,VAT basis UNKNOWN — shown as listed,no,https://repairpartsusa.com/products/iphone-11-pro-premium-black-soft-oled-and-digitizer-glass-screen-replacement
+repairpartsusa.com,Austria,iPhone 13,aftermarket-incell,21.59,USD,21.59,VAT basis UNKNOWN — shown as listed,no,https://repairpartsusa.com/products/iphone-13-grade-a-incell-lcd-and-digitizer-glass-screen-replacement-with-back-plate
+repairpartsusa.com,Austria,iPhone 14 Pro Max,aftermarket-soft-oled,79.99,USD,79.99,VAT basis UNKNOWN — shown as listed,no,https://repairpartsusa.com/products/iphone-14-pro-max-premium-soft-oled-and-digitizer-glass-screen-replacement
+repairpartsusa.com,Austria,iPhone 15 Pro Max,aftermarket-soft-oled,95.99,USD,95.99,VAT basis UNKNOWN — shown as listed,no,https://repairpartsusa.com/products/iphone-15-pro-max-premium-soft-oled-and-glass-screen-replacement
+repairpartsusa.com,Austria,iPhone XR,aftermarket-lcd,15.19,USD,15.19,VAT basis UNKNOWN — shown as listed,no,https://repairpartsusa.com/products/iphone-xr-grade-a-black-screen-replacement
+repairpartsusa.com,Austria,iPhone XS Max,aftermarket-hard-oled,42.39,USD,42.39,VAT basis UNKNOWN — shown as listed,no,https://repairpartsusa.com/products/iphone-xs-max-hard-oled
+repairpartsusa.com,USA,iphone 11 pro,aftermarket-lcd,19.99,USD,19.99,VAT basis UNKNOWN — shown as listed,no,https://repairpartsusa.com/collections/iphone-screens
+repairpartsusa.com,USA,iphone 11 pro,aftermarket-soft-oled,46.39,USD,46.39,VAT basis UNKNOWN — shown as listed,no,https://repairpartsusa.com/collections/iphone-screens
+repairpartsusa.com,USA,iphone 11 pro,aftermarket-hard-oled,38.39,USD,38.39,VAT basis UNKNOWN — shown as listed,no,https://repairpartsusa.com/collections/iphone-screens
+repairpartsusa.com,USA,iphone 11 pro max,aftermarket-lcd,20.39,USD,20.39,VAT basis UNKNOWN — shown as listed,no,https://repairpartsusa.com/collections/iphone-screens
+repairpartsusa.com,USA,iphone 12 mini,aftermarket-incell,38.39,USD,38.39,VAT basis UNKNOWN — shown as listed,no,https://repairpartsusa.com/collections/iphone-screens
+repairpartsusa.com,USA,iphone 12 mini,aftermarket-hard-oled,43.99,USD,43.99,VAT basis UNKNOWN — shown as listed,no,https://repairpartsusa.com/collections/iphone-screens
+repairpartsusa.com,USA,iphone 12 pro,aftermarket-incell,19.99,USD,19.99,VAT basis UNKNOWN — shown as listed,no,https://repairpartsusa.com/collections/iphone-screens
+repairpartsusa.com,USA,iphone 12 pro,aftermarket-hard-oled,35.59,USD,35.59,VAT basis UNKNOWN — shown as listed,no,https://repairpartsusa.com/collections/iphone-screens
+repairpartsusa.com,USA,iphone 12 pro,aftermarket-soft-oled,47.99,USD,47.99,VAT basis UNKNOWN — shown as listed,no,https://repairpartsusa.com/collections/iphone-screens
+repairpartsusa.com,USA,iphone 12 pro max,aftermarket-incell,26.79,USD,26.79,VAT basis UNKNOWN — shown as listed,no,https://repairpartsusa.com/collections/iphone-screens
+repairpartsusa.com,USA,iphone 12 pro max,aftermarket-hard-oled,46.39,USD,46.39,VAT basis UNKNOWN — shown as listed,no,https://repairpartsusa.com/collections/iphone-screens
+repairpartsusa.com,USA,iphone 12 pro max,aftermarket-soft-oled,53.99,USD,53.99,VAT basis UNKNOWN — shown as listed,no,https://repairpartsusa.com/collections/iphone-screens
+repairpartsusa.com,USA,iphone 13,aftermarket-lcd,21.59,USD,21.59,VAT basis UNKNOWN — shown as listed,no,https://repairpartsusa.com/collections/iphone-screens
+repairpartsusa.com,USA,iphone 13,aftermarket-hard-oled,39.59,USD,39.59,VAT basis UNKNOWN — shown as listed,no,https://repairpartsusa.com/collections/iphone-screens
+repairpartsusa.com,USA,iphone 13,aftermarket-soft-oled,45.99,USD,45.99,VAT basis UNKNOWN — shown as listed,no,https://repairpartsusa.com/collections/iphone-screens
+repairpartsusa.com,USA,iphone 13 mini,aftermarket-incell,31.99,USD,31.99,VAT basis UNKNOWN — shown as listed,no,https://repairpartsusa.com/collections/iphone-screens
+repairpartsusa.com,USA,iphone 13 mini,aftermarket-hard-oled,47.99,USD,47.99,VAT basis UNKNOWN — shown as listed,no,https://repairpartsusa.com/collections/iphone-screens
+repairpartsusa.com,USA,iphone 13 mini,aftermarket-soft-oled,65.59,USD,65.59,VAT basis UNKNOWN — shown as listed,no,https://repairpartsusa.com/collections/iphone-screens
+repairpartsusa.com,USA,iphone 13 pro,aftermarket-lcd,31.99,USD,31.99,VAT basis UNKNOWN — shown as listed,no,https://repairpartsusa.com/collections/iphone-screens
+repairpartsusa.com,USA,iphone 13 pro,aftermarket-hard-oled,49.99,USD,49.99,VAT basis UNKNOWN — shown as listed,no,https://repairpartsusa.com/collections/iphone-screens
+repairpartsusa.com,USA,iphone 13 pro,aftermarket-soft-oled,55.99,USD,55.99,VAT basis UNKNOWN — shown as listed,no,https://repairpartsusa.com/collections/iphone-screens
+repairpartsusa.com,USA,iphone 13 pro max,aftermarket-lcd,31.99,USD,31.99,VAT basis UNKNOWN — shown as listed,no,https://repairpartsusa.com/collections/iphone-screens
+repairpartsusa.com,USA,iphone 13 pro max,aftermarket-hard-oled,39.59,USD,39.59,VAT basis UNKNOWN — shown as listed,no,https://repairpartsusa.com/collections/iphone-screens
+repairpartsusa.com,USA,iphone 13 pro max,aftermarket-soft-oled,46.39,USD,46.39,VAT basis UNKNOWN — shown as listed,no,https://repairpartsusa.com/collections/iphone-screens
+repairpartsusa.com,USA,iphone 14,aftermarket-lcd,22.39,USD,22.39,VAT basis UNKNOWN — shown as listed,no,https://repairpartsusa.com/collections/iphone-screens
+repairpartsusa.com,USA,iphone 14,aftermarket-soft-oled,44.79,USD,44.79,VAT basis UNKNOWN — shown as listed,no,https://repairpartsusa.com/collections/iphone-screens
+repairpartsusa.com,USA,iphone 14,aftermarket-hard-oled,39.19,USD,39.19,VAT basis UNKNOWN — shown as listed,no,https://repairpartsusa.com/collections/iphone-screens
+repairpartsusa.com,USA,iphone 14 plus,aftermarket-lcd,23.99,USD,23.99,VAT basis UNKNOWN — shown as listed,no,https://repairpartsusa.com/collections/iphone-screens
+repairpartsusa.com,USA,iphone 14 plus,aftermarket-hard-oled,46.39,USD,46.39,VAT basis UNKNOWN — shown as listed,no,https://repairpartsusa.com/collections/iphone-screens
+repairpartsusa.com,USA,iphone 14 plus,aftermarket-soft-oled,49.99,USD,49.99,VAT basis UNKNOWN — shown as listed,no,https://repairpartsusa.com/collections/iphone-screens
+repairpartsusa.com,USA,iphone 14 pro,aftermarket-lcd,34.39,USD,34.39,VAT basis UNKNOWN — shown as listed,no,https://repairpartsusa.com/collections/iphone-screens
+repairpartsusa.com,USA,iphone 14 pro,aftermarket-hard-oled,71.59,USD,71.59,VAT basis UNKNOWN — shown as listed,no,https://repairpartsusa.com/collections/iphone-screens
+repairpartsusa.com,USA,iphone 14 pro,aftermarket-soft-oled,82.39,USD,82.39,VAT basis UNKNOWN — shown as listed,no,https://repairpartsusa.com/collections/iphone-screens
+repairpartsusa.com,USA,iphone 14 pro max,aftermarket-lcd,39.99,USD,39.99,VAT basis UNKNOWN — shown as listed,no,https://repairpartsusa.com/collections/iphone-screens
+repairpartsusa.com,USA,iphone 14 pro max,aftermarket-hard-oled,87.99,USD,87.99,VAT basis UNKNOWN — shown as listed,no,https://repairpartsusa.com/collections/iphone-screens
+repairpartsusa.com,USA,iphone 14 pro max,aftermarket-soft-oled,79.99,USD,79.99,VAT basis UNKNOWN — shown as listed,no,https://repairpartsusa.com/collections/iphone-screens
+repairpartsusa.com,USA,iphone 15,aftermarket-hard-oled,61.19,USD,61.19,VAT basis UNKNOWN — shown as listed,no,https://repairpartsusa.com/collections/iphone-screens
+repairpartsusa.com,USA,iphone 15,aftermarket-soft-oled,79.39,USD,79.39,VAT basis UNKNOWN — shown as listed,no,https://repairpartsusa.com/collections/iphone-screens
+repairpartsusa.com,USA,iphone 15,aftermarket-lcd,23.99,USD,23.99,VAT basis UNKNOWN — shown as listed,no,https://repairpartsusa.com/collections/iphone-screens
+repairpartsusa.com,USA,iphone 15 plus,aftermarket-lcd,29.99,USD,29.99,VAT basis UNKNOWN — shown as listed,no,https://repairpartsusa.com/collections/iphone-screens
+repairpartsusa.com,USA,iphone 15 plus,aftermarket-soft-oled,79.59,USD,79.59,VAT basis UNKNOWN — shown as listed,no,https://repairpartsusa.com/collections/iphone-screens
+repairpartsusa.com,USA,iphone 15 pro,aftermarket-lcd,35.99,USD,35.99,VAT basis UNKNOWN — shown as listed,no,https://repairpartsusa.com/collections/iphone-screens
+repairpartsusa.com,USA,iphone 15 pro,aftermarket-hard-oled,67.99,USD,67.99,VAT basis UNKNOWN — shown as listed,no,https://repairpartsusa.com/collections/iphone-screens
+repairpartsusa.com,USA,iphone 15 pro,aftermarket-soft-oled,95.99,USD,95.99,VAT basis UNKNOWN — shown as listed,no,https://repairpartsusa.com/collections/iphone-screens
+repairpartsusa.com,USA,iphone 15 pro max,aftermarket-lcd,41.59,USD,41.59,VAT basis UNKNOWN — shown as listed,no,https://repairpartsusa.com/collections/iphone-screens
+repairpartsusa.com,USA,iphone 15 pro max,aftermarket-soft-oled,95.99,USD,95.99,VAT basis UNKNOWN — shown as listed,no,https://repairpartsusa.com/collections/iphone-screens
+repairpartsusa.com,USA,iphone 16,aftermarket-lcd,34.99,USD,34.99,VAT basis UNKNOWN — shown as listed,no,https://repairpartsusa.com/collections/iphone-screens
+repairpartsusa.com,USA,iphone 16,aftermarket-soft-oled,75.59,USD,75.59,VAT basis UNKNOWN — shown as listed,no,https://repairpartsusa.com/collections/iphone-screens
+repairpartsusa.com,USA,iphone 16 plus,aftermarket-lcd,37.99,USD,37.99,VAT basis UNKNOWN — shown as listed,no,https://repairpartsusa.com/collections/iphone-screens
+repairpartsusa.com,USA,iphone 16 plus,aftermarket-soft-oled,79.19,USD,79.19,VAT basis UNKNOWN — shown as listed,no,https://repairpartsusa.com/collections/iphone-screens
+repairpartsusa.com,USA,iphone 16 pro,aftermarket-lcd,39.99,USD,39.99,VAT basis UNKNOWN — shown as listed,no,https://repairpartsusa.com/collections/iphone-screens
+repairpartsusa.com,USA,iphone 16 pro,aftermarket-soft-oled,74.99,USD,74.99,VAT basis UNKNOWN — shown as listed,no,https://repairpartsusa.com/collections/iphone-screens
+repairpartsusa.com,USA,iphone 16 pro max,aftermarket-lcd,44.99,USD,44.99,VAT basis UNKNOWN — shown as listed,no,https://repairpartsusa.com/collections/iphone-screens
+repairpartsusa.com,USA,iphone x,aftermarket-lcd,14.79,USD,14.79,VAT basis UNKNOWN — shown as listed,no,https://repairpartsusa.com/collections/iphone-screens
+repairpartsusa.com,USA,iphone x,aftermarket-hard-oled,30.39,USD,30.39,VAT basis UNKNOWN — shown as listed,no,https://repairpartsusa.com/collections/iphone-screens
+repairpartsusa.com,USA,iphone x,aftermarket-soft-oled,42.39,USD,42.39,VAT basis UNKNOWN — shown as listed,no,https://repairpartsusa.com/collections/iphone-screens
+repairpartsusa.com,USA,iphone xr,aftermarket-lcd,15.19,USD,15.19,VAT basis UNKNOWN — shown as listed,no,https://repairpartsusa.com/collections/iphone-screens
+repairpartsusa.com,USA,iphone xr,aftermarket-lcd,17.99,USD,17.99,VAT basis UNKNOWN — shown as listed,no,https://repairpartsusa.com/collections/iphone-screens
+repairpartsusa.com,USA,iphone xs,aftermarket-lcd,14.79,USD,14.79,VAT basis UNKNOWN — shown as listed,no,https://repairpartsusa.com/collections/iphone-screens
+repairpartsusa.com,USA,iphone xs max,aftermarket-lcd,19.99,USD,19.99,VAT basis UNKNOWN — shown as listed,no,https://repairpartsusa.com/collections/iphone-screens
+repairpartsusa.com,USA,iphone xs max,aftermarket-hard-oled,42.39,USD,42.39,VAT basis UNKNOWN — shown as listed,no,https://repairpartsusa.com/collections/iphone-screens
+repairpartsusa.com,USA,iphone xs max,aftermarket-soft-oled,47.19,USD,47.19,VAT basis UNKNOWN — shown as listed,no,https://repairpartsusa.com/collections/iphone-screens
 reparation-iphone.com,France,iPhone 14 Pro,aftermarket-lcd,69.9,EUR,58.25,stripped 20% VAT,no,https://www.reparation-iphone.com/accueil/2380-ecran-iphone-14-pro-complet-vitre-tactile-lcd-compatible.html
 reparation-iphone.com,France,iPhone 14 Pro Max,aftermarket-lcd,69.9,EUR,58.25,stripped 20% VAT,no,https://www.reparation-iphone.com/accueil/2384-ecran-iphone-14-pro-max-complet-vitre-tactile-lcd-compatible.html
 reparation-iphone.com,France,iPhone 14 Pro Max,aftermarket-oled,119.9,EUR,99.92,stripped 20% VAT,no,https://www.reparation-iphone.com/accueil/2383-ecran-iphone-14-pro-max-complet-vitre-tactile-lcd-retina-oled.html
 repuestosfuentes.es,Spain,iphone 11,aftermarket-lcd,18.48,EUR,18.48,VAT basis UNKNOWN — shown as listed,no,https://www.repuestosfuentes.es/5287-iphone-11
 repuestosfuentes.es,Spain,iphone 11,aftermarket-lcd,5.45,EUR,5.45,VAT basis UNKNOWN — shown as listed,no,https://www.repuestosfuentes.es/5287-iphone-11
 repuestosfuentes.es,Spain,iphone 11,aftermarket-lcd,4.8,EUR,4.8,VAT basis UNKNOWN — shown as listed,no,https://www.repuestosfuentes.es/5287-iphone-11
+repuestosfuentes.es,Spain,iphone 11,aftermarket-lcd,4.24,EUR,4.24,VAT basis UNKNOWN — shown as listed,no,https://www.repuestosfuentes.es/5287-iphone-11
 repuestostic.com,Spain,iphone 12,aftermarket-incell,18.95,EUR,18.95,VAT basis UNKNOWN — shown as listed,no,https://www.repuestostic.com/es/repuestos-iphone-12-pro/19993-pantalla-completa-para-iphone-12-iphone-12-pro-calidad-incell.html
 repuestostic.com,Spain,iphone 12,aftermarket-incell,26.5,EUR,26.5,VAT basis UNKNOWN — shown as listed,no,https://www.repuestostic.com/es/repuestos-iphone-12-pro/22537-pantalla-iphone-12-12-pro-jk-incell.html
 repuestostic.com,Spain,iphone 12,aftermarket-oled,180.0,EUR,180.0,VAT basis UNKNOWN — shown as listed,no,https://www.repuestostic.com/es/repuestos-iphone-12/10002-reparacion-pantalla-completa-y-tapa-trasera-iphone-12.html
@@ -881,6 +1024,10 @@ riparafast.it,Italy,iPhone 16,aftermarket-incell,20.49,EUR,20.49,already ex-VAT,
 riparafast.it,Italy,iPhone 16 Plus,aftermarket-incell,21.31,EUR,21.31,already ex-VAT,no,https://www.riparafast.it/iphone-16-plus/2335-lcd-schermo-apple-iphone-16-plus-display-touch-screen-incell-compatibile.html
 riparafast.it,Italy,iPhone 16 Pro,aftermarket-incell,28.69,EUR,28.69,already ex-VAT,no,https://www.riparafast.it/iphone-16-pro/2336-lcd-schermo-apple-iphone-16-pro-display-touch-screen-incell-compatibile.html
 riparafast.it,Italy,iPhone 16 Pro Max,aftermarket-incell,32.79,EUR,32.79,already ex-VAT,no,https://www.riparafast.it/iphone-16-pro-max/2337-lcd-schermo-apple-iphone-16-pro-max-display-touch-screen-incell-compatibile.html
+screen-stocks.com,USA,iphone 13 pro,aftermarket-lcd,18.69,EUR,18.69,already ex-VAT,no,https://screen-stocks.com/iphone-13-pro-lcd-display-assembly-a2483-a2638-cost-effective-replacement/
+screen-stocks.com,USA,iphone 14,aftermarket-lcd,20.0,EUR,20.0,already ex-VAT,no,https://screen-stocks.com/iphone-14-screen-replacement-high-quality-lcd-digitizer-assembly-wholesale/
+screen-stocks.com,USA,iphone 14 plus,aftermarket-oled,16.53,EUR,16.53,already ex-VAT,no,https://screen-stocks.com/bulk-iphone-14-plus-oled-screen-replacement-factory-direct-wholesale/
+screen-stocks.com,USA,iphone 14 pro,aftermarket-oled,20.34,EUR,20.34,already ex-VAT,no,https://screen-stocks.com/bulk-iphone-14-pro-oled-display-screens-factory-direct-wholesale/
 screenshelf.ie,Ireland,iPhone 12 / 12 Pro,aftermarket-lcd,23.95,EUR,19.47,stripped 23% VAT,no,https://screenshelf.ie/products/iphone-12-12-pro-lcd-screen?_pos=3&_sid=69f8f0b7a&_ss=r
 screenshelf.ie,Ireland,iPhone 14 Pro Max,aftermarket-soft-oled,79.95,EUR,65.0,stripped 23% VAT,no,https://screenshelf.ie/products/iphone-14-pro-max-screen-replacement-diagnosable-soft-oled?_pos=5&_sid=69f8f0b7a&_ss=r
 screenshelf.ie,Ireland,iPhone 15,aftermarket-soft-oled,63.95,EUR,51.99,stripped 23% VAT,no,https://screenshelf.ie/products/iphone-15-screen-replacement-soft-oled?_pos=6&_sid=69f8f0b7a&_ss=r
@@ -914,15 +1061,61 @@ signalocentras.lt,Lithuania,iphone 12 pro,aftermarket-oled,160.0,EUR,160.0,VAT b
 signalocentras.lt,Lithuania,iphone 12 pro,aftermarket-oled,128.0,EUR,128.0,VAT basis UNKNOWN — shown as listed,no,https://signalocentras.lt/telefonija/telefonu-ekranai-lcd/iphone-ipad
 smartech.ee,Estonia,iphone 16 pro max,aftermarket-soft-oled,144.0,EUR,144.0,VAT basis UNKNOWN — shown as listed,no,https://www.smartech.ee/et/category/telefonid-nutikellad-tahvelarvutid-ja-e-lugerid/mobiiltelefonid-ja-tarvikud/lcd-ekraanid/
 smartech.ee,Estonia,iphone 16 pro max,aftermarket-incell,72.15,EUR,72.15,VAT basis UNKNOWN — shown as listed,no,https://www.smartech.ee/et/category/telefonid-nutikellad-tahvelarvutid-ja-e-lugerid/mobiiltelefonid-ja-tarvikud/lcd-ekraanid/
-sparepart.dk,Denmark,iPhone 11,aftermarket-incell,169,DKK,169,VAT basis UNKNOWN — shown as listed,no,https://sparepart.dk/iphone-11-reservedele-101948/iphone-11-skaerm-incell-lcd-jk-high-quality-p18774
-sparepart.dk,Denmark,iPhone 12 / 12 Pro,aftermarket-incell,199,DKK,199,VAT basis UNKNOWN — shown as listed,no,https://sparepart.dk/iphone-skaerme-102381/iphone-12-12-pro-skaerm-incell-lcd-jk-high-quality-p18120
-sparepart.dk,Denmark,iPhone 13,aftermarket-incell,199,DKK,199,VAT basis UNKNOWN — shown as listed,no,https://sparepart.dk/iphone-13-skaerme-102877/iphone-13-skaerm-incell-lcd-jk-high-quality-p19489
+spainsellers.com,Spain,iphone 11,aftermarket-lcd,25.98,EUR,21.47,stripped 21% VAT,no,https://www.spainsellers.com/pantalla-lcd-ips-para-iphone-11-a2111-a2221-a2223-mas-tactil-negro-calidad-premium-p-28228.html
+spainsellers.com,Spain,iphone 11,aftermarket-lcd,3.73,EUR,3.08,stripped 21% VAT,no,https://www.spainsellers.com/conector-fpc-lcd-para-iphone-11-a2111-a2221-a2223-calidad-premium-p-31592.html
+spainsellers.com,Spain,iphone 11,aftermarket-lcd,1.21,EUR,1.0,stripped 21% VAT,no,https://www.spainsellers.com/placa-sujecion-fle-lcd-para-iphone-11-calidad-premium--p-32331.html
+spainsellers.com,Spain,iphone 11,aftermarket-lcd,2.12,EUR,1.75,stripped 21% VAT,no,https://www.spainsellers.com/metal-frame-lcd-para-iphone-11-calidad-premium-p-32335.html
+spainsellers.com,Spain,iphone x,aftermarket-hard-oled,29.05,EUR,24.01,stripped 21% VAT,no,https://www.spainsellers.com/pantalla-gx-hard-oled-para-iphone-x-a1865-a1901-a1902-mas-tactil-negro-calidad-media-alta-p-31222.html
+sparepart.dk,Denmark,iPhone 11,aftermarket-incell,169,DKK,169,VAT basis UNKNOWN — shown as listed,YES,https://sparepart.dk/iphone-11-reservedele-101948/iphone-11-skaerm-incell-lcd-jk-high-quality-p18774
+sparepart.dk,Denmark,iPhone 12 / 12 Pro,aftermarket-incell,199,DKK,199,VAT basis UNKNOWN — shown as listed,YES,https://sparepart.dk/iphone-skaerme-102381/iphone-12-12-pro-skaerm-incell-lcd-jk-high-quality-p18120
+sparepart.dk,Denmark,iPhone 13,aftermarket-incell,199,DKK,199,VAT basis UNKNOWN — shown as listed,YES,https://sparepart.dk/iphone-13-skaerme-102877/iphone-13-skaerm-incell-lcd-jk-high-quality-p19489
+sparepart.dk,Denmark,iphone 11,aftermarket-incell,169.0,DKK,169.0,VAT basis UNKNOWN — shown as listed,YES,https://sparepart.dk/iphone-11-reservedele-101948/iphone-11-skaerm-incell-lcd-jk-high-quality-p18774
+sparepart.dk,Denmark,iphone 12 pro,aftermarket-incell,199.0,DKK,199.0,VAT basis UNKNOWN — shown as listed,YES,https://sparepart.dk/iphone-skaerme-102381/iphone-12-12-pro-skaerm-incell-lcd-jk-high-quality-p18120
+sparepart.dk,Denmark,iphone 13,aftermarket-incell,199.0,DKK,199.0,VAT basis UNKNOWN — shown as listed,YES,https://sparepart.dk/iphone-13-skaerme-102877/iphone-13-skaerm-incell-lcd-jk-high-quality-p19489
+sparepart.dk,Denmark,iphone 15,aftermarket-soft-oled,449.0,DKK,449.0,VAT basis UNKNOWN — shown as listed,YES,https://sparepart.dk/iphone-15-skaerme-103125/iphone-15-skaerm-soft-oled-p20365
+sparepart.dk,Denmark,iphone xr,aftermarket-incell,169.0,DKK,169.0,VAT basis UNKNOWN — shown as listed,YES,https://sparepart.dk/iphone-xr-skaerm-101662/iphone-xr-skaerm-incell-lcd-jk-high-quality-p18775
+sparepart.dk,Denmark,iphone xs,aftermarket-incell,169.0,DKK,169.0,VAT basis UNKNOWN — shown as listed,YES,https://sparepart.dk/iphone-xs-skaerm-101663/iphone-xs-skaerm-incell-lcd-jk-high-quality-p18779
 startdistribuzione.it,Italy,iPhone 11,aftermarket-incell,18.9,EUR,15.49,stripped 22% VAT,no,https://www.startdistribuzione.it/ricambi-telefonia/apple-ricerca-ad-albero/display-lcd-e-touch/iphone/ricambi-telefonia/apple-ricerca-ad-albero/display-lcd-e-touch/iphone/iphone-11-ltps-display-lcd-incell-apple-compatibile-con-alloggiamenti-e-metal-plate.1.11.3536.gp.12803.uw
 startdistribuzione.it,Italy,iPhone 13 Pro Max,aftermarket-incell,26.001,EUR,21.31,stripped 22% VAT,no,https://www.startdistribuzione.it/ricambi-telefonia/apple-ricerca-ad-albero/display-lcd-e-touch/iphone/ricambi-telefonia/apple-ricerca-ad-albero/display-lcd-e-touch/iphone/iphone-13-pro-max-incell-display-lcd-apple-compatibile-con-alloggiamenti.1.11.3536.gp.12750.uw
 startdistribuzione.it,Italy,iPhone 14 Plus,aftermarket-soft-oled,59,EUR,48.36,stripped 22% VAT,no,https://www.startdistribuzione.it/ricambi-telefonia/apple-ricerca-ad-albero/display-lcd-e-touch/iphone/ricambi-telefonia/apple-ricerca-ad-albero/display-lcd-e-touch/iphone/iphone-14-plus-mt-tech-soft-oled-display-lcd-apple-compatibile-con-alloggiamenti.1.11.3536.gp.12753.uw
 startdistribuzione.it,Italy,iPhone 14 Pro,aftermarket-soft-oled,56,EUR,45.9,stripped 22% VAT,no,https://www.startdistribuzione.it/ricambi-telefonia/apple-ricerca-ad-albero/display-lcd-e-touch/iphone/ricambi-telefonia/apple-ricerca-ad-albero/display-lcd-e-touch/iphone/iphone-14-pro-soft-oled-display-lcd-apple-compatibile-con-alloggiamenti-120hz.1.11.3536.gp.12754.uw
 startdistribuzione.it,Italy,iPhone 14 Pro Max,aftermarket-incell,28,EUR,22.95,stripped 22% VAT,no,https://www.startdistribuzione.it/ricambi-telefonia/apple-ricerca-ad-albero/display-lcd-e-touch/iphone/ricambi-telefonia/apple-ricerca-ad-albero/display-lcd-e-touch/iphone/iphone-14-pro-max-la-incell-display-lcd-apple-compatibile.1.11.3536.gp.12755.uw
 startdistribuzione.it,Italy,iPhone 14 Pro Max,aftermarket-soft-oled,48,EUR,39.34,stripped 22% VAT,no,https://www.startdistribuzione.it/ricambi-telefonia/apple-ricerca-ad-albero/display-lcd-e-touch/iphone/ricambi-telefonia/apple-ricerca-ad-albero/display-lcd-e-touch/iphone/iphone-14-pro-max-soft-oled-display-lcd-apple-compatibile-con-alloggiamenti.1.11.3536.gp.12756.uw
+teevo.com,China,iphone 11 pro,aftermarket-soft-oled,41.18,USD,41.18,already ex-VAT,no,https://www.teevo.com/products/1478568
+teevo.com,China,iphone 12,aftermarket-hard-oled,35.35,USD,35.35,already ex-VAT,no,https://www.teevo.com/products/1554262
+teevo.com,China,iphone 12 pro,aftermarket-incell,19.2,USD,19.2,already ex-VAT,no,https://www.teevo.com/products/1554254
+teevo.com,China,iphone 12 pro max,aftermarket-incell,28.4,USD,28.4,already ex-VAT,no,https://www.teevo.com/products/1554256
+teevo.com,China,iphone 13,aftermarket-incell,20.6,USD,20.6,already ex-VAT,no,https://www.teevo.com/products/1554257
+teevo.com,China,iphone 13 mini,aftermarket-incell,29.8,USD,29.8,already ex-VAT,no,https://www.teevo.com/products/1554258
+teevo.com,China,iphone 13 pro,aftermarket-incell,23.4,USD,23.4,already ex-VAT,no,https://www.teevo.com/products/1569079
+teevo.com,China,iphone 13 pro,aftermarket-lcd,32.18,USD,32.18,already ex-VAT,no,https://www.teevo.com/products/1562905?_pos=1&_sid=d728f2a2e&_ss=r
+teevo.com,China,iphone 13 pro max,aftermarket-incell,27.7,USD,27.7,already ex-VAT,no,https://www.teevo.com/products/1569078
+teevo.com,China,iphone 13 pro max,aftermarket-lcd,38.74,USD,38.74,already ex-VAT,no,https://www.teevo.com/products/1562906?_pos=8&_sid=d728f2a2e&_ss=r
+teevo.com,China,iphone 14,aftermarket-incell,21.3,USD,21.3,already ex-VAT,no,https://www.teevo.com/products/1554259
+teevo.com,China,iphone 14,aftermarket-soft-oled,55.87,USD,55.87,already ex-VAT,no,https://www.teevo.com/products/1567727
+teevo.com,China,iphone 14 pro,aftermarket-soft-oled,129.6,USD,129.6,already ex-VAT,no,https://www.teevo.com/products/1569082
+teevo.com,China,iphone 14 pro,aftermarket-incell,27.0,USD,27.0,already ex-VAT,no,https://www.teevo.com/products/1569077
+teevo.com,China,iphone 14 pro,aftermarket-lcd,37.8,USD,37.8,already ex-VAT,no,https://www.teevo.com/products/1562907?_pos=3&_sid=d728f2a2e&_ss=r
+teevo.com,China,iphone 14 pro,aftermarket-hard-oled,31.8,USD,31.8,already ex-VAT,no,https://www.teevo.com/products/1563133?_pos=6&_sid=d728f2a2e&_ss=r
+teevo.com,China,iphone 14 pro max,aftermarket-soft-oled,43.06,USD,43.06,already ex-VAT,no,https://www.teevo.com/products/1560230
+teevo.com,China,iphone 14 pro max,aftermarket-incell,34.1,USD,34.1,already ex-VAT,no,https://www.teevo.com/products/1569076
+teevo.com,China,iphone 14 pro max,aftermarket-lcd,47.56,USD,47.56,already ex-VAT,no,https://www.teevo.com/products/1562908?_pos=12&_sid=d728f2a2e&_ss=r
+teevo.com,China,iphone 15,aftermarket-incell,22.81,USD,22.81,already ex-VAT,no,https://www.teevo.com/products/1565781
+teevo.com,China,iphone 15,aftermarket-soft-oled,56.7,USD,56.7,already ex-VAT,no,https://www.teevo.com/products/1558052
+teevo.com,China,iphone 15 plus,aftermarket-soft-oled,58.05,USD,58.05,already ex-VAT,no,https://www.teevo.com/products/1558053
+teevo.com,China,iphone 15 plus,aftermarket-incell,24.9,USD,24.9,already ex-VAT,no,https://www.teevo.com/products/1569075
+teevo.com,China,iphone 15 pro,aftermarket-lcd,50.94,USD,50.94,already ex-VAT,no,https://www.teevo.com/products/1562909?_pos=2&_sid=d728f2a2e&_ss=r
+teevo.com,China,iphone 15 pro,aftermarket-soft-oled,130.23,USD,130.23,already ex-VAT,no,https://www.teevo.com/products/1569697
+teevo.com,China,iphone 15 pro max,aftermarket-soft-oled,43.06,USD,43.06,already ex-VAT,no,https://www.teevo.com/products/1561678
+teevo.com,China,iphone 15 pro max,aftermarket-incell,35.92,USD,35.92,already ex-VAT,no,https://www.teevo.com/products/1565783
+teevo.com,China,iphone 15 pro max,aftermarket-soft-oled,54.0,USD,54.0,already ex-VAT,no,https://www.teevo.com/products/1558055
+teevo.com,China,iphone 15 pro max,aftermarket-lcd,63.62,USD,63.62,already ex-VAT,no,https://www.teevo.com/products/1562910?_pos=7&_sid=d728f2a2e&_ss=r
+teevo.com,China,iphone 15 pro max,aftermarket-soft-oled,114.48,USD,114.48,already ex-VAT,no,https://www.teevo.com/products/1567651
+teevo.com,China,iphone 16,aftermarket-incell,45.4,USD,45.4,already ex-VAT,no,https://www.teevo.com/products/1569486
+teevo.com,China,iphone 16 pro,aftermarket-incell,94.0,USD,94.0,already ex-VAT,no,https://www.teevo.com/products/1569487
+teevo.com,China,iphone 16 pro,aftermarket-soft-oled,179.1,USD,179.1,already ex-VAT,no,https://www.teevo.com/products/1571099
+teevo.com,China,iphone 16 pro max,aftermarket-incell,112.45,USD,112.45,already ex-VAT,no,https://www.teevo.com/products/1569488
+teevo.com,China,iphone 16 pro max,aftermarket-soft-oled,247.87,USD,247.87,already ex-VAT,no,https://www.teevo.com/products/1571100
 therepairplus.com,UK,iphone 14 pro,aftermarket-oled,99.98,GBP,99.98,VAT basis UNKNOWN — shown as listed,no,https://therepairplus.com/collections/iphone-screen-replacement
 therepairplus.com,UK,iphone 14 pro max,aftermarket-oled,145.98,GBP,145.98,VAT basis UNKNOWN — shown as listed,no,https://therepairplus.com/collections/iphone-screen-replacement
 therepairplus.com,UK,iphone 15,aftermarket-lcd,24.98,GBP,24.98,VAT basis UNKNOWN — shown as listed,no,https://therepairplus.com/collections/iphone-screen-replacement
@@ -940,13 +1133,25 @@ thescreensurgery.com,UK,iphone 13 pro max,aftermarket-soft-oled,47.95,GBP,47.95,
 thescreensurgery.com,UK,iphone 14,aftermarket-soft-oled,47.95,GBP,47.95,already ex-VAT,no,https://thescreensurgery.com/collections/value-screens
 thescreensurgery.com,UK,iphone 15 pro,aftermarket-soft-oled,53.95,GBP,53.95,already ex-VAT,no,https://thescreensurgery.com/collections/value-screens
 thescreensurgery.com,UK,iphone 16,aftermarket-soft-oled,53.95,GBP,53.95,already ex-VAT,no,https://thescreensurgery.com/collections/value-screens
-touchandscreen.de,Germany,iPhone X,aftermarket-oled,69.9,EUR,58.74,stripped 19% VAT,no,https://www.touchandscreen.de/OLED-Display-inkl-Touchscreen-passend-fuer-iPhone-X
+touchandscreen.de,Germany,iPhone X,aftermarket-oled,69.9,EUR,58.74,stripped 19% VAT,YES,https://www.touchandscreen.de/OLED-Display-inkl-Touchscreen-passend-fuer-iPhone-X
+twhouse.co.uk,UK,iphone 11 pro,aftermarket-lcd,16.25,GBP,16.25,VAT basis UNKNOWN — shown as listed,no,https://www.twhouse.co.uk/ven-dens-replacement-lcd-platinum-series-for-iphone-11-pro
+twhouse.co.uk,UK,iphone 11 pro max,aftermarket-lcd,17.5,GBP,17.5,VAT basis UNKNOWN — shown as listed,no,https://www.twhouse.co.uk/ven-dens-replacement-lcd-platinum-series-for-iphone-11-pro-max
+twhouse.co.uk,UK,iphone 12 mini,aftermarket-lcd,21.25,GBP,21.25,VAT basis UNKNOWN — shown as listed,no,https://www.twhouse.co.uk/ven-dens-replacement-lcd-platinum-series-for-iphone-12-mini
+twhouse.co.uk,UK,iphone 12 pro max,aftermarket-lcd,16.88,GBP,16.88,VAT basis UNKNOWN — shown as listed,no,https://www.twhouse.co.uk/ven-dens-replacement-lcd-gold-series-for-iphone-12-pro-max
+twhouse.co.uk,UK,iphone 13,aftermarket-lcd,26.0,GBP,26.0,VAT basis UNKNOWN — shown as listed,no,https://www.twhouse.co.uk/iphone-5-replacement-lcd-and-digitizers-white
+twhouse.co.uk,UK,iphone 13 pro,aftermarket-lcd,31.25,GBP,31.25,VAT basis UNKNOWN — shown as listed,no,https://www.twhouse.co.uk/ven-dens-replacement-lcd-platinum-series-for-iphone-13-pro
+twhouse.co.uk,UK,iphone 14 pro,aftermarket-lcd,37.5,GBP,37.5,VAT basis UNKNOWN — shown as listed,no,https://www.twhouse.co.uk/ven-dens-replacement-lcd-platinum-series-for-iphone-14-pro
+twhouse.co.uk,UK,iphone 14 pro max,aftermarket-oled,131.25,GBP,131.25,VAT basis UNKNOWN — shown as listed,no,https://www.twhouse.co.uk/ven-dens-replacement-lcd-oled-series-for-iphone-14-pro-max
+twhouse.co.uk,UK,iphone 15,aftermarket-lcd,30.0,GBP,30.0,VAT basis UNKNOWN — shown as listed,no,https://www.twhouse.co.uk/ven-dens-replacement-lcd-platinum-series-for-iphone-15
+twhouse.co.uk,UK,iphone 15 plus,aftermarket-lcd,32.5,GBP,32.5,VAT basis UNKNOWN — shown as listed,no,https://www.twhouse.co.uk/ven-dens-replacement-lcd-platinum-series-for-iphone-15-plus
+twhouse.co.uk,UK,iphone 15 pro max,aftermarket-lcd,50.0,GBP,50.0,VAT basis UNKNOWN — shown as listed,no,https://www.twhouse.co.uk/ven-dens-replacement-lcd-platinum-series-for-iphone-15-pro-max
+twhouse.co.uk,UK,iphone 15 pro max,aftermarket-lcd,36.25,GBP,36.25,VAT basis UNKNOWN — shown as listed,no,https://www.twhouse.co.uk/ven-dens-replacement-lcd-gold-series-for-iphone-15-pro-max
+twhouse.co.uk,UK,iphone 16,aftermarket-lcd,32.0,GBP,32.0,VAT basis UNKNOWN — shown as listed,no,https://www.twhouse.co.uk/iphone-5c-replacement-lcd-and-digitizers-black
+twhouse.co.uk,UK,iphone 16 plus,aftermarket-lcd,60.0,GBP,60.0,VAT basis UNKNOWN — shown as listed,no,https://www.twhouse.co.uk/ven-dens-replacement-lcd-platinum-series-for-iphone-16-plus
+twhouse.co.uk,UK,iphone x,aftermarket-lcd,13.75,GBP,13.75,VAT basis UNKNOWN — shown as listed,no,https://www.twhouse.co.uk/ven-dens-replacement-lcd-platinum-series-for-iphone-x
 utopya.com,France,iphone 15,aftermarket-soft-oled,32.5,EUR,32.5,already ex-VAT,no,https://www.utopya.com/apple/iphone/iphone-15.html
 utopya.com,France,iphone 15,aftermarket-soft-oled,28.5,EUR,28.5,already ex-VAT,no,https://www.utopya.com/apple/iphone/iphone-15.html
 utopya.com,France,iphone 15,aftermarket-hard-oled,14.1,EUR,14.1,already ex-VAT,no,https://www.utopya.com/apple/iphone/iphone-15.html
-world-itech.com,France,iPhone 15 Plus,aftermarket-oled,379,EUR,315.83,stripped 20% VAT,no,https://www.world-itech.com/gb/iphone-15-plus/4071-iphone-15-plus-screen-original-oledapples-tools-included.html
-world-itech.com,France,iPhone 15 Pro,aftermarket-oled,309.9,EUR,258.25,stripped 20% VAT,no,https://www.world-itech.com/gb/iphone-15-pro/4070-iphone-15-pro-screen-original-oledapples-tools-included.html
-world-itech.com,France,iPhone 15 Pro Max,aftermarket-oled,379.9,EUR,316.58,stripped 20% VAT,no,https://www.world-itech.com/gb/iphone-15-pro-max/4069-iphone-15-pro-max-screen-original-oledapples-tools-included.html
 xda.gr,Greece,iPhone 13,aftermarket-soft-oled,50.85,EUR,50.85,already ex-VAT,no,https://www.xda.gr/ανταλλακτικα-κινητων/apple/iphone-13-series/hq-oem-for-iphone-13-a2633-a2482-dd-soft-oled-οθόνη-touch-screen-digitizer-black/
 xda.gr,Greece,iPhone 13 Pro,aftermarket-soft-oled,54.99,EUR,54.99,already ex-VAT,no,https://www.xda.gr/ανταλλακτικα-κινητων/apple/iphone-13-series/hq-oem-for-apple-iphone-13-pro-a2638-a2483-jk-soft-oled-lcd-οθόνη-touch-screen-digitizer-black/
 xda.gr,Greece,iPhone 13 Pro,aftermarket-soft-oled,54.44,EUR,54.44,already ex-VAT,no,https://www.xda.gr/ανταλλακτικα-κινητων/apple/iphone-13-series/hq-oem-for-apple-iphone-13-pro-a2638-a2483-dd-soft-oled-lcd-οθόνη-touch-screen-digitizer-black/

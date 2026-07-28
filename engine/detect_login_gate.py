@@ -60,19 +60,26 @@ def probe(host_url):
         return {"site": host, "gated": None, "reason": f"error: {type(e).__name__}"}
 
 def main():
-    # distinct shop domains + a representative URL each (from DB)
     reps = {}
-    off = 0
-    while True:
-        r = requests.get(U + "/rest/v1/prices?type=eq.shop&select=site_id,url,country",
-                         headers={**H, "Range": f"{off}-{off+999}"}, timeout=60)
-        d = r.json()
-        for x in d:
-            reps.setdefault(x["site_id"], (x["url"], x.get("country") or ""))
-        if len(d) < 1000: break
-        off += 1000
+    if len(sys.argv) > 1 and sys.argv[1].endswith(".json"):
+        # explicit candidate list: [{site,country,url}]
+        import json
+        for e in json.load(open(sys.argv[1])):
+            reps[e["site"]] = (e["url"], e.get("country") or "")
+    else:
+        # distinct shop domains + a representative URL each (from DB)
+        off = 0
+        while True:
+            r = requests.get(U + "/rest/v1/prices?type=eq.shop&select=site_id,url,country",
+                             headers={**H, "Range": f"{off}-{off+999}"}, timeout=60)
+            d = r.json()
+            for x in d:
+                reps.setdefault(x["site_id"], (x["url"], x.get("country") or ""))
+            if len(d) < 1000: break
+            off += 1000
     country = {s: c for s, (u, c) in reps.items()}
     items = [(s, u) for s, (u, c) in reps.items()]
+    OUTFILE = sys.argv[2] if len(sys.argv) > 2 else f"{OUT}/login_gated_detected.csv"
     print(f"Probing {len(items)} shop domains for login price-gating...")
     results = []
     with cf.ThreadPoolExecutor(max_workers=12) as ex:
@@ -80,7 +87,7 @@ def main():
             results.append(res)
             if i % 20 == 0: print(f"  {i}/{len(items)}", flush=True)
     gated = [r for r in results if r["gated"] is True]
-    with open(f"{OUT}/login_gated_detected.csv", "w", newline="") as f:
+    with open(OUTFILE, "w", newline="") as f:
         w = csv.writer(f); w.writerow(["Site", "Country", "Evidence"])
         for r in sorted(gated, key=lambda x: x["site"]):
             w.writerow([r["site"], country.get(r["site"], ""), r["reason"]])
