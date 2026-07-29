@@ -1,0 +1,20 @@
+[
+  {"site": "cash4lcds.com", "country": "USA", "listing_url": "https://cash4lcds.com/lcd-prices/", "type": "buyback"},
+  {"site": "lcdtechinc.com", "country": "Canada", "listing_url": "https://lcdtechinc.com/lcd-buy-back-prices/", "type": "buyback"},
+  {"site": "lcdbuybackprogram.com", "country": "USA", "listing_url": "https://lcdbuybackprogram.com/price-list/", "type": "buyback"},
+  {"site": "mobilesentrix.com", "country": "USA", "listing_url": "https://www.mobilesentrix.com/lcd-buy-back", "type": "buyback"},
+  {"site": "mobilesentrix.ca", "country": "Canada", "listing_url": "https://www.mobilesentrix.ca/lcd-buy-back", "type": "buyback"},
+  {"site": "mobilesentrix.eu", "country": "Netherlands", "listing_url": "https://www.mobilesentrix.eu/lcd-buyback", "type": "buyback"},
+  {"site": "mobilesentrix.co.uk", "country": "UK", "listing_url": "https://www.mobilesentrix.co.uk/lcd-buyback", "type": "buyback"},
+  {"site": "phonepartpro.com", "country": "USA", "listing_url": "https://phonepartpro.com/pages/lcd-buyback", "type": "buyback"},
+  {"site": "lcdrecyclingonline.com", "country": "USA", "listing_url": "https://lcdrecyclingonline.com/price-list/", "type": "buyback"},
+  {"site": "webuylcds.co.uk", "country": "UK", "listing_url": "https://webuylcds.co.uk/price-list/", "type": "buyback"},
+  {"site": "screen-doctor.co.uk", "country": "UK", "listing_url": "https://www.screen-doctor.co.uk/lcd-buy-back-prices/", "type": "buyback"},
+  {"site": "buybackscreens.com", "country": "USA", "listing_url": "https://www.buybackscreens.com/price-list", "type": "buyback"},
+  {"site": "screenbuyer.com", "country": "USA", "listing_url": "https://screenbuyer.com/price-list/", "type": "buyback"},
+  {"site": "harvestcellular.net", "country": "USA", "listing_url": "https://harvestcellular.net/lcd-buyback-prices/", "type": "buyback"},
+  {"site": "lcdscreenrecycling.com", "country": "USA", "listing_url": "https://www.lcdscreenrecycling.com/lcd-buy-back/", "type": "buyback"},
+  {"site": "mendtech.co.uk", "country": "UK", "listing_url": "https://www.mendtech.co.uk/lcd-buyback-prices", "type": "buyback"},
+  {"site": "gadgetfix.com", "country": "USA", "listing_url": "https://www.gadgetfix.com/lcd-buyback", "type": "buyback"},
+  {"site": "phonelcd.com", "country": "USA", "listing_url": "https://www.phonelcd.com/lcd-buyback", "type": "buyback"}
+]

@@ -178,14 +178,23 @@ def main():
         key = (s["site_id"], s["model"])
         if key not in best or s["excl_vat"] < best[key]["excl_vat"]:
             best[key] = s
+    best_ids = set(id(s) for s in best.values())
     HDR = ["Site", "Country", "Model", "RepairType", "Price", "Currency", "ExclVAT", "VATBasis", "Login", "URL"]
-    def emit(s):
-        return [s["site_id"], s["country"], s["model"], s["cat"], s["price"], s["currency"],
+    def emit(s, extra=None):
+        row = [s["site_id"], s["country"], s["model"], s["cat"], s["price"], s["currency"],
                 s["excl_vat"], s["vat_note"], "YES" if s["login"] else "no", s["url"]]
+        return row + ([extra] if extra is not None else [])
+    # collapsed: one cheapest genuine-panel row per shop x model
     with open(f"{OUT}/list_A_original.csv", "w", newline="") as f:
         w = csv.writer(f); w.writerow(HDR)
         for s in sorted(best.values(), key=lambda x: (x["site_id"], x["model"])):
             w.writerow(emit(s))
+    # full: EVERY genuine-panel product (glass/pulled/refurb/original), cheapest flagged
+    with open(f"{OUT}/list_A_full.csv", "w", newline="") as f:
+        w = csv.writer(f); w.writerow(HDR + ["CheapestForModelAtShop"])
+        for s in sorted((x for x in shop if x["cat"] in A_cats),
+                        key=lambda x: (x["site_id"], x.get("model") or "", x["excl_vat"])):
+            w.writerow(emit(s, "YES" if id(s) in best_ids else "no"))
 
     # ---- List B: flex-replaced + fog ----
     with open(f"{OUT}/list_B_flex_fog.csv", "w", newline="") as f:

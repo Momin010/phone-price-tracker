@@ -8,7 +8,8 @@ D = os.path.join(ROOT, "deliverables")
 SHEETS = [
     ("master_sites.csv", "All Sites"),
     ("login_gated.csv", "Login-Gated Shops"),
-    ("list_A_original.csv", "A - Glass+Pulled+Refurb"),
+    ("list_A_original.csv", "A - Cheapest per shop"),
+    ("list_A_full.csv", "A - All genuine panels"),
     ("list_B_flex_fog.csv", "B - Flex+Fog"),
     ("list_aftermarket.csv", "Aftermarket (OLED-LCD)"),
 ]

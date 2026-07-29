@@ -1,131 +1,227 @@
 Site,Country,Basis,Evidence
+24.se,Sweden,unknown,no VAT statement found on page
+24hshop.dk,DK,unknown,no VAT statement found on page
+24hshop.fi,Finland,unknown,no VAT statement found on page
 24hshop.fr,France,incl,"""ttc"""
 4repair.pl,Poland,incl,"both seen; picked incl (""brutto"")"
 a-parts.com.pl,Poland,incl,"both seen; picked incl (""brutto"")"
 ab-mobiteli.com,Croatia,unknown,no VAT statement found on page
 abraa.com,Austria,excl,"""ht"""
 akmobilestore.com,Ireland,unknown,no VAT statement found on page
+al-gsm.pl,Poland,incl,"both seen; picked incl (""brutto"")"
+allfixparts.com,USA,unknown,no VAT statement found on page
 alphamobile.eu,Bulgaria,unknown,no VAT statement found on page
 amdetech.gr,Greece,unknown,unreachable
+androgeek.es,Spain,excl,"""ht"""
 appleparts.nl,Netherlands,unknown,no VAT statement found on page
 bokmanev.com,Denmark,unknown,no VAT statement found on page
 borcaden.nl,Netherlands,excl,"""ht"""
 brotech.it,Italy,unknown,no VAT statement found on page
 bukuwireless.com,USA,excl,"""ht"""
+canadiancellparts.com,Canada,unknown,no VAT statement found on page
 capitalmovil.com.mx,Mexico,unknown,no VAT statement found on page
+cdx.de,Germany,incl,"both seen; picked incl (""preise inkl"")"
 cellparts.cz,Czechia,excl,"""ht"""
 cellphonepartscanada.com,Bulgaria,unknown,unreachable
+celo.ro,Romania,unknown,no VAT statement found on page
+ch-ios.ro,Romania,excl,"""ht"""
 componentesmovil.es,Spain,incl,"both seen; picked incl (""iva incl"")"
 componentidigitali.com,Italy,incl,"both seen; picked incl (""iva incl"")"
 compuparts.ie,Ireland,excl,"""ht"""
 da-pieces.com,France,unknown,no VAT statement found on page
+dacein.de,Germany,excl,"""ht"""
 dargilita.lt,Lithuania,unknown,no VAT statement found on page
 deltamobile.lv,Latvia,unknown,no VAT statement found on page
 digitalteck.it,Italy,excl,"""ht"""
+discountcell.com,USA,excl,"""ht"""
 dutchrepair.nl,Netherlands,excl,"""ht"""
 el-telgsm.pl,Poland,incl,"both seen; picked incl (""brutto"")"
+esourceparts.ca,Canada,unknown,no VAT statement found on page
 etradesupply.com,China,excl,"""ht"""
 euromarserwis.pl,Poland,incl,"both seen; picked incl (""brutto"")"
+expresstech.ie,Ireland,excl,"""ht"""
 fhrparts.com,France,unknown,no VAT statement found on page
 firsthelptech.ie,Ireland,incl,"both seen; picked incl (""incl. vat"")"
-fixstore.hu,Hungary,unknown,no VAT statement found on page
+fixje.be,Belgium,excl,"""ht"""
+fixje.nl,Netherlands,unknown,no VAT statement found on page
+fixo.com.au,Australia,excl,"""ht"""
+fixservis.sk,Slovakia,incl,"""s dph"""
+fixshop.at,Austria,excl,"""ht"""
+fmaparts.com.au,Australia,excl,"""ht"""
+fonefunshop.co.uk,UK,unknown,no VAT statement found on page
+fonefunshop.com,UK,unknown,no VAT statement found on page
 fonix.at,Austria,incl,"both seen; picked incl (""inkl. mwst"")"
+fonparts.pl,Poland,excl,"""netto"""
+g-sp.se,Sweden,unknown,no VAT statement found on page
+gadgetfix.com,USA,excl,"""ht"""
 gbishop.de,Germany,excl,"""zzgl. mwst"""
 geekon.gr,Greece,unknown,no VAT statement found on page
 gjirafa50.al,Albania,excl,"""ht"""
-gjirafa50.com,Kosovo,unknown,no VAT statement found on page
+gjirafa50.com,Kosovo,excl,"""ht"""
+goodtech.co.nz,New Zealand,unknown,no VAT statement found on page
+gsm-club.pl,Poland,incl,"both seen; picked incl (""brutto"")"
+gsm.quadra-net.pl,Poland,incl,"both seen; picked incl (""brutto"")"
 gsmdalys.lt,Lithuania,unknown,no VAT statement found on page
 gsmok.com,Poland,excl,"""net price"""
+gsmoutlet.pl,PL,incl,"""brutto"""
 gsmparts.bg,Bulgaria,unknown,no VAT statement found on page
 gsmteam.gr,Greece,excl,"""ht"""
 hallomobile.nl,Netherlands,unknown,no VAT statement found on page
+handydisplay24.de,DE,incl,"both seen; picked incl (""inkl. mwst"")"
 handyschmiede.de,Germany,excl,"""ht"""
+hlcwholesale.com,USA,unknown,no VAT statement found on page
 horepa.fr,France,incl,"""ttc"""
+hugmie.ie,Ireland,excl,"""ht"""
+hurtlcd.pl,Poland,excl,"""ht"""
 icell4less.com,Norway,excl,"""ht"""
 ieasyservice.fi,Finland,excl,"""ht"""
 ifixit.com,USA,excl,"""ht"""
 ilevante.com,Spain,unknown,no VAT statement found on page
 ilevante.fr,France,excl,"""netto"""
+imaster.lv,Latvia,unknown,no VAT statement found on page
 impextrom.com,Spain,excl,"""sin iva"""
+incover.dk,DK,excl,"""ht"""
+injuredgadgets.com,USA,excl,"""ht"""
 ioutlet.ee,Estonia,excl,"""ht"""
+ioutlet.pt,Portugal,unknown,no VAT statement found on page
 iparts-4u.co.uk,UK,excl,"""ht"""
 iparts-4u.eu,Ireland,excl,"""ht"""
 ipfix.dk,Denmark,incl,"both seen; picked incl (""inkl. moms"")"
 iphoneersatzteileshop.de,Germany,incl,"both seen; picked incl (""preise inkl"")"
 iphonescreenwholesale.com,China,unknown,no VAT statement found on page
+iphoneweb.es,Spain,excl,"""ht"""
 irepart.com,China,excl,"""ht"""
+irephone.com,NO,excl,"""ht"""
+iservices.fr,France,unknown,no VAT statement found on page
+iservices.pt,Portugal,unknown,no VAT statement found on page
 ishine-trade.com,UK,excl,"""ex vat"""
 ishine.ie,Ireland,excl,"""ex vat"""
 isn-parts.com,Bulgaria,unknown,no VAT statement found on page
 iswap.cz,Czechia,excl,"""ht"""
+iswitch.pt,Portugal,excl,"""ht"""
 italiatech.it,Italy,incl,"both seen; picked incl (""iva incl"")"
 koopjeonderdelen.nl,Netherlands,incl,"both seen; picked incl (""incl. btw"")"
+lapommediscount.com,France,unknown,no VAT statement found on page
 lcd-phone.com,France,unknown,no VAT statement found on page
 lemes.cz,Czechia,excl,"""ht"""
-lemes.hu,Hungary,excl,"""ht"""
+lifone.store,France,excl,"""netto"""
 lltrader.com,China,unknown,no VAT statement found on page
+m9parts.pl,Poland,excl,"""netto"""
+macinfo.fr,France,excl,"""netto"""
+malmoteknik.se,SE,unknown,no VAT statement found on page
 marsietis.lt,Lithuania,unknown,no VAT statement found on page
 mdparts.com.au,Australia,excl,"""ht"""
+mecimart.se,SE,unknown,no VAT statement found on page
+meintrendyhandy.de,Germany,incl,"both seen; picked incl (""inkl. mwst"")"
+mengtor.ca,Canada,unknown,no VAT statement found on page
 mobifixbg.com,Bulgaria,unknown,no VAT statement found on page
 mobiiliabi.ee,Estonia,unknown,no VAT statement found on page
-mobilefix.cz,Czechia,excl,"""ht"""
+mobiilitukku.fi,Finland,unknown,no VAT statement found on page
+mobilebitz.co.uk,UK,excl,"""ht"""
 mobilemonsters.lv,Latvia,unknown,unreachable
+mobileparts.ch,Switzerland,excl,"""ht"""
+mobileparts.shop,Germany,unknown,no VAT statement found on page
+mobilesentrix.co.uk,UK,excl,"""ex vat"""
 mobilesentrix.eu,Germany,excl,"""ex vat"""
 mobilestar.at,Austria,excl,"""ht"""
 mobilesupplies.nl,Netherlands,incl,"""incl. btw"""
+mobilexperten.se,SE,unknown,no VAT statement found on page
 mobilnidily.cz,Czechia,excl,"""ht"""
+mobilverkstedet.no,Norway,unknown,no VAT statement found on page
 mobiservis.lt,Lithuania,unknown,no VAT statement found on page
 mobishop.ee,Estonia,excl,"""ht"""
+mobitelas.lt,Lithuania,unknown,no VAT statement found on page
 mobizona.lt,Lithuania,unknown,no VAT statement found on page
 mobpartstore.lv,Latvia,unknown,no VAT statement found on page
 modchip.gr,Greece,unknown,no VAT statement found on page
+moka-gsm.ro,Romania,excl,"""ht"""
+motivs.lv,Latvia,excl,"""ht"""
 movil.gr,Greece,unknown,no VAT statement found on page
+moxedostore.com,Italy,incl,"""iva incl"""
+mtimpex.com,Germany,excl,"""exkl. mwst"""
+mytrendyphone.eu,Denmark,excl,"""ht"""
 net-one.gr,Greece,unknown,no VAT statement found on page
+netfix.tech,Italy,unknown,no VAT statement found on page
 nordviks.se,Denmark,unknown,no VAT statement found on page
 nvs.gr,Greece,unknown,no VAT statement found on page
+onlinemobileparts.com.au,Australia,excl,"""ht"""
 onstoreitalia.it,Italy,excl,"""netto"""
 outletaccessori.it,Italy,excl,"""netto"""
 partexpert.nl,Netherlands,excl,"""ht"""
+partly.nl,Netherlands,unknown,no VAT statement found on page
+parts-store.pl,Poland,incl,"both seen; picked incl (""brutto"")"
 parts4cells.com,Cyprus,unknown,no VAT statement found on page
 parts4phone.com,France,incl,"""ttc"""
 parts4repair.de,Germany,incl,"both seen; picked incl (""inkl. mwst"")"
 partsfixit.com,USA,unknown,no VAT statement found on page
 phf-shop.com,Germany,excl,"""netto"""
+phone-parts.dk,Denmark,unknown,no VAT statement found on page
 phone-werk.de,Germany,excl,"""ht"""
+phoneassist.net,Italy,unknown,no VAT statement found on page
 phonefix.fi,Finland,excl,"""ht"""
 phonelcdparts.com,USA,excl,"""ht"""
+phonepartner.fr,France,unknown,no VAT statement found on page
 phonepartsbg.com,Bulgaria,excl,"""ht"""
 phonepartsrus.com,Czechia,excl,"""ht"""
 phonexpert78.com,Luxembourg,unknown,no VAT statement found on page
 phonexperts.ng,Nigeria,excl,"""ht"""
 piecegsm.com,France,unknown,no VAT statement found on page
+pieces2mobile.com,France,incl,"both seen; picked incl (""ttc"")"
 preciosadictos.com,Spain,incl,"both seen; picked incl (""iva incl"")"
 ptmobil.cz,Czechia,unknown,no VAT statement found on page
+puhelinshop.fi,Finland,excl,"""ht"""
+pulledparts.co.uk,UK,excl,"""ht"""
+purplee.pt,Portugal,unknown,no VAT statement found on page
 reflexmagasin.com,France,incl,"""ttc"""
+repairdepot.com,USA,excl,"""ht"""
 repairpartsusa.com,Austria,unknown,no VAT statement found on page
+repairsuniverse.com,USA,excl,"""ht"""
+reparacaomobile.pt,Portugal,unknown,no VAT statement found on page
+reparatiegroothandel.nl,Netherlands,excl,"""exclusief btw"""
 reparation-iphone.com,France,incl,"""ttc"""
+reparatur-werk.com,Germany,incl,"both seen; picked incl (""inkl. mwst"")"
+replacebase.co.uk,UK,excl,"""ht"""
 repuestosfuentes.es,Spain,unknown,no VAT statement found on page
+repuestosparatumovil.es,Spain,unknown,no VAT statement found on page
 repuestostic.com,Spain,unknown,no VAT statement found on page
+restorephone.fr,France,unknown,no VAT statement found on page
 riparafast.it,Italy,excl,"""ht"""
 screen-stocks.com,USA,excl,"""ht"""
 screenshelf.ie,Ireland,incl,"both seen; picked incl (""inc vat"")"
 servisnidily.cz,Czechia,unknown,no VAT statement found on page
 setup.lt,Lithuania,unknown,no VAT statement found on page
+shop.cec.lv,Latvia,excl,"""ht"""
 signalocentras.lt,Lithuania,unknown,no VAT statement found on page
 smartech.ee,Estonia,unknown,no VAT statement found on page
+smartexstore.it,Italy,incl,"both seen; picked incl (""iva incl"")"
+smartstores.sk,Slovakia,excl,"""ht"""
 spainsellers.com,Spain,incl,"""iva incl"""
 sparepart.dk,Denmark,unknown,no VAT statement found on page
 spares.no,Norway,unknown,no VAT statement found on page
 startdistribuzione.it,Italy,incl,"both seen; picked incl (""iva incl"")"
+techcomponentes.com,Portugal,unknown,no VAT statement found on page
 teevo.com,China,excl,"""excl. vat"""
+tekniikkaosat.fi,Finland,incl,"both seen; picked incl (""sis. alv"")"
+teknikdelar.se,Sweden,incl,"both seen; picked incl (""inkl. moms"")"
+teknikdele.dk,Denmark,excl,"""ht"""
+teknikkdeler.no,Norway,incl,"both seen; picked incl (""inkl. mva"")"
 telefonubaterijos.lt,Lithuania,unknown,no VAT statement found on page
 telesfera.lt,Lithuania,unknown,no VAT statement found on page
+telo24.ee,Estonia,unknown,no VAT statement found on page
 therepairplus.com,UK,unknown,no VAT statement found on page
 thescreensurgery.com,UK,excl,"""ht"""
 touchandscreen.de,Germany,incl,"both seen; picked incl (""preise inkl"")"
+touchscreen.bg,Bulgaria,unknown,no VAT statement found on page
 twhouse.co.uk,UK,unknown,unreachable
+unlockr.ca,Canada,unknown,no VAT statement found on page
 utopya.com,France,excl,"""ht"""
+utopya.it,Italy,excl,"""netto"""
+vapaakauppa.net,Finland,unknown,no VAT statement found on page
 vsekmobilu.cz,Czechia,excl,"""ht"""
+web-sm.it,Italy,excl,"""netto"""
+wgp.com,USA,excl,"""ht"""
+wholesalegadgetparts.com,United States,excl,"""ht"""
+witrigs.com,China,excl,"""ht"""
 world-itech.com,France,incl,"both seen; picked incl (""vat included"")"
 xda.gr,Greece,excl,"""ht"""
 yodoit.com,Croatia,excl,"""ht"""
