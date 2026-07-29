@@ -19,10 +19,21 @@ export default async function handler(req, res) {
 
   try {
     let rows = await latestPrices();
-    const { type, country, sku } = req.query ?? {};
-    if (type) rows = rows.filter((r) => (r.type ?? r.type) === type);
-    if (country) rows = rows.filter((r) => (r.country ?? r.country) === country);
+    // surface category / list / login (backfilled into raw_price JSON)
+    rows = rows.map((r) => {
+      let meta = {};
+      try { meta = typeof r.raw_price === 'string' ? JSON.parse(r.raw_price) : (r.raw_price ?? {}); } catch { meta = {}; }
+      return { ...r, category: meta.category ?? null, list: meta.list ?? null,
+               grade: meta.grade ?? null, login: meta.login ?? false };
+    });
+    const { type, country, sku, category, list, login } = req.query ?? {};
+    if (type) rows = rows.filter((r) => r.type === type);
+    if (country) rows = rows.filter((r) => r.country === country);
     if (sku) rows = rows.filter((r) => r.sku === sku);
+    if (category) rows = rows.filter((r) => r.category === category);
+    if (list) rows = rows.filter((r) => r.list === list);          // A | B | buyback | aftermarket
+    if (login === 'true') rows = rows.filter((r) => r.login === true);
+    if (login === 'false') rows = rows.filter((r) => r.login === false);
     res.status(200).json({ count: rows.length, updatedAt: new Date().toISOString(), prices: rows });
   } catch (err) {
     res.status(500).json({ error: String(err.message ?? err) });

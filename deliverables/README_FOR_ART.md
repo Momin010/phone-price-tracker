@@ -4,8 +4,10 @@ System is live for **both webshops and buyback**. Everything below is in
 `Art_phone_screen_prices.xlsx` (one sheet per list) and as raw CSVs.
 
 ## The numbers
-- **1,216 iPhone X+ screen prices** in the API (878 webshop + 338 buyback)
-- **126 sites, 29 countries**. Daily refresh runs free on your machine (no AI cost).
+- **6,187 iPhone X+ screen prices** stored (5,280 webshop + 907 buyback)
+- **261 real verified shops** across ~60 countries (found by scanning 1,038 candidate domains; the rest were dead/unreachable and deliberately dropped — no fake rows)
+- **149 login-gated shops verified with on-page evidence**
+- Daily refresh runs free on your machine (no AI cost).
 
 ## API
 ```
@@ -15,8 +17,9 @@ Filters: ?type=shop | ?type=buyback | ?country=Germany | ?sku=iphone-14-pro
 ```
 
 ## Lists you asked for
-- **A — Glass+Pulled+Refurb** — original-panel screens, *cheapest* option per shop×model.
-- **B — Flex+Fog** — flex-replaced and fog/defective screens.
+- **A — Cheapest per shop** — genuine-panel screens (glass/pulled/refurb/original), one cheapest row per shop×model (399 rows).
+- **A — All genuine panels** — EVERY genuine-panel product (647 rows), with the cheapest-per-model flagged.
+- **B — Flex+Fog** — flex-replaced and fog/defective screens (only ~18 exist publicly — see note).
 - **Aftermarket** — soft/hard OLED, in-cell, TFT copies (bulk of the market).
 - **All Sites** / **Login-Gated Shops** — see below.
 
