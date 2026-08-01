@@ -1,4 +1,6 @@
 Site,Country,Model,RepairType,Price,Currency,ExclVAT,VATBasis,Login,URL
+fixerab2b.eu,Estonia,iphone 11 pro max,flex-replaced,38.61,EUR,38.61,VAT basis UNKNOWN — shown as listed,no,https://fixerab2b.eu/
+fixerab2b.eu,Estonia,iphone 11 pro max,flex-replaced,47.88,EUR,47.88,VAT basis UNKNOWN — shown as listed,no,https://fixerab2b.eu/
 fonix.at,Austria,iPhone 15 Pro,flex-replaced,359.9,EUR,299.92,stripped 20% VAT,YES,https://fonix.at/products/iphone-15-pro-display-inkl-hoererflex-service-pack?variant=55587264758025
 fonix.at,Austria,iphone 15 pro,flex-replaced,359.9,EUR,299.92,stripped 20% VAT,YES,https://fonix.at/products/iphone-15-pro-display-inkl-hoererflex-service-pack
 gsmok.com,Poland,iphone 11,fog,32.33,PLN,32.33,already ex-VAT,no,https://gsmok.com/en/lcd-iphone-c095
@@ -13,7 +15,13 @@ gsmok.com,Poland,iphone 14 pro max,fog,331.8,PLN,331.8,already ex-VAT,no,https:/
 gsmok.com,Poland,iphone 14 pro max,fog,269.76,PLN,269.76,already ex-VAT,no,https://gsmok.com/en/lcd-iphone-c095
 gsmok.com,Poland,iphone 16 pro,fog,242.88,PLN,242.88,already ex-VAT,no,https://gsmok.com/en/lcd-iphone-c095
 gsmok.com,Poland,iphone 16 pro,fog,197.47,PLN,197.47,already ex-VAT,no,https://gsmok.com/en/lcd-iphone-c095
+gsmok.pl,Poland,iphone 16 pro,fog,855.03,PLN,855.03,VAT basis UNKNOWN — shown as listed,no,https://gsmok.pl/wyswietlacze-iphone-apple-p18-c095
+gsmok.pl,Poland,iphone 16 pro,fog,1051.69,PLN,1051.69,VAT basis UNKNOWN — shown as listed,no,https://gsmok.pl/wyswietlacze-iphone-apple-p18-c095
+gsmok.pl,Poland,iphone 16 pro max,fog,910.89,PLN,910.89,VAT basis UNKNOWN — shown as listed,no,https://gsmok.pl/wyswietlacze-iphone-apple-p18-c095
+gsmok.pl,Poland,iphone 16 pro max,fog,1120.39,PLN,1120.39,VAT basis UNKNOWN — shown as listed,no,https://gsmok.pl/wyswietlacze-iphone-apple-p18-c095
 phf-shop.com,Germany,iPhone X,fog,27.25,EUR,27.25,already ex-VAT,no,https://phf-shop.com/apple/iphone-x/ersatzteile/3654/oled-display-einheit-fuer-iphone-x-originalqualitaet-fog-neu
 phf-shop.com,Germany,iPhone XS,fog,23.68,EUR,23.68,already ex-VAT,no,https://phf-shop.com/apple/iphone-xs/ersatzteile/4257/oled-display-einheit-fuer-iphone-xs-originalqualitaet-fog-black-neu
 phonepartsrus.com,Czechia,iPhone 11,fog,23,USD,23,already ex-VAT,no,https://phonepartsrus.com/products/copy-of-iphone-11-lcd-fog
 phonepartsrus.com,Czechia,iphone 11,fog,23.0,CZK,23.0,already ex-VAT,no,https://phonepartsrus.com/products/copy-of-iphone-11-lcd-fog?_pos=1&_sid=dfbc7e7f8&_ss=r
+sirenwireless.com,USA,iphone 15 pro,fog,134.87,USD,134.87,VAT basis UNKNOWN — shown as listed,YES,https://sirenwireless.com/oled-and-digitizer-assembly-for-iphone-15-pro-no-ic-transfer-required-premium-fog
+sirenwireless.com,USA,iphone 15 pro max,fog,139.99,USD,139.99,VAT basis UNKNOWN — shown as listed,YES,https://sirenwireless.com/oled-and-digitizer-assembly-for-iphone-15-pro-max-no-ic-transfer-required-premium-fog
