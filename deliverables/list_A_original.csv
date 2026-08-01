@@ -1,9 +1,9 @@
 Site,Country,Model,RepairType,Price,Currency,ExclVAT,VATBasis,Login,URL
 24hshop.fr,France,iPhone 11 Pro,original,75.98,EUR,63.32,stripped 20% VAT,no,https://24hshop.fr/ecran-sur-chassis-iphone-11-pro-a2160-soft-oled-apple-original-super-retina-58-pouces-vitre-smartphone-true-tone-complet-2774.html
 24hshop.fr,France,iPhone 11 Pro Max,original,75.98,EUR,63.32,stripped 20% VAT,no,https://24hshop.fr/ecran-verre-multi-touch-soft-oled-apple-iphone-11-pro-max-a2218-original-smartphone-3d-touch-remplacement-kit-assemble-chassis-2840.html
-24hshop.fr,France,iPhone XS,original,55.98,EUR,46.65,stripped 20% VAT,no,https://24hshop.fr/verre-tactile-iphone-xs-soft-oled-qualite-ecran-a2097-original-reparation-smartphone-affichage-true-tone-hd-super-retina-58-in-2688.html
-24hshop.fr,France,iPhone XS Max,original,65.98,EUR,54.98,stripped 20% VAT,no,https://24hshop.fr/ecran-soft-oled-verre-multi-touch-apple-iphone-xs-max-a2104-original-smartphone-3d-touch-remplacement-hdr-oleophobe-2961.html
-24hshop.fr,France,iphone 11,original,75.98,EUR,63.32,stripped 20% VAT,no,https://24hshop.fr/soft-oled-apple-ecran-complet-iphone-11-pro-a2215-original-super-retina-58-pouces-vitre-smartphone-affichage-true-tone-kit-asse-2790.html
+24hshop.fr,France,iPhone XS,original,55.98,EUR,46.65,stripped 20% VAT,no,https://24hshop.fr/ecran-tactile-iphone-xs-verre-multi-touch-soft-oled-apple-original-3d-touch-remplacement-hdr-qualite-vitre-oleophobe-sur-chassis-2666.html
+24hshop.fr,France,iPhone XS Max,original,65.98,EUR,54.98,stripped 20% VAT,no,https://24hshop.fr/vitre-tactile-ecran-soft-oled-iphone-xs-max-a2103-apple-original-super-retina-65-pouces-smartphone-affichage-true-tone-2956.html
+24hshop.fr,France,iphone 11,original,75.98,EUR,63.32,stripped 20% VAT,no,https://24hshop.fr/ecran-sur-chassis-iphone-11-pro-a2160-soft-oled-apple-original-super-retina-58-pouces-vitre-smartphone-true-tone-complet-2774.html
 24hshop.fr,France,iphone xs,original,55.98,EUR,46.65,stripped 20% VAT,no,https://24hshop.fr/iphone-xs-a1920-ecran-soft-oled-apple-original-super-retina-58-pouces-vitre-smartphone-assemblee-affichage-complet-true-tone-2683.html
 ab-mobiteli.com,Croatia,iPhone 14 Plus,original,250,EUR,250,VAT basis UNKNOWN — shown as listed,no,https://ab-mobiteli.com/products/lcd-original-apple-iphone-14-plus
 ab-mobiteli.com,Croatia,iPhone 14 Pro,original,380,EUR,380,VAT basis UNKNOWN — shown as listed,no,https://ab-mobiteli.com/products/lcd-original-apple-iphone-14-pro-skidan
@@ -29,7 +29,7 @@ appleparts.nl,Netherlands,iPhone 14 Plus,pulled,199,EUR,199,VAT basis UNKNOWN �
 appleparts.nl,Netherlands,iPhone 14 Pro Max,pulled,239,EUR,239,VAT basis UNKNOWN — shown as listed,no,https://appleparts.nl/products/beeldscherm-iphone-14-pro-max-origineel-pulled?_pos=2&_sid=433506182&_ss=r
 appleparts.nl,Netherlands,iPhone 15,pulled,175,EUR,175,VAT basis UNKNOWN — shown as listed,no,https://appleparts.nl/products/beeldscherm-voor-iphone-15-origineel-pulled?_pos=3&_sid=433506182&_ss=r
 appleparts.nl,Netherlands,iPhone 15 Pro,pulled,319,EUR,319,VAT basis UNKNOWN — shown as listed,no,https://appleparts.nl/products/beeldscherm-scherm-voor-iphone-15-pro-origineel-pulled-a-grade-met-lichtsensor-flex?_pos=7&_sid=433506182&_ss=r
-appleparts.nl,Netherlands,iPhone 16,pulled,198,EUR,198,VAT basis UNKNOWN — shown as listed,no,https://appleparts.nl/products/beeldscherm-scherm-voor-iphone-16-origineel-pulled?_pos=5&_sid=433506182&_ss=r
+appleparts.nl,Netherlands,iPhone 16,pulled,198,EUR,198,VAT basis UNKNOWN — shown as listed,no,https://appleparts.nl/products/beeldscherm-scherm-voor-iphone-16-origineel-pulled?_pos=6&_sid=433506182&_ss=r
 appleparts.nl,Netherlands,iphone 13,pulled,109.0,EUR,109.0,VAT basis UNKNOWN — shown as listed,no,https://appleparts.nl/products/beeldscherm-voor-iphone-15-origineel-pulled-a-grade-met-sensor-flex?_pos=3&_sid=7fc136858&_ss=r
 appleparts.nl,Netherlands,iphone 14 plus,pulled,199.0,EUR,199.0,VAT basis UNKNOWN — shown as listed,no,https://appleparts.nl/products/iphone-14-plus-scherm-origineel-pulled?_pos=7&_sid=7fc136858&_ss=r
 appleparts.nl,Netherlands,iphone 15,pulled,175.0,EUR,175.0,VAT basis UNKNOWN — shown as listed,no,https://appleparts.nl/products/beeldscherm-voor-iphone-15-origineel-pulled?_pos=1&_sid=7fc136858&_ss=r
@@ -59,10 +59,10 @@ ch-ios.ro,Romania,iphone 11 pro max,refurb,392.0,RON,392.0,already ex-VAT,YES,ht
 ch-ios.ro,Romania,iphone 12 mini,refurb,425.0,RON,425.0,already ex-VAT,YES,https://www.ch-ios.ro/display-uri-si-touchscreen-iphone/display-cu-touchscreen-și-ramă-iphone-12-mini-oled-original-reconditionat.html
 ch-ios.ro,Romania,iphone 12 pro,refurb,383.0,RON,383.0,already ex-VAT,YES,https://www.ch-ios.ro/display-cu-touchscreen-și-ramă-iphone-12-12-pro-oled-original-reconditionat.html
 ch-ios.ro,Romania,iphone 12 pro max,refurb,685.0,RON,685.0,already ex-VAT,YES,https://www.ch-ios.ro/display-uri-si-touchscreen-iphone/display-cu-touchscreen-și-ramă-iphone-12-pro-max-oled-original-reconditionat.html
-ch-ios.ro,Romania,iphone 13,refurb,417.0,RON,417.0,already ex-VAT,YES,https://www.ch-ios.ro/display-uri-si-touchscreen-iphone/display-cu-touchscreen-și-ramă-iphone-13-oled-original-reconditionat.html
+ch-ios.ro,Romania,iphone 13,refurb,417.0,RON,417.0,already ex-VAT,YES,https://www.ch-ios.ro/display-cu-touchscreen-și-ramă-iphone-13-oled-original-reconditionat.html
 ch-ios.ro,Romania,iphone 13 mini,refurb,679.0,RON,679.0,already ex-VAT,YES,https://www.ch-ios.ro/display-uri-si-touchscreen-iphone/display-cu-touchscreen-și-ramă-iphone-13-mini-original-reconditionat.html
-ch-ios.ro,Romania,iphone 13 pro,refurb,570.0,RON,570.0,already ex-VAT,YES,https://www.ch-ios.ro/display-uri-si-touchscreen-iphone/display-cu-touchscreen-și-ramă-iphone-13-pro-oled-original-reconditionat.html
-ch-ios.ro,Romania,iphone 13 pro max,refurb,720.0,RON,720.0,already ex-VAT,YES,https://www.ch-ios.ro/display-uri-si-touchscreen-iphone/display-cu-touchscreen-și-ramă-iphone-13-pro-max-oled-original-reconditionat.html
+ch-ios.ro,Romania,iphone 13 pro,refurb,570.0,RON,570.0,already ex-VAT,YES,https://www.ch-ios.ro/display-cu-touchscreen-și-ramă-iphone-13-pro-oled-original-reconditionat.html
+ch-ios.ro,Romania,iphone 13 pro max,refurb,720.0,RON,720.0,already ex-VAT,YES,https://www.ch-ios.ro/display-cu-touchscreen-și-ramă-iphone-13-pro-max-oled-original-reconditionat.html
 ch-ios.ro,Romania,iphone 14,refurb,465.0,RON,465.0,already ex-VAT,YES,https://www.ch-ios.ro/display-uri-si-touchscreen-iphone/display-cu-touchscreen-și-ramă-iphone-14-soft-oled-1069.html
 ch-ios.ro,Romania,iphone 14 plus,refurb,691.0,RON,691.0,already ex-VAT,YES,https://www.ch-ios.ro/display-uri-si-touchscreen-iphone/display-cu-touchscreen-și-ramă-iphone-14-plus-1466.html
 ch-ios.ro,Romania,iphone 14 pro,refurb,800.0,RON,800.0,already ex-VAT,YES,https://www.ch-ios.ro/display-uri-si-touchscreen-iphone/display-cu-touchscreen-și-ramă-iphone-14-pro-aftermarket-soft-oled-1464.html
@@ -70,21 +70,25 @@ ch-ios.ro,Romania,iphone 14 pro max,refurb,1216.0,RON,1216.0,already ex-VAT,YES,
 ch-ios.ro,Romania,iphone 15,refurb,841.0,RON,841.0,already ex-VAT,YES,https://www.ch-ios.ro/display-uri-si-touchscreen-iphone/display-cu-touchscreen-și-ramă-iphone-15-1617.html
 ch-ios.ro,Romania,iphone 15 plus,refurb,877.0,RON,877.0,already ex-VAT,YES,https://www.ch-ios.ro/display-uri-si-touchscreen-iphone/display-cu-touchscreen-și-ramă-iphone-15-plus.html
 ch-ios.ro,Romania,iphone 15 pro,refurb,1185.0,RON,1185.0,already ex-VAT,YES,https://www.ch-ios.ro/display-uri-si-touchscreen-iphone/display-cu-touchscreen-și-ramă-iphone-15-pro.html
-ch-ios.ro,Romania,iphone 15 pro max,refurb,1260.0,RON,1260.0,already ex-VAT,YES,https://www.ch-ios.ro/display-uri-si-touchscreen-iphone/display-cu-touchscreen-și-ramă-iphone-15-pro-max.html
+ch-ios.ro,Romania,iphone 15 pro max,refurb,1260.0,RON,1260.0,already ex-VAT,YES,https://www.ch-ios.ro/display-cu-touchscreen-și-ramă-iphone-15-pro-max.html
 ch-ios.ro,Romania,iphone 16,refurb,950.0,RON,950.0,already ex-VAT,YES,https://www.ch-ios.ro/display-uri-si-touchscreen-iphone/display-cu-touchscreen-și-ramă-iphone-16-original-reconditionat.html
-ch-ios.ro,Romania,iphone 16 plus,refurb,950.0,RON,950.0,already ex-VAT,YES,https://www.ch-ios.ro/display-uri-si-touchscreen-iphone/display-cu-touchscreen-și-ramă-iphone-16-plus-original-reconditionat.html
-ch-ios.ro,Romania,iphone 16 pro,refurb,1220.0,RON,1220.0,already ex-VAT,YES,https://www.ch-ios.ro/display-uri-si-touchscreen-iphone/display-cu-touchscreen-și-ramă-iphone-16-pro.html
-ch-ios.ro,Romania,iphone 16 pro max,refurb,1435.0,RON,1435.0,already ex-VAT,YES,https://www.ch-ios.ro/display-uri-si-touchscreen-iphone/display-cu-touchscreen-și-ramă-iphone-16-pro-max-original-reconditionat.html
+ch-ios.ro,Romania,iphone 16 plus,refurb,950.0,RON,950.0,already ex-VAT,YES,https://www.ch-ios.ro/display-cu-touchscreen-și-ramă-iphone-16-plus-original-reconditionat.html
+ch-ios.ro,Romania,iphone 16 pro,refurb,1220.0,RON,1220.0,already ex-VAT,YES,https://www.ch-ios.ro/display-cu-touchscreen-și-ramă-iphone-16-pro.html
+ch-ios.ro,Romania,iphone 16 pro max,refurb,1435.0,RON,1435.0,already ex-VAT,YES,https://www.ch-ios.ro/display-cu-touchscreen-și-ramă-iphone-16-pro-max-original-reconditionat.html
 ch-ios.ro,Romania,iphone x,refurb,265.0,RON,265.0,already ex-VAT,YES,https://www.ch-ios.ro/display-cu-touchscreen-și-ramă-iphone-x-oled-original-reconditionat.html
 ch-ios.ro,Romania,iphone xr,refurb,195.0,RON,195.0,already ex-VAT,YES,https://www.ch-ios.ro/display-cu-touchscreen-și-ramă-iphone-xr-original-reconditionat.html
 ch-ios.ro,Romania,iphone xs,refurb,265.0,RON,265.0,already ex-VAT,YES,https://www.ch-ios.ro/display-cu-touchscreen-și-ramă-iphone-xs-oled-original-reconditionat.html
 ch-ios.ro,Romania,iphone xs max,refurb,370.0,RON,370.0,already ex-VAT,YES,https://www.ch-ios.ro/display-cu-touchscreen-și-ramă-iphone-xs-max-oled-original-reconditionat.html
 da-pieces.com,France,iphone xs max,original,61.99,EUR,61.99,VAT basis UNKNOWN — shown as listed,no,https://da-pieces.com/products/ecran-iphone-xs-max-soft-oled?_pos=22&_sid=1ffba179f&_ss=r
+doctor-smartphone.com,Italy,iphone 11,original,139.0,EUR,139.0,VAT basis UNKNOWN — shown as listed,no,https://www.doctor-smartphone.com/vendita-accessori-ricambi/
+doctor-smartphone.com,Italy,iphone xs max,original,199.0,EUR,199.0,VAT basis UNKNOWN — shown as listed,no,https://www.doctor-smartphone.com/vendita-accessori-ricambi/
 dutchrepair.nl,Netherlands,iPhone 11,original,45.99,EUR,45.99,already ex-VAT,no,https://www.dutchrepair.nl/products/kopie-van-iphone-11-scherm-a-kwaliteit-gratis-tempered-glass-screen-protector-gereedschap-framesticker-scherm-touchscreen-hoge-kwaliteit
 dutchrepair.nl,Netherlands,iphone 11,original,45.99,EUR,45.99,already ex-VAT,no,https://www.dutchrepair.nl/products/kopie-van-iphone-11-scherm-a-kwaliteit-gratis-tempered-glass-screen-protector-gereedschap-framesticker-scherm-touchscreen-hoge-kwaliteit?_pos=20&_sid=fa3ea38a9&_ss=r
 el-telgsm.pl,Poland,iPhone 11,original,234.989901,PLN,191.05,stripped 23% VAT,no,https://el-telgsm.pl/wyswietlacze-iphone/24403-wyswietlacz-lcd-iphone-11-6-1-service-pack-czarny.html
 el-telgsm.pl,Poland,iPhone 12 / 12 Pro,original,338.999931,PLN,275.61,stripped 23% VAT,no,https://el-telgsm.pl/wyswietlacze-iphone/34449-wyswietlacz-lcd-iphone-12---12-pro-6-1-service-pack-czarny.html
 el-telgsm.pl,Poland,iphone 12 pro,original,338.999931,PLN,275.61,stripped 23% VAT,no,https://el-telgsm.pl/wyswietlacze-iphone/34449-wyswietlacz-lcd-iphone-12---12-pro-6-1-service-pack-czarny.html
+emobilshop.sk,SK,iphone 11,original,39.9,,39.9,VAT basis UNKNOWN — shown as listed,no,https://www.emobilshop.sk/kategoria/nahradne-diely/
+fixdelar.se,Sweden,iphone xs,original,139.0,SEK,139.0,VAT basis UNKNOWN — shown as listed,no,https://fixdelar.se/
 fixo.com.au,Australia,iphone 11,refurb,42.17,AUD,42.17,already ex-VAT,no,https://www.fixo.com.au/collections/iphone
 fixo.com.au,Australia,iphone 11 pro,refurb,98.31,EUR,98.31,already ex-VAT,no,/products/iphone-11-pro-lcd-screen-refurbished/products/iphone-11-pro-lcd-screen-refurbished?variant=35967548555423
 fixo.com.au,Australia,iphone 11 pro max,refurb,106.21,AUD,106.21,already ex-VAT,no,https://www.fixo.com.au/collections/iphone
@@ -151,6 +155,8 @@ horepa.fr,France,iPhone 15,refurb,139.896001,EUR,116.58,stripped 20% VAT,no,http
 horepa.fr,France,iphone 13,refurb,86.904001,EUR,72.42,stripped 20% VAT,no,https://horepa.fr/fr/ecran-iphone-13-oem-refurb.html
 horepa.fr,France,iphone 14,refurb,79.896001,EUR,66.58,stripped 20% VAT,no,https://horepa.fr/fr/ecran-iphone-14-oem-refurb.html
 hurtlcd.pl,Poland,iphone 11,original,355.0,PLN,355.0,already ex-VAT,no,https://hurtlcd.pl/pl/p/IPHONE-11-SERVICE-PACK-LCD-RAMKA-100-ORYGINAL-CZARNY/2951
+ifixshop.fr,France,iphone 11,refurb,44.9,EUR,44.9,VAT basis UNKNOWN — shown as listed,no,https://www.ifixshop.fr/
+ifixshop.fr,France,iphone 12,refurb,79.9,EUR,79.9,VAT basis UNKNOWN — shown as listed,no,https://www.ifixshop.fr/
 ilevante.com,Spain,iphone 12 pro max,original,37.9,EUR,37.9,VAT basis UNKNOWN — shown as listed,no,https://www.ilevante.com/pantalla-completa-para-iphone-12-pro-max-oled-como-original
 ilevante.com,Spain,iphone 14 pro max,original,81.95,EUR,81.95,VAT basis UNKNOWN — shown as listed,no,https://www.ilevante.com/pantalla-completa-para-iphone-14-pro-max-oled
 ilevante.fr,France,iphone 14 pro max,original,81.95,EUR,81.95,already ex-VAT,no,https://www.ilevante.fr/Ecran-complet-pour-iphone-14-pro-max-original-p-20633.html
@@ -207,11 +213,14 @@ koopjeonderdelen.nl,Netherlands,iphone 11 pro,original,99.99,EUR,82.64,stripped 
 koopjeonderdelen.nl,Netherlands,iphone 12,refurb,89.99,EUR,74.37,stripped 21% VAT,no,https://www.koopjeonderdelen.nl/products/iphone-12-budget-incell-lcd-scherm?_pos=11&_sid=c37fdcb6f&_ss=r
 koopjeonderdelen.nl,Netherlands,iphone 14,pulled,114.99,EUR,95.03,stripped 21% VAT,no,https://www.koopjeonderdelen.nl/products/iphone-14-origineel-scherm?_pos=20&_sid=c37fdcb6f&_ss=r
 koopjeonderdelen.nl,Netherlands,iphone 15,pulled,294.99,EUR,243.79,stripped 21% VAT,no,https://www.koopjeonderdelen.nl/products/iphone-15-origineel-pulled-scherm-a-grade?_pos=13&_sid=c37fdcb6f&_ss=r
+laptop-service.gr,Greece,iphone 11,original,10.0,EUR,10.0,VAT basis UNKNOWN — shown as listed,no,https://www.laptop-service.gr/e-shop/%CE%B1%CE%BD%CF%84%CE%B1%CE%BB%CE%BB%CE%B1%CE%BA%CF%84%CE%B9%CE%BA%CE%AC-iphone
+laptop-service.gr,Greece,iphone xr,original,10.0,EUR,10.0,VAT basis UNKNOWN — shown as listed,no,https://www.laptop-service.gr/e-shop/%CE%B1%CE%BD%CF%84%CE%B1%CE%BB%CE%BB%CE%B1%CE%BA%CF%84%CE%B9%CE%BA%CE%AC-iphone
 m9parts.pl,Poland,iphone 11 pro,original,174.8,PLN,174.8,already ex-VAT,no,https://m9parts.pl/
 m9parts.pl,Poland,iphone 12,original,251.22,PLN,251.22,already ex-VAT,no,https://m9parts.pl/
 m9parts.pl,Poland,iphone 13 pro,original,251.22,PLN,251.22,already ex-VAT,no,https://m9parts.pl/
 mdparts.com.au,Australia,iphone 15 pro max,refurb,253.0,AUD,253.0,already ex-VAT,no,https://mdparts.com.au/products/iphone-15-pro-max-refurbished-screen-assembly
 mecimart.se,SE,iphone 13 pro,original,199.0,,199.0,VAT basis UNKNOWN — shown as listed,no,https://mecimart.se/mobilreservdelar-lcd-skarm-mobil/
+media-ram.gr,Greece,iphone 15,original,99.0,EUR,99.0,VAT basis UNKNOWN — shown as listed,no,https://www.media-ram.gr/smartphone-tablet-parts-greece/apple/
 meintrendyhandy.de,Germany,iphone 12 pro,original,100.7,EUR,84.62,stripped 19% VAT,YES,https://www.meintrendyhandy.de/shop/iphone-12-pro-lcd-display-original-qualitat-270128p.html
 meintrendyhandy.de,Germany,iphone 14,original,127.5,EUR,107.14,stripped 19% VAT,YES,https://www.meintrendyhandy.de/shop/iphone-14-lcd-display-original-qualitat-306016p.html
 meintrendyhandy.de,Germany,iphone 14 plus,original,91.8,EUR,77.14,stripped 19% VAT,YES,https://www.meintrendyhandy.de/shop/iphone-14-plus-lcd-display-original-qualitat-306025p.html
@@ -234,6 +243,18 @@ mobilebitz.co.uk,UK,iphone 13 pro,refurb,399.0,GBP,399.0,already ex-VAT,no,https
 mobilebitz.co.uk,UK,iphone 13 pro max,refurb,329.0,GBP,329.0,already ex-VAT,no,https://www.mobilebitz.co.uk/
 mobilebitz.co.uk,UK,iphone 14 plus,refurb,465.0,GBP,465.0,already ex-VAT,no,https://www.mobilebitz.co.uk/
 mobilebitz.co.uk,UK,iphone 14 pro max,refurb,519.0,GBP,519.0,already ex-VAT,no,https://www.mobilebitz.co.uk/
+mobilemonsters.ee,Estonia,iphone 12,glass-changed,66.1,EUR,66.1,VAT basis UNKNOWN — shown as listed,YES,https://mobilemonsters.ee/iphone-ekraani-vahetus.html
+mobilemonsters.ee,Estonia,iphone 12 pro,glass-changed,66.1,EUR,66.1,VAT basis UNKNOWN — shown as listed,YES,https://mobilemonsters.ee/iphone-ekraani-vahetus.html
+mobilemonsters.ee,Estonia,iphone 13,glass-changed,63.2,EUR,63.2,VAT basis UNKNOWN — shown as listed,YES,https://mobilemonsters.ee/iphone-ekraani-vahetus.html
+mobilemonsters.ee,Estonia,iphone 13 pro max,glass-changed,91.0,EUR,91.0,VAT basis UNKNOWN — shown as listed,YES,https://mobilemonsters.ee/iphone-ekraani-vahetus.html
+mobilemonsters.ee,Estonia,iphone 14 pro,glass-changed,70.2,EUR,70.2,VAT basis UNKNOWN — shown as listed,YES,https://mobilemonsters.ee/iphone-ekraani-vahetus.html
+mobilemonsters.ee,Estonia,iphone 14 pro max,glass-changed,76.5,EUR,76.5,VAT basis UNKNOWN — shown as listed,YES,https://mobilemonsters.ee/iphone-ekraani-vahetus.html
+mobilemonsters.ee,Estonia,iphone 15 plus,glass-changed,94.9,EUR,94.9,VAT basis UNKNOWN — shown as listed,YES,https://mobilemonsters.ee/iphone-ekraani-vahetus.html
+mobilemonsters.ee,Estonia,iphone 15 pro max,glass-changed,89.9,EUR,89.9,VAT basis UNKNOWN — shown as listed,YES,https://mobilemonsters.ee/iphone-ekraani-vahetus.html
+mobilemonsters.ee,Estonia,iphone 16,glass-changed,93.5,EUR,93.5,VAT basis UNKNOWN — shown as listed,YES,https://mobilemonsters.ee/iphone-ekraani-vahetus.html
+mobilemonsters.ee,Estonia,iphone 16 plus,glass-changed,205.9,EUR,205.9,VAT basis UNKNOWN — shown as listed,YES,https://mobilemonsters.ee/iphone-ekraani-vahetus.html
+mobilemonsters.ee,Estonia,iphone 16 pro,glass-changed,121.4,EUR,121.4,VAT basis UNKNOWN — shown as listed,YES,https://mobilemonsters.ee/iphone-ekraani-vahetus.html
+mobilemonsters.ee,Estonia,iphone 16 pro max,glass-changed,121.3,EUR,121.3,VAT basis UNKNOWN — shown as listed,YES,https://mobilemonsters.ee/iphone-ekraani-vahetus.html
 mobileparts.ch,Switzerland,iphone 11,pulled,41.4,CHF,41.4,already ex-VAT,YES,https://www.mobileparts.ch/GOGX-PULL-fuer-iPhone-11-C11-F7C
 mobileparts.ch,Switzerland,iphone 14 pro,pulled,210.2,CHF,210.2,already ex-VAT,YES,https://www.mobileparts.ch/GOGX-PULL-mit-Sensorik-fuer-iPhone-14-Pro
 mobileparts.ch,Switzerland,iphone 15,pulled,145.0,CHF,145.0,already ex-VAT,YES,https://www.mobileparts.ch/GOGX-PULL-mit-Sensorik-fuer-iPhone-15
@@ -311,6 +332,7 @@ mobishop.ee,Estonia,iphone 15,original,120.0,EUR,120.0,already ex-VAT,YES,https:
 mobishop.ee,Estonia,iphone 15 pro max,original,240.0,EUR,240.0,already ex-VAT,YES,https://mobishop.ee/toode/lcd-screen-for-iphone-15-pro-max-with-touch-screen-original-pairable-used-grade-a/
 mobishop.ee,Estonia,iphone 16 pro,original,160.0,EUR,160.0,already ex-VAT,YES,https://mobishop.ee/toode/lcd-screen-for-iphone-16-pro-with-touch-screen-original-pairable-used-grade-b/
 mobishop.ee,Estonia,iphone 16 pro max,original,194.0,EUR,194.0,already ex-VAT,YES,https://mobishop.ee/toode/lcd-screen-for-iphone-16-pro-max-with-touch-screen-original-used-grade-b/
+mobyfix.hr,Croatia,iphone xr,original,118.0,EUR,118.0,VAT basis UNKNOWN — shown as listed,no,https://mobyfix.hr/proizvodi/rezervni-dijelovi/
 motivs.lv,Latvia,iphone 12,original,69.9,EUR,69.9,already ex-VAT,no,https://motivs.lv/en/lcd-screens-displays
 motivs.lv,Latvia,iphone 13,original,71.3,EUR,71.3,already ex-VAT,no,https://motivs.lv/en/lcd-screens-displays
 motivs.lv,Latvia,iphone 13 pro max,original,178.1,EUR,178.1,already ex-VAT,no,https://motivs.lv/en/lcd-screens-displays
@@ -356,8 +378,14 @@ signalocentras.lt,Lithuania,iPhone 12 / 12 Pro,original,160,EUR,160,VAT basis UN
 signalocentras.lt,Lithuania,iphone 11,refurb,76.0,EUR,76.0,VAT basis UNKNOWN — shown as listed,no,https://signalocentras.lt/telefonija/telefonu-ekranai-lcd/iphone-ipad
 signalocentras.lt,Lithuania,iphone 12,original,128.0,EUR,128.0,VAT basis UNKNOWN — shown as listed,no,https://signalocentras.lt/telefonija/telefonu-ekranai-lcd/iphone-ipad
 signalocentras.lt,Lithuania,iphone 12 pro,original,160.0,EUR,160.0,VAT basis UNKNOWN — shown as listed,no,http://signalocentras.lt/telefonija/telefonu-ekranai-lcd/iphone-ipad/lcdtouch-screen-iphone-12-juodas-black-service-pack-oem100596-25407
+skiles.lt,Lithuania,iphone 13,original,9.99,EUR,9.99,VAT basis UNKNOWN — shown as listed,no,https://skiles.lt/kategorija/kitos-dalys-visos/
+skiles.lt,Lithuania,iphone x,original,2.0,EUR,2.0,VAT basis UNKNOWN — shown as listed,no,https://skiles.lt/kategorija/kitos-dalys-visos/
+skiles.lt,Lithuania,iphone xr,original,6.99,EUR,6.99,VAT basis UNKNOWN — shown as listed,no,https://skiles.lt/kategorija/kitos-dalys-visos/
+skiles.lt,Lithuania,iphone xs,original,6.99,EUR,6.99,VAT basis UNKNOWN — shown as listed,no,https://skiles.lt/kategorija/kitos-dalys-visos/
+skiles.lt,Lithuania,iphone xs max,original,6.99,EUR,6.99,VAT basis UNKNOWN — shown as listed,no,https://skiles.lt/kategorija/kitos-dalys-visos/
 smartstores.sk,Slovakia,iphone 15,original,24.9,,24.9,already ex-VAT,no,https://www.smartstores.sk/
 smartstores.sk,Slovakia,iphone xr,original,39.9,EUR,39.9,already ex-VAT,no,https://www.smartstores.sk/apple-iphone-xr-lcd-displej-dotykova-plocha-ram-original/
+smeugsm.ro,Romania,iphone x,original,250.0,RON,250.0,VAT basis UNKNOWN — shown as listed,YES,https://smeugsm.ro/produs/display-iphone-x-original-inlocuire-profesionala/
 teevo.com,China,iphone 13,pulled,94.12,USD,94.12,already ex-VAT,no,https://www.teevo.com/products/1563138
 teevo.com,China,iphone 13 pro,pulled,224.43,USD,224.43,already ex-VAT,no,https://www.teevo.com/products/1496299
 teevo.com,China,iphone 13 pro max,pulled,296.83,USD,296.83,already ex-VAT,no,https://www.teevo.com/products/1498003
@@ -371,6 +399,7 @@ teevo.com,China,iphone 16 pro,refurb,60.0,USD,60.0,already ex-VAT,no,https://www
 teevo.com,China,iphone 16 pro max,original,356.56,USD,356.56,already ex-VAT,no,https://www.teevo.com/products/1560649
 teevo.com,China,iphone xr,refurb,16.86,USD,16.86,already ex-VAT,no,https://www.teevo.com/products/1474273?_pos=8&_sid=e42fb8b4b&_ss=r
 teevo.com,China,iphone xs max,pulled,57.92,USD,57.92,already ex-VAT,no,https://www.teevo.com/products/1553542
+teknikhouse.se,Sweden,iphone 11,original,690.0,SEK,690.0,VAT basis UNKNOWN — shown as listed,no,https://teknikhouse.se/mobilreservdelar/apple/iphone-11/
 thescreensurgery.com,UK,iphone 11,original,14.95,GBP,14.95,already ex-VAT,no,https://thescreensurgery.com/collections/value-screens
 thescreensurgery.com,UK,iphone 11 pro,original,20.95,GBP,20.95,already ex-VAT,no,https://thescreensurgery.com/collections/value-screens
 thescreensurgery.com,UK,iphone 11 pro max,original,21.95,GBP,21.95,already ex-VAT,no,https://thescreensurgery.com/collections/value-screens

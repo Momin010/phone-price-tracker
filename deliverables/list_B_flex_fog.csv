@@ -1,18 +1,18 @@
 Site,Country,Model,RepairType,Price,Currency,ExclVAT,VATBasis,Login,URL
 fonix.at,Austria,iPhone 15 Pro,flex-replaced,359.9,EUR,299.92,stripped 20% VAT,YES,https://fonix.at/products/iphone-15-pro-display-inkl-hoererflex-service-pack?variant=55587264758025
 fonix.at,Austria,iphone 15 pro,flex-replaced,359.9,EUR,299.92,stripped 20% VAT,YES,https://fonix.at/products/iphone-15-pro-display-inkl-hoererflex-service-pack
-gsmok.com,Poland,iphone 11,fog,26.28,PLN,26.28,already ex-VAT,no,https://gsmok.com/en/lcd-iphone-c095
 gsmok.com,Poland,iphone 11,fog,32.33,PLN,32.33,already ex-VAT,no,https://gsmok.com/en/lcd-iphone-c095
+gsmok.com,Poland,iphone 11,fog,26.28,PLN,26.28,already ex-VAT,no,https://gsmok.com/en/lcd-iphone-c095
 gsmok.com,Poland,iphone 12 pro max,fog,70.16,PLN,70.16,already ex-VAT,no,https://gsmok.com/en/lcd-iphone-c095
 gsmok.com,Poland,iphone 12 pro max,fog,86.3,PLN,86.3,already ex-VAT,no,https://gsmok.com/en/lcd-iphone-c095
-gsmok.com,Poland,iphone 13,fog,70.45,PLN,70.45,already ex-VAT,no,https://gsmok.com/en/lcd-iphone-c095
 gsmok.com,Poland,iphone 13,fog,86.65,PLN,86.65,already ex-VAT,no,https://gsmok.com/en/lcd-iphone-c095
-gsmok.com,Poland,iphone 14,fog,71.03,PLN,71.03,already ex-VAT,no,https://gsmok.com/en/lcd-iphone-c095
+gsmok.com,Poland,iphone 13,fog,70.45,PLN,70.45,already ex-VAT,no,https://gsmok.com/en/lcd-iphone-c095
 gsmok.com,Poland,iphone 14,fog,87.36,PLN,87.36,already ex-VAT,no,https://gsmok.com/en/lcd-iphone-c095
-gsmok.com,Poland,iphone 14 pro max,fog,269.76,PLN,269.76,already ex-VAT,no,https://gsmok.com/en/lcd-iphone-c095
+gsmok.com,Poland,iphone 14,fog,71.03,PLN,71.03,already ex-VAT,no,https://gsmok.com/en/lcd-iphone-c095
 gsmok.com,Poland,iphone 14 pro max,fog,331.8,PLN,331.8,already ex-VAT,no,https://gsmok.com/en/lcd-iphone-c095
-gsmok.com,Poland,iphone 16 pro,fog,197.47,PLN,197.47,already ex-VAT,no,https://gsmok.com/en/lcd-iphone-c095
+gsmok.com,Poland,iphone 14 pro max,fog,269.76,PLN,269.76,already ex-VAT,no,https://gsmok.com/en/lcd-iphone-c095
 gsmok.com,Poland,iphone 16 pro,fog,242.88,PLN,242.88,already ex-VAT,no,https://gsmok.com/en/lcd-iphone-c095
+gsmok.com,Poland,iphone 16 pro,fog,197.47,PLN,197.47,already ex-VAT,no,https://gsmok.com/en/lcd-iphone-c095
 phf-shop.com,Germany,iPhone X,fog,27.25,EUR,27.25,already ex-VAT,no,https://phf-shop.com/apple/iphone-x/ersatzteile/3654/oled-display-einheit-fuer-iphone-x-originalqualitaet-fog-neu
 phf-shop.com,Germany,iPhone XS,fog,23.68,EUR,23.68,already ex-VAT,no,https://phf-shop.com/apple/iphone-xs/ersatzteile/4257/oled-display-einheit-fuer-iphone-xs-originalqualitaet-fog-black-neu
 phonepartsrus.com,Czechia,iPhone 11,fog,23,USD,23,already ex-VAT,no,https://phonepartsrus.com/products/copy-of-iphone-11-lcd-fog
