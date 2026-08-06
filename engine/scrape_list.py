@@ -52,7 +52,7 @@ def sale_text_pairs(text):
 
 # any iPhone model (incl. old) — used only as span boundaries so old-model prices
 # don't bleed into the iPhone X/XR spans
-_ANY_MODEL_RE = re.compile(r"iphone\s*(16 pro max|16 pro|16 plus|16e|16|15 pro max|15 pro|15 plus|15|"
+_ANY_MODEL_RE = re.compile(r"iphone\s*(17 pro max|17 pro|17 air|17|16 pro max|16 pro|16 plus|16e|16|15 pro max|15 pro|15 plus|15|"
     r"14 pro max|14 pro|14 plus|14|13 pro max|13 pro|13 mini|13|12 pro max|12 pro|12 mini|12|"
     r"11 pro max|11 pro|11|xs max|xs|xr|x|8 plus|8|7 plus|7|6s plus|6s|6 plus|6|se|5s|5c|5|4s|4)(?![0-9a-z])", re.I)
 _GRADES = ["A", "B", "C", "D"]
@@ -63,7 +63,7 @@ def buyback_pairs(text):
     tokens act as span boundaries so their prices don't leak into X/XR spans."""
     bounds = [(m.start(), m.end(), m.group(1).lower()) for m in _ANY_MODEL_RE.finditer(text)]
     prices = [(m.start(), parse_price(m.group(0))) for m in PRICE_RE.finditer(text)]
-    xplus = set(x.strip() for x in ["16 pro max","16 pro","16 plus","16e","16","15 pro max","15 pro","15 plus","15",
+    xplus = set(x.strip() for x in ["17 pro max","17 pro","17 air","17","16 pro max","16 pro","16 plus","16e","16","15 pro max","15 pro","15 plus","15",
         "14 pro max","14 pro","14 plus","14","13 pro max","13 pro","13 mini","13","12 pro max","12 pro","12 mini",
         "12","11 pro max","11 pro","11","xs max","xs","xr","x"])
     out, seen = [], set()

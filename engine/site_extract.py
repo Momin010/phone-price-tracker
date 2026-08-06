@@ -32,7 +32,7 @@ SCREEN_WORDS = ["screen", "display", "lcd", "oled", "amoled", "ecran", "écran",
                 "scherm", "schermo", "ekran", "wyswietlacz", "wyświetlacz",
                 "pantalla", "displej", "bildschirm", "дисплей", "ecra", "ecrã"]
 # models X and up (what Art buys); ordered longest-first for greedy matching
-MODELS = ["16 pro max", "16 pro", "16 plus", "16e", "16", "15 pro max", "15 pro",
+MODELS = ["17 pro max", "17 pro", "17 air", "17", "16 pro max", "16 pro", "16 plus", "16e", "16", "15 pro max", "15 pro",
           "15 plus", "15", "14 pro max", "14 pro", "14 plus", "14",
           "13 pro max", "13 pro", "13 mini", "13", "12 pro max", "12 pro",
           "12 mini", "12", "11 pro max", "11 pro", "11", "xs max", "xs", "xr", "x"]
