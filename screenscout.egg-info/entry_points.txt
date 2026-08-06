@@ -1,2 +1,0 @@
-[console_scripts]
-screenscout = screenscout.cli:main

@@ -9,3 +9,7 @@ data/
 new_sites.json
 new_prepass.json
 new_verified.json
+__pycache__/
+*.pyc
+*.egg-info/
+.env
