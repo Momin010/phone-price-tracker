@@ -1,0 +1,10 @@
+Metadata-Version: 2.4
+Name: screenscout
+Version: 0.1.0
+Summary: One CLI for iPhone-screen price intelligence: refresh, discover, scrape, clean — with a Claude discovery skill and an MCP server.
+Requires-Python: >=3.9
+Requires-Dist: requests>=2.28
+Requires-Dist: scrapling[fetchers]>=0.2
+Requires-Dist: extruct>=0.16
+Provides-Extra: mcp
+Requires-Dist: mcp[cli]>=1.2; extra == "mcp"

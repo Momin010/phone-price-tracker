@@ -1,0 +1,26 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "screenscout"
+version = "0.1.0"
+description = "One CLI for iPhone-screen price intelligence: refresh, discover, scrape, clean — with a Claude discovery skill and an MCP server."
+requires-python = ">=3.9"
+dependencies = [
+    "requests>=2.28",
+    "scrapling[fetchers]>=0.2",
+    "extruct>=0.16",
+]
+
+[project.optional-dependencies]
+mcp = ["mcp[cli]>=1.2"]
+
+[project.scripts]
+screenscout = "screenscout.cli:main"
+
+[tool.setuptools]
+packages = ["screenscout", "engine"]
+
+[tool.setuptools.package-data]
+screenscout = ["SKILL.md"]
